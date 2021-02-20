@@ -25,3 +25,4 @@
 | 名称  | 描述 | Rss  |
 | --- | --- | --- |
 | 知乎 | 知乎每日精选 | [订阅地址](https://www.zhihu.com/rss) |
+| 豆瓣 | 豆瓣最受欢迎的影评 | [订阅地址](https://www.douban.com/feed/review/movie) |
