@@ -17,3 +17,11 @@
 | 名称  | 描述 | Rss  |
 | --- | --- | --- |
 | AlloyTeam | 腾讯全端AlloyTeam团队的技术博客 | [订阅地址](http://www.alloyteam.com/feed/) |
+
+
+
+## 内容平台
+
+| 名称  | 描述 | Rss  |
+| --- | --- | --- |
+| 知乎 | 知乎每日精选 | [订阅地址](https://www.zhihu.com/rss) |
