@@ -19,7 +19,7 @@
 | AlloyTeam | 腾讯全端AlloyTeam团队的技术博客 | [订阅地址](http://www.alloyteam.com/feed/) |
 | 微软亚洲研究院 | 微软亚洲研究院技术博客 | [订阅地址](https://www.msra.cn/feed) |
 | 极客公园 | 极客公园  | [订阅地址](https://www.geekpark.net/rss) |
-| MOOC中国 | MOOC中国课程  | [订阅地址](https://www.mooc.cn/feed) |
+| MOOC中国 | 慕课改变你，你改变世界  | [订阅地址](https://www.mooc.cn/feed) |
 
 
 
