@@ -25,6 +25,12 @@
 | 字节跳动团队技术博客 | 字节跳动团队技术博客 | [订阅地址](https://blog.csdn.net/ByteDanceTech/rss/list) |
 | 美团技术团队博客 | 美团技术团队博客 | [订阅地址](https://tech.meituan.com/feed/)  |
 
+## 软件工具
+
+| 名称  | 描述 | Rss  |
+| --- | --- | --- |
+| 反斗限免 | 反斗软件旗下软件限免资讯网站 | [订阅地址](https://free.apprcn.com/feed/) |
+
 
 ## 内容平台
 
