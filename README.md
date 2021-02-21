@@ -25,6 +25,13 @@
 | 字节跳动团队技术博客 | 字节跳动团队技术博客 | [订阅地址](https://blog.csdn.net/ByteDanceTech/rss/list) |
 | 美团技术团队博客 | 美团技术团队博客 | [订阅地址](https://tech.meituan.com/feed/)  |
 
+## 公司官方新闻
+
+| 名称  | 描述 | Rss  |
+| --- | --- | --- |
+| Apple新闻 | Apple官方消息 | [订阅地址](https://www.apple.com/newsroom/rss-feed.rss) |
+
+
 ## 软件工具
 
 | 名称  | 描述 | Rss  |
