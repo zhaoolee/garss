@@ -31,6 +31,15 @@
 | --- | --- | --- |
 | Apple新闻 | Apple官方消息 | [订阅地址](https://www.apple.com/newsroom/rss-feed.rss) |
 
+
+## 科技类
+
+| 名称  | 描述 | Rss  |
+| --- | --- | --- |
+| 虎嗅 | 虎嗅网新闻 | [订阅地址](https://www.huxiu.com/rss/0.xml) |
+
+
+
 ## 学习类
 
 | 名称  | 描述 | Rss  |
