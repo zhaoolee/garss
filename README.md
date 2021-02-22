@@ -71,6 +71,7 @@
 | --- | --- | --- |
 | 反斗限免 | 反斗软件旗下软件限免资讯网站 | [订阅地址](https://free.apprcn.com/feed/) |
 | 不死鸟 | 不死鸟:专注分享优质资源 | [订阅地址](https://iao.su/feed) |
+| igetintopc | 海外知名软件分享站igetintopc | [订阅地址](https://igetintopc.com/feed/) |
 
 
 ## 内容平台
