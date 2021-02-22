@@ -46,6 +46,7 @@
 | --- | --- | --- |
 | 知乎 | 知乎每日精选 | [订阅地址](https://www.zhihu.com/rss) |
 | 小众软件 | 小众软件RSS | [订阅地址](https://www.appinn.com/feed/) |
+| V2EX | 创意工作者的社区 | [订阅地址](https://www.v2ex.com/index.xml) |
 | 酷 壳 | 酷 壳RSS | [订阅地址](https://coolshell.cn/feed) |
 | 豆瓣 | 豆瓣最受欢迎的影评 | [订阅地址](https://www.douban.com/feed/review/movie) |
 | 豆瓣 | 豆瓣最受欢迎的书评 | [订阅地址](https://www.douban.com/feed/review/book) |
