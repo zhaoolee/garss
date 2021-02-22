@@ -60,6 +60,7 @@
 | 名称  | 描述 | Rss  |
 | --- | --- | --- |
 | 李子柒 | 李子柒的微博 | [订阅地址](https://rsshub.app/weibo/user/2970452952) |
+| 理想生活实验室 | 为更理想的生活 | [订阅地址](https://www.toodaylab.com/rss) |
 
 ## 设计类
 | 名称  | 描述 | Rss  |
