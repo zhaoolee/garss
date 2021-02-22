@@ -103,4 +103,4 @@
 | 开源中国 | 开源中国社区推荐文章 | [订阅地址](https://www.oschina.net/blog/rss) |
 | 博客园 | 博客园精华区 | [订阅地址](http://feed.cnblogs.com/blog/picked/rss) |
 | 博客园 | 博客园首页 | [订阅地址](http://feed.cnblogs.com/blog/sitehome/rss) |
-| 吾爱破解 | 吾爱破解 - LCG - LSG |安卓破解|病毒分析|www.52pojie.cn - 导读 - 最新精华 | [订阅地址](https://www.52pojie.cn/forum.php?mod=guide&view=digest&rss=1) |
+| 吾爱破解 | 吾爱破解 - LCG - LSG 安卓破解 病毒分析 www.52pojie.cn - 导读 - 最新精华 | [订阅地址](https://www.52pojie.cn/forum.php?mod=guide&view=digest&rss=1) |
