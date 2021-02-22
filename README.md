@@ -31,12 +31,17 @@
 | --- | --- | --- |
 | Apple新闻 | Apple官方消息 | [订阅地址](https://www.apple.com/newsroom/rss-feed.rss) |
 
+## 学习类
+
+| 名称  | 描述 | Rss  |
+| --- | --- | --- |
+| 扔物线 | 帮助 Android 工程师进阶成长 | [订阅地址](https://rengwuxian.com/feed) |
 
 ## 学术类
 
 | 名称  | 描述 | Rss  |
 | --- | --- | --- |
-| 青柠学术 | 每个科研小白都有成为大神的潜力。 | [订阅地址](https://iseex.github.io/feed) |
+| 青柠学术 | 每个科研小白都有成为大神的潜力 | [订阅地址](https://iseex.github.io/feed) |
 
 
 ## 生活类
