@@ -1,6 +1,8 @@
 # Github Actions Rss (嘎RSS!)
 
-收集Rss，利用Github Actions支持邮件订阅Rss的超赞服务
+- 收集RSS, 打造无广告内容优质的 **开源公众号**超赞宝藏页
+
+- 利用Github Actions开发支持邮件订阅Rss邮件发送服务(开发进度10%)
 
 ## 个人博客
 
