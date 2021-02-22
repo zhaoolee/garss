@@ -1,4 +1,4 @@
-# Github Actions Rss
+# Github Actions Rss (嘎RSS!)
 
 收集Rss，利用Github Actions支持邮件订阅Rss的超赞服务
 
@@ -64,6 +64,7 @@
 | --- | --- | --- |
 | Behance |  Adobe旗下设计网站Behance | [订阅地址](https://www.behance.net/feeds/projects) |
 | Pinterest |  图片设计社交 | [订阅地址](https://newsroom.pinterest.com/en/feed/posts.xml) |
+| 优设 |  优秀设计联盟-优设网-设计师交流学习平台-看设计文章，学软件教程，找灵感素材，尽在优设网！ | [订阅地址](https://www.uisdc.com/feed) |
 
 ## 软件工具
 
