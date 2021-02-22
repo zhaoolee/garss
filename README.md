@@ -63,7 +63,7 @@
 | 名称  | 描述 | Rss  |
 | --- | --- | --- |
 | Behance |  Adobe旗下设计网站Behance | [订阅地址](https://www.behance.net/feeds/projects) |
-
+| Pinterest |  图片设计社交 | [订阅地址](https://newsroom.pinterest.com/en/feed/posts.xml) |
 
 ## 软件工具
 
