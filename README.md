@@ -40,6 +40,13 @@
 | 虎嗅 | 虎嗅网新闻 | [订阅地址](https://www.huxiu.com/rss/0.xml) |
 | 36kr | 36氪 | [订阅地址](https://www.36kr.com/feed) |
 
+## 金融类
+
+| 名称  | 描述 | Rss  |
+| --- | --- | --- |
+| 雪球 | 聪明的投资者都在这里,雪球每日精华 | [订阅地址](https://xueqiu.com/hots/topic/rss) |
+
+
 
 ## 学习类
 
