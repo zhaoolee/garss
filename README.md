@@ -69,7 +69,7 @@
 
 | 名称  | 描述 | Rss  |  最新内容 |
 | --- | --- | --- |  --- |
-| 雪球 | 聪明的投资者都在这里,雪球每日精华 | [订阅地址](https://xueqiu.com/hots/topic/rss) |  [几方面对比中国太保，目前我更看好新华保险](http://xueqiu.com/7305407483/172462931) |
+| 雪球 | 聪明的投资者都在这里,雪球每日精华 | [订阅地址](https://xueqiu.com/hots/topic/rss) |  [企业在成长你在怕什么？](http://xueqiu.com/7808616539/172498581) |
 
 
 
@@ -97,8 +97,24 @@
 ## 设计类
 | 名称  | 描述 | Rss  |  最新内容 |
 | --- | --- | --- |  --- |
-| Behance |  Adobe旗下设计网站Behance | [订阅地址](https://www.behance.net/feeds/projects) |  [The Taears](https://www.behance.net/gallery/114031295/The-Taears) |
+| Behance |  Adobe旗下设计网站Behance | [订阅地址](https://www.behance.net/feeds/projects) |  [Myth 001 - Custom BMW R80G/S](https://www.behance.net/gallery/111509307/Myth-001-Custom-BMW-R80GS) |
 | Pinterest |  图片设计社交 | [订阅地址](https://newsroom.pinterest.com/en/feed/posts.xml) |  [Pinterest partners with National Eating Disorders Association to support body positivity](https://newsroom.pinterest.com/en/post/pinterest-partners-with-national-eating-disorders-association-to-support-body-positivity) |
 | 优设 |  优秀设计联盟-优设网-设计师交流学习平台-看设计文章，学软件教程，找灵感素材，尽在优设网！ | [订阅地址](https://www.uisdc.com/feed) |  [壹周速读：春节错过的干货好文全在这里！](https://www.uisdc.com/quick-reading-weekly-vol92) |
 
 
+
+## 内容平台
+
+| 名称  | 描述 | Rss  |  最新内容 |
+| --- | --- | --- |  --- |
+| 知乎 | 知乎每日精选 | [订阅地址](https://www.zhihu.com/rss) |  [密钥封装机制和一个公钥加密方案有什么本质的区别？](http://www.zhihu.com/question/443779639/answer/1739265602?utm_campaign=rss&utm_medium=rss&utm_source=rss&utm_content=title) |
+| 小众软件 | 小众软件RSS | [订阅地址](https://www.appinn.com/feed/) |  [KinhDown – 加速下载百度盘资源\[Windows/Android/Web\]](https://www.appinn.com/kinhdown/) |
+| V2EX | 创意工作者的社区 | [订阅地址](https://www.v2ex.com/index.xml) |  [\[程序员\] 迫于 Win/Mac 办公,推荐一些机械键盘!](https://www.v2ex.com/t/755535#reply0) |
+| 酷 壳 | 酷 壳RSS | [订阅地址](https://coolshell.cn/feed) |  [Go 编程模式：k8s Visitor 模式](https://coolshell.cn/articles/21263.html) |
+| 豆瓣 | 豆瓣最受欢迎的影评 | [订阅地址](https://www.douban.com/feed/review/movie) |  [不喜欢《刺杀小说家》 (评论: 刺杀小说家)](https://movie.douban.com/review/13271903/) |
+| 豆瓣 | 豆瓣最受欢迎的书评 | [订阅地址](https://www.douban.com/feed/review/book) |  [认识著名美籍华人建筑师林璎 (评论: 雕刻大地)](https://book.douban.com/review/13257915/) |
+| 豆瓣 | 豆瓣最受欢迎的乐评 | [订阅地址](https://www.douban.com/feed/review/music) |  [少年当逐梦 (评论: 策马正少年)](https://music.douban.com/review/13262978/) |
+| 开源中国 | 开源中国社区推荐文章 | [订阅地址](https://www.oschina.net/blog/rss) |  [CTF训练之 CountingStars](https://my.oschina.net/hetianlab/blog/4960726) |
+| 博客园 | 博客园精华区 | [订阅地址](http://feed.cnblogs.com/blog/picked/rss) |  [Dapr 知多少 \| 分布式应用运行时 - 「圣杰」](http://www.cnblogs.com/sheng-jie/archive/2021/02/20/14420239.html) |
+| 博客园 | 博客园首页 | [订阅地址](http://feed.cnblogs.com/blog/sitehome/rss) |  [(十一) 数据库查询处理之连接(Join) - 周小伦](http://www.cnblogs.com/JayL-zxl/p/14436554.html) |
+| 吾爱破解 | 吾爱破解 - LCG - LSG 安卓破解 病毒分析 - 最新精华 | [订阅地址](https://www.52pojie.cn/forum.php?mod=guide&view=digest&rss=1) |  [你没看错：动手开发GUI简单操作系统（一）](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1369484) |
