@@ -1,4 +1,4 @@
-# Github Actions Rss (garss, 嘎RSS! 已收集40个RSS源, 生成时间: 2021-02-23 17:52:54)
+# Github Actions Rss (garss, 嘎RSS! 已收集40个RSS源, 生成时间: 2021-02-23 18:01:38)
 
 信息茧房是指人们关注的信息领域会习惯性地被自己的兴趣所引导，从而将自己的生活桎梏于像蚕茧一般的“茧房”中的现象。
 
@@ -25,7 +25,7 @@
 | 反斗限免 | 反斗软件旗下软件限免资讯网站 | [订阅地址](https://free.apprcn.com/feed/) |  [DMtrans – iOS 设备文件管理工具\[Windows\]\[$39.95→0\]](http://free.apprcn.com/dmtrans-2/) |
 | 不死鸟 | 不死鸟:专注分享优质资源 | [订阅地址](https://iao.su/feed) |  [网页在线工具汇总](https://iao.su/1492/) |
 | 精品MAC应用分享 | 精品MAC应用分享，每天分享大量mac软件，为您提供优质的mac软件,免费软件下载服务 | [订阅地址](https://xclient.info/feed) |  [Privatus 6.3.5 浏览器数据缓存](https://xclient.info/s/privatus.html) |
-| 老殁 | 免费推荐优秀软件 | [订阅地址](https://www.mpyit.com/feed) |  [ZYPlayer 2.7.5 全平台视频资源播放器](https://www.mpyit.com/zyplayer.html) |
+| 老殁 | 免费推荐优秀软件 | [订阅地址](https://www.mpyit.com/feed) |  [暂无]() |
 | 鹏少资源网 | 专注于精品软件收录分享 | [订阅地址](https://www.jokerps.com/feed) |  [文献辅助翻译软件，RubberTranslator](https://www.jokerps.com/6001.html) |
 | <h2 id="个人博客">个人博客</h2> |  |   |  |
 | 阮一峰的网络日志 | 一个科技博客，讲解的知识通俗易懂 | [订阅地址](http://www.ruanyifeng.com/blog/atom.xml) | [科技爱好者周刊（第 146 期）：网课应该怎么上？](http://www.ruanyifeng.com/blog/2021/02/weekly-issue-146.html) |
@@ -63,12 +63,12 @@
 | <h2 id="内容平台">内容平台</h2> |  |   |  |
 | 知乎 | 知乎每日精选 | [订阅地址](https://www.zhihu.com/rss) |  [密钥封装机制和一个公钥加密方案有什么本质的区别？](http://www.zhihu.com/question/443779639/answer/1739265602?utm_campaign=rss&utm_medium=rss&utm_source=rss&utm_content=title) |
 | 小众软件 | 小众软件RSS | [订阅地址](https://www.appinn.com/feed/) |  [KinhDown – 加速下载百度盘资源\[Windows/Android/Web\]](https://www.appinn.com/kinhdown/) |
-| V2EX | 创意工作者的社区 | [订阅地址](https://www.v2ex.com/index.xml) |  [\[酷工作\] \[滴滴\]网约车核心业务前端/Nodejs 招聘，地点北京，其他地区可帮内推](https://www.v2ex.com/t/755562#reply0) |
+| V2EX | 创意工作者的社区 | [订阅地址](https://www.v2ex.com/index.xml) |  [\[问与答\] 大家上班会有这样的感觉吗](https://www.v2ex.com/t/755568#reply0) |
 | 酷 壳 | 酷 壳RSS | [订阅地址](https://coolshell.cn/feed) |  [Go 编程模式：k8s Visitor 模式](https://coolshell.cn/articles/21263.html) |
 | 豆瓣 | 豆瓣最受欢迎的影评 | [订阅地址](https://www.douban.com/feed/review/movie) |  [不喜欢《刺杀小说家》 (评论: 刺杀小说家)](https://movie.douban.com/review/13271903/) |
 | 豆瓣 | 豆瓣最受欢迎的书评 | [订阅地址](https://www.douban.com/feed/review/book) |  [认识著名美籍华人建筑师林璎 (评论: 雕刻大地)](https://book.douban.com/review/13257915/) |
-| 豆瓣 | 豆瓣最受欢迎的乐评 | [订阅地址](https://www.douban.com/feed/review/music) |  [少年当逐梦 (评论: 策马正少年)](https://music.douban.com/review/13262978/) |
+| 豆瓣 | 豆瓣最受欢迎的乐评 | [订阅地址](https://www.douban.com/feed/review/music) |  [肖战的策马正少年听过后，想喊一声，江湖，我来啦！！ (评论: 策马正少年)](https://music.douban.com/review/13228272/) |
 | 开源中国 | 开源中国社区推荐文章 | [订阅地址](https://www.oschina.net/blog/rss) |  [SQL Server中DELETE和TRUNCATE的区别](https://my.oschina.net/u/3375879/blog/4960857) |
 | 博客园 | 博客园精华区 | [订阅地址](http://feed.cnblogs.com/blog/picked/rss) |  [Dapr 知多少 \| 分布式应用运行时 - 「圣杰」](http://www.cnblogs.com/sheng-jie/archive/2021/02/20/14420239.html) |
 | 博客园 | 博客园首页 | [订阅地址](http://feed.cnblogs.com/blog/sitehome/rss) |  [Flutter-填平菜鸟和高手之间的沟壑 - patton88](http://www.cnblogs.com/ybmj/p/14437345.html) |
-| 吾爱破解 | 吾爱破解 - LCG - LSG 安卓破解 病毒分析 - 最新精华 | [订阅地址](https://www.52pojie.cn/forum.php?mod=guide&view=digest&rss=1) |  [你没看错：动手开发GUI简单操作系统（一）](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1369484) |
+| 吾爱破解 | 吾爱破解 - LCG - LSG 安卓破解 病毒分析 - 最新精华 | [订阅地址](https://www.52pojie.cn/forum.php?mod=guide&view=digest&rss=1) |  [暂无]() |
