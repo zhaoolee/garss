@@ -1,6 +1,8 @@
-# Github Actions Rss (garss, 嘎RSS! 已收集40个RSS源, 生成时间: 2021-02-23 17:26:06)
+# Github Actions Rss (garss, 嘎RSS! 已收集40个RSS源, 生成时间: 2021-02-23 17:35:05)
 
-信息茧房是指人们关注的信息领域会习惯性地被自己的兴趣所引导，从而将自己的生活桎梏于像蚕茧一般的“茧房”中的现象。由于信息技术提供了更自我的思想空间和任何领域的巨量知识，一些人还可能进一步逃避社会中的种种矛盾，成为与世隔绝的孤立者。在社群内的交流更加高效的同时，社群之间的沟通并不见得一定会比信息匮乏的时代更加顺畅和有效。
+信息茧房是指人们关注的信息领域会习惯性地被自己的兴趣所引导，从而将自己的生活桎梏于像蚕茧一般的“茧房”中的现象。
+
+## 《嘎!RSS》为打破信息茧房而生
 
 这个名为**嘎!RSS**的项目会利用免费的Github Actions服务, 提供一个内容全面的信息流, 让现代人的知识体系更广泛, 减弱信息茧房对现代人的影响, 让**非茧房信息流**造福人类~
 
@@ -12,12 +14,12 @@
 
 - 收集RSS, 打造无广告内容优质的 **头版头条** 超赞新闻页
 
-- 利用Github Actions, 搜集全部RSS的头版头条(已完成)
+- 利用Github Actions, 搜集全部RSS的头版头条新闻标题和超链接, 并自动更新到首页
 
-- 开发支持邮件订阅Rss邮件发送服务(开发进度50%)
+- 支持邮件订阅RSS(开发进度50%)
 
 
-| 名称 | 描述 | <div style="width: 100px!important">RSS</div>  |  最新内容 |
+| 名称 | 描述 | RSS  |  最新内容 |
 | --- | --- | --- |  --- |
 | <h2 id="软件工具">软件工具</h2> |  |   |  |
 | 反斗限免 | 反斗软件旗下软件限免资讯网站 | [订阅地址](https://free.apprcn.com/feed/) |  [DMtrans – iOS 设备文件管理工具\[Windows\]\[$39.95→0\]](http://free.apprcn.com/dmtrans-2/) |
@@ -45,7 +47,7 @@
 | 虎嗅 | 虎嗅网新闻 | [订阅地址](https://www.huxiu.com/rss/0.xml) |  [人工智能学习写书法，用AI书写福字拜年](http://www.huxiu.com/article/410898.html?f=wangzhan) |
 | 36kr | 36氪 | [订阅地址](https://www.36kr.com/feed) |  [春节影院营销推动增长，「冰泉」如何升级口腔护理市场？](https://36kr.com/p/1110459128031488) |
 | <h2 id="金融类">金融类</h2> |  |   |  |
-| 雪球 | 聪明的投资者都在这里,雪球每日精华 | [订阅地址](https://xueqiu.com/hots/topic/rss) |  [企业在成长你在怕什么？](http://xueqiu.com/7808616539/172498581) |
+| 雪球 | 聪明的投资者都在这里,雪球每日精华 | [订阅地址](https://xueqiu.com/hots/topic/rss) |  [全网最深度分析潍柴动力之双百万战略](http://xueqiu.com/4798085761/172504925) |
 | <h2 id="学习类">学习类</h2> |  |   |  |
 | 扔物线 | 帮助 Android 工程师进阶成长 | [订阅地址](https://rengwuxian.com/feed) |  [我用 Jetpack Compose 写了个春节版微信主题，带炸弹特效](https://rengwuxian.com/360.html) |
 | MOOC中国 | 慕课改变你，你改变世界  | [订阅地址](https://www.mooc.cn/feed) |  [黑色星期五从现在开始！好课年度大优惠](https://www.mooc.cn/news/32024.html) |
@@ -61,7 +63,7 @@
 | <h2 id="内容平台">内容平台</h2> |  |   |  |
 | 知乎 | 知乎每日精选 | [订阅地址](https://www.zhihu.com/rss) |  [密钥封装机制和一个公钥加密方案有什么本质的区别？](http://www.zhihu.com/question/443779639/answer/1739265602?utm_campaign=rss&utm_medium=rss&utm_source=rss&utm_content=title) |
 | 小众软件 | 小众软件RSS | [订阅地址](https://www.appinn.com/feed/) |  [KinhDown – 加速下载百度盘资源\[Windows/Android/Web\]](https://www.appinn.com/kinhdown/) |
-| V2EX | 创意工作者的社区 | [订阅地址](https://www.v2ex.com/index.xml) |  [\[酷工作\] \[西安\] 腾讯云子公司招聘 golang 后台开发](https://www.v2ex.com/t/755554#reply0) |
+| V2EX | 创意工作者的社区 | [订阅地址](https://www.v2ex.com/index.xml) |  [\[问与答\] 有给帕金森患者用的鼠标么？](https://www.v2ex.com/t/755559#reply0) |
 | 酷 壳 | 酷 壳RSS | [订阅地址](https://coolshell.cn/feed) |  [Go 编程模式：k8s Visitor 模式](https://coolshell.cn/articles/21263.html) |
 | 豆瓣 | 豆瓣最受欢迎的影评 | [订阅地址](https://www.douban.com/feed/review/movie) |  [不喜欢《刺杀小说家》 (评论: 刺杀小说家)](https://movie.douban.com/review/13271903/) |
 | 豆瓣 | 豆瓣最受欢迎的书评 | [订阅地址](https://www.douban.com/feed/review/book) |  [认识著名美籍华人建筑师林璎 (评论: 雕刻大地)](https://book.douban.com/review/13257915/) |
