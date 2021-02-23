@@ -1,4 +1,4 @@
-# Github Actions Rss (garss, 嘎RSS! 已收集40个RSS源, 生成时间: 2021-02-23 18:01:38)
+# Github Actions Rss (garss, 嘎RSS! 已收集40个RSS源, 生成时间: 2021-02-24 06:21:43)
 
 信息茧房是指人们关注的信息领域会习惯性地被自己的兴趣所引导，从而将自己的生活桎梏于像蚕茧一般的“茧房”中的现象。
 
@@ -22,7 +22,7 @@
 | 名称 | 描述 | RSS  |  最新内容 |
 | --- | --- | --- |  --- |
 | <h2 id="软件工具">软件工具</h2> |  |   |  |
-| 反斗限免 | 反斗软件旗下软件限免资讯网站 | [订阅地址](https://free.apprcn.com/feed/) |  [DMtrans – iOS 设备文件管理工具\[Windows\]\[$39.95→0\]](http://free.apprcn.com/dmtrans-2/) |
+| 反斗限免 | 反斗软件旗下软件限免资讯网站 | [订阅地址](https://free.apprcn.com/feed/) |  [Walking Dead Mad Horde – 行尸走肉：疯狂部落\[Android\]\[$0.99→0\]](http://free.apprcn.com/walking-dead-mad-horde/) |
 | 不死鸟 | 不死鸟:专注分享优质资源 | [订阅地址](https://iao.su/feed) |  [网页在线工具汇总](https://iao.su/1492/) |
 | 精品MAC应用分享 | 精品MAC应用分享，每天分享大量mac软件，为您提供优质的mac软件,免费软件下载服务 | [订阅地址](https://xclient.info/feed) |  [Privatus 6.3.5 浏览器数据缓存](https://xclient.info/s/privatus.html) |
 | 老殁 | 免费推荐优秀软件 | [订阅地址](https://www.mpyit.com/feed) |  [暂无]() |
@@ -44,10 +44,10 @@
 | <h2 id="公司官方新闻">公司官方新闻</h2> |  |   |  |
 | Apple新闻 | Apple官方消息 | [订阅地址](https://www.apple.com/newsroom/rss-feed.rss) |  [Apple’s Advanced Manufacturing Fund helps COPAN Diagnostics ship millions of COVID-19 test kits](https://www.apple.com/newsroom/2021/02/apples-advanced-manufacturing-fund-helps-copan-diagnostics-ship-millions-of-covid-19-test-kits/) |
 | <h2 id="互联网类">互联网类</h2> |  |   |  |
-| 虎嗅 | 虎嗅网新闻 | [订阅地址](https://www.huxiu.com/rss/0.xml) |  [人工智能学习写书法，用AI书写福字拜年](http://www.huxiu.com/article/410898.html?f=wangzhan) |
-| 36kr | 36氪 | [订阅地址](https://www.36kr.com/feed) |  [春节影院营销推动增长，「冰泉」如何升级口腔护理市场？](https://36kr.com/p/1110459128031488) |
+| 虎嗅 | 虎嗅网新闻 | [订阅地址](https://www.huxiu.com/rss/0.xml) |  [什么导致这届年轻人不敢生了？](http://www.huxiu.com/article/411012.html?f=wangzhan) |
+| 36kr | 36氪 | [订阅地址](https://www.36kr.com/feed) |  [创投日报 \| 「先通医药」获3.2亿元D轮融资；「宝宝馋了」完成过亿元A及A+轮融资；以及今天值得关注的早期项目](https://36kr.com/p/1110815167195137) |
 | <h2 id="金融类">金融类</h2> |  |   |  |
-| 雪球 | 聪明的投资者都在这里,雪球每日精华 | [订阅地址](https://xueqiu.com/hots/topic/rss) |  [全网最深度分析潍柴动力之双百万战略](http://xueqiu.com/4798085761/172504925) |
+| 雪球 | 聪明的投资者都在这里,雪球每日精华 | [订阅地址](https://xueqiu.com/hots/topic/rss) |  [我对沃森生物的看法，尽可能客观](http://xueqiu.com/9176605336/172524892) |
 | <h2 id="学习类">学习类</h2> |  |   |  |
 | 扔物线 | 帮助 Android 工程师进阶成长 | [订阅地址](https://rengwuxian.com/feed) |  [我用 Jetpack Compose 写了个春节版微信主题，带炸弹特效](https://rengwuxian.com/360.html) |
 | MOOC中国 | 慕课改变你，你改变世界  | [订阅地址](https://www.mooc.cn/feed) |  [黑色星期五从现在开始！好课年度大优惠](https://www.mooc.cn/news/32024.html) |
@@ -55,20 +55,20 @@
 | 青柠学术 | 每个科研小白都有成为大神的潜力 | [订阅地址](https://iseex.github.io/feed) |  [官宣！Zotero iOS App来了！](https://iseex.github.io//2021-02/Zotero-iOS-App/) |
 | <h2 id="生活类">生活类</h2> |  |   |  |
 | 李子柒 | 李子柒的微博 | [订阅地址](https://rsshub.app/weibo/user/2970452952) |  [一年又到头啦！年俗、年货小零食做起来准备过大年喽～瓜子 花生 糖葫芦、馓子 虾片走起来！给所有没回家就地过年的小伙伴们大大的拥抱我相信，生生不息的希望和...](https://weibo.com/2970452952/K1k5NkiX2) |
-| 理想生活实验室 | 为更理想的生活 | [订阅地址](https://www.toodaylab.com/rss) |  [今日消费资讯：《无依之地》内地定档 4 月 23 日、GUCCI 推出艺术家 Ken Scott 印花系列](http://www.toodaylab.com/79542) |
+| 理想生活实验室 | 为更理想的生活 | [订阅地址](https://www.toodaylab.com/rss) |  [继续拓宽产品线，RIMOWA 推出品牌首个旅行配件系列](http://www.toodaylab.com/79547) |
 | <h2 id="设计类">设计类</h2> |  |   |  |
-| Behance |  Adobe旗下设计网站Behance | [订阅地址](https://www.behance.net/feeds/projects) |  [Myth 001 - Custom BMW R80G/S](https://www.behance.net/gallery/111509307/Myth-001-Custom-BMW-R80GS) |
+| Behance |  Adobe旗下设计网站Behance | [订阅地址](https://www.behance.net/feeds/projects) |  [Surrounding The Beauty of Mount Bromo](https://www.behance.net/gallery/113956521/Surrounding-The-Beauty-of-Mount-Bromo) |
 | Pinterest |  图片设计社交 | [订阅地址](https://newsroom.pinterest.com/en/feed/posts.xml) |  [Pinterest partners with National Eating Disorders Association to support body positivity](https://newsroom.pinterest.com/en/post/pinterest-partners-with-national-eating-disorders-association-to-support-body-positivity) |
 | 优设 |  优秀设计联盟-优设网-设计师交流学习平台-看设计文章，学软件教程，找灵感素材，尽在优设网！ | [订阅地址](https://www.uisdc.com/feed) |  [壹周速读：春节错过的干货好文全在这里！](https://www.uisdc.com/quick-reading-weekly-vol92) |
 | <h2 id="内容平台">内容平台</h2> |  |   |  |
 | 知乎 | 知乎每日精选 | [订阅地址](https://www.zhihu.com/rss) |  [密钥封装机制和一个公钥加密方案有什么本质的区别？](http://www.zhihu.com/question/443779639/answer/1739265602?utm_campaign=rss&utm_medium=rss&utm_source=rss&utm_content=title) |
 | 小众软件 | 小众软件RSS | [订阅地址](https://www.appinn.com/feed/) |  [KinhDown – 加速下载百度盘资源\[Windows/Android/Web\]](https://www.appinn.com/kinhdown/) |
-| V2EX | 创意工作者的社区 | [订阅地址](https://www.v2ex.com/index.xml) |  [\[问与答\] 大家上班会有这样的感觉吗](https://www.v2ex.com/t/755568#reply0) |
+| V2EX | 创意工作者的社区 | [订阅地址](https://www.v2ex.com/index.xml) |  [\[酷工作\] \[FinTech 社区\] 招聘：期权投资经理-北京 /上海/深圳](https://www.v2ex.com/t/755664#reply0) |
 | 酷 壳 | 酷 壳RSS | [订阅地址](https://coolshell.cn/feed) |  [Go 编程模式：k8s Visitor 模式](https://coolshell.cn/articles/21263.html) |
-| 豆瓣 | 豆瓣最受欢迎的影评 | [订阅地址](https://www.douban.com/feed/review/movie) |  [不喜欢《刺杀小说家》 (评论: 刺杀小说家)](https://movie.douban.com/review/13271903/) |
+| 豆瓣 | 豆瓣最受欢迎的影评 | [订阅地址](https://www.douban.com/feed/review/movie) |  [为了更好的世界——一生无悔，哪怕一生无名 (评论: 暴风眼)](https://movie.douban.com/review/13276114/) |
 | 豆瓣 | 豆瓣最受欢迎的书评 | [订阅地址](https://www.douban.com/feed/review/book) |  [认识著名美籍华人建筑师林璎 (评论: 雕刻大地)](https://book.douban.com/review/13257915/) |
-| 豆瓣 | 豆瓣最受欢迎的乐评 | [订阅地址](https://www.douban.com/feed/review/music) |  [肖战的策马正少年听过后，想喊一声，江湖，我来啦！！ (评论: 策马正少年)](https://music.douban.com/review/13228272/) |
-| 开源中国 | 开源中国社区推荐文章 | [订阅地址](https://www.oschina.net/blog/rss) |  [SQL Server中DELETE和TRUNCATE的区别](https://my.oschina.net/u/3375879/blog/4960857) |
+| 豆瓣 | 豆瓣最受欢迎的乐评 | [订阅地址](https://www.douban.com/feed/review/music) |  [策马正少年很好听，肖战唱歌真的是又努力又有天赋 (评论: 策马正少年)](https://music.douban.com/review/13259900/) |
+| 开源中国 | 开源中国社区推荐文章 | [订阅地址](https://www.oschina.net/blog/rss) |  [一次 MySQL 线上死锁分析实战](https://my.oschina.net/u/4529528/blog/4961217) |
 | 博客园 | 博客园精华区 | [订阅地址](http://feed.cnblogs.com/blog/picked/rss) |  [Dapr 知多少 \| 分布式应用运行时 - 「圣杰」](http://www.cnblogs.com/sheng-jie/archive/2021/02/20/14420239.html) |
-| 博客园 | 博客园首页 | [订阅地址](http://feed.cnblogs.com/blog/sitehome/rss) |  [Flutter-填平菜鸟和高手之间的沟壑 - patton88](http://www.cnblogs.com/ybmj/p/14437345.html) |
+| 博客园 | 博客园首页 | [订阅地址](http://feed.cnblogs.com/blog/sitehome/rss) |  [Mybatis高级:Mybatis注解开发单表操作,Mybatis注解开发多表操作,构建sql语句,综合案例学生管理系统使用接口注解方式优化 - 赶星而至](http://www.cnblogs.com/859630097com/p/14439046.html) |
 | 吾爱破解 | 吾爱破解 - LCG - LSG 安卓破解 病毒分析 - 最新精华 | [订阅地址](https://www.52pojie.cn/forum.php?mod=guide&view=digest&rss=1) |  [暂无]() |
