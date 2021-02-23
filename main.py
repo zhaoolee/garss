@@ -48,7 +48,7 @@ def send_mail(email, title, contents):
     password = ""
     host = ""
     try:
-        if(os.environ["USERNAME"]):
+        if(os.environ["USER"]):
             user = os.environ["USER"]
         if(os.environ["PASSWORD"]):
             password = os.environ["PASSWORD"]
