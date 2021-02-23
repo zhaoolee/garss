@@ -17,8 +17,9 @@
 - 开发支持邮件订阅Rss邮件发送服务(开发进度10%)
 
 
-| <div style="min-width: 100px">分类\|网站名称</div>  | 描述 | <div style="width: 60px">RSS订阅地址</div>  |  最新内容 |
+| 分类\|网站名称 | 描述 | RSS订阅地址  |  最新内容 |
 | --- | --- | --- |  --- |
+| <img width=100/> |  | <img width=60/>  |  |
 | <h2 id="软件工具">软件工具</h2> |  |   |  |
 | 反斗限免 | 反斗软件旗下软件限免资讯网站 | [订阅地址](https://free.apprcn.com/feed/) |  {{latest_content}} |
 | 不死鸟 | 不死鸟:专注分享优质资源 | [订阅地址](https://iao.su/feed) |  {{latest_content}} |
