@@ -1,8 +1,8 @@
-# Github Actions Rss (garss, 嘎RSS! 已收集40个RSS源, 生成时间: 2021-02-23 17:11:16)
+# Github Actions Rss (garss, 嘎RSS! 已收集40个RSS源, 生成时间: 2021-02-23 17:26:06)
 
 信息茧房是指人们关注的信息领域会习惯性地被自己的兴趣所引导，从而将自己的生活桎梏于像蚕茧一般的“茧房”中的现象。由于信息技术提供了更自我的思想空间和任何领域的巨量知识，一些人还可能进一步逃避社会中的种种矛盾，成为与世隔绝的孤立者。在社群内的交流更加高效的同时，社群之间的沟通并不见得一定会比信息匮乏的时代更加顺畅和有效。
 
-这个名为**嘎!RSS**的项目会利用免费的Github Actions服务, 提供一个内容全面的信息流, 让现代人的知识体系更广泛, 减弱信息茧房对现代人的影响, 让**无算法信息流**造福人类~
+这个名为**嘎!RSS**的项目会利用免费的Github Actions服务, 提供一个内容全面的信息流, 让现代人的知识体系更广泛, 减弱信息茧房对现代人的影响, 让**非茧房信息流**造福人类~
 
 
 [《嘎!RSS》永久开源页面: https://github.com/zhaoolee/garss](https://github.com/zhaoolee/garss)
@@ -14,12 +14,11 @@
 
 - 利用Github Actions, 搜集全部RSS的头版头条(已完成)
 
-- 开发支持邮件订阅Rss邮件发送服务(开发进度10%)
+- 开发支持邮件订阅Rss邮件发送服务(开发进度50%)
 
 
-| 分类\|网站名称 | 描述 | RSS订阅地址  |  最新内容 |
+| 名称 | 描述 | <div style="width: 100px!important">RSS</div>  |  最新内容 |
 | --- | --- | --- |  --- |
-| <img width=100/> |  | <img width=60/>  |  |
 | <h2 id="软件工具">软件工具</h2> |  |   |  |
 | 反斗限免 | 反斗软件旗下软件限免资讯网站 | [订阅地址](https://free.apprcn.com/feed/) |  [DMtrans – iOS 设备文件管理工具\[Windows\]\[$39.95→0\]](http://free.apprcn.com/dmtrans-2/) |
 | 不死鸟 | 不死鸟:专注分享优质资源 | [订阅地址](https://iao.su/feed) |  [网页在线工具汇总](https://iao.su/1492/) |
@@ -62,12 +61,12 @@
 | <h2 id="内容平台">内容平台</h2> |  |   |  |
 | 知乎 | 知乎每日精选 | [订阅地址](https://www.zhihu.com/rss) |  [密钥封装机制和一个公钥加密方案有什么本质的区别？](http://www.zhihu.com/question/443779639/answer/1739265602?utm_campaign=rss&utm_medium=rss&utm_source=rss&utm_content=title) |
 | 小众软件 | 小众软件RSS | [订阅地址](https://www.appinn.com/feed/) |  [KinhDown – 加速下载百度盘资源\[Windows/Android/Web\]](https://www.appinn.com/kinhdown/) |
-| V2EX | 创意工作者的社区 | [订阅地址](https://www.v2ex.com/index.xml) |  [\[酷工作\] \[AR 智能眼镜\] \[深圳\] \[安卓\] 安卓大牛快到碗里来](https://www.v2ex.com/t/755550#reply0) |
+| V2EX | 创意工作者的社区 | [订阅地址](https://www.v2ex.com/index.xml) |  [\[酷工作\] \[西安\] 腾讯云子公司招聘 golang 后台开发](https://www.v2ex.com/t/755554#reply0) |
 | 酷 壳 | 酷 壳RSS | [订阅地址](https://coolshell.cn/feed) |  [Go 编程模式：k8s Visitor 模式](https://coolshell.cn/articles/21263.html) |
 | 豆瓣 | 豆瓣最受欢迎的影评 | [订阅地址](https://www.douban.com/feed/review/movie) |  [不喜欢《刺杀小说家》 (评论: 刺杀小说家)](https://movie.douban.com/review/13271903/) |
 | 豆瓣 | 豆瓣最受欢迎的书评 | [订阅地址](https://www.douban.com/feed/review/book) |  [认识著名美籍华人建筑师林璎 (评论: 雕刻大地)](https://book.douban.com/review/13257915/) |
 | 豆瓣 | 豆瓣最受欢迎的乐评 | [订阅地址](https://www.douban.com/feed/review/music) |  [少年当逐梦 (评论: 策马正少年)](https://music.douban.com/review/13262978/) |
 | 开源中国 | 开源中国社区推荐文章 | [订阅地址](https://www.oschina.net/blog/rss) |  [CTF训练之 CountingStars](https://my.oschina.net/hetianlab/blog/4960726) |
 | 博客园 | 博客园精华区 | [订阅地址](http://feed.cnblogs.com/blog/picked/rss) |  [Dapr 知多少 \| 分布式应用运行时 - 「圣杰」](http://www.cnblogs.com/sheng-jie/archive/2021/02/20/14420239.html) |
-| 博客园 | 博客园首页 | [订阅地址](http://feed.cnblogs.com/blog/sitehome/rss) |  [Java中的CPU占用高和内存占用高的问题排查 - 归去来兮辞](http://www.cnblogs.com/extjs4/p/14436608.html) |
-| 吾爱破解 | 吾爱破解 - LCG - LSG 安卓破解 病毒分析 - 最新精华 | [订阅地址](https://www.52pojie.cn/forum.php?mod=guide&view=digest&rss=1) |  [暂无]() |
+| 博客园 | 博客园首页 | [订阅地址](http://feed.cnblogs.com/blog/sitehome/rss) |  [如何避免微服务设计中的耦合问题 - charlieroro](http://www.cnblogs.com/charlieroro/p/14428617.html) |
+| 吾爱破解 | 吾爱破解 - LCG - LSG 安卓破解 病毒分析 - 最新精华 | [订阅地址](https://www.52pojie.cn/forum.php?mod=guide&view=digest&rss=1) |  [你没看错：动手开发GUI简单操作系统（一）](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1369484) |
