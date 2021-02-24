@@ -46,6 +46,9 @@
 | 思圆笔记 | 促成良性循环 | [订阅地址](https://hintsnet.com/pimgeek/feed/) | {{latest_content}} |
 | 老周快救我 | Life Is Fantastic | [订阅地址](https://zxx.im/feed) | {{latest_content}} |
 | MouT.me | 给生活打个草稿 | [订阅地址](https://ghost.mout.me/rss/) | {{latest_content}} |
+| diss带码 | 码动人生 | [订阅地址](https://dumplingbao.github.io/atom.xml) | {{latest_content}} |
+| 王登科-DK博客 | 布洛芬爱好者 | [订阅地址](https://greatdk.com/feed) | {{latest_content}} |
+| 笨方法学写作 | 笨方法学写作,这一次彻底学会写作 | [订阅地址](https://www.cnfeat.com/feed.xml) | {{latest_content}} |
 | <h2 id="团队博客">团队博客</h2> |  |   |  |
 | AlloyTeam | 腾讯全端AlloyTeam团队的技术博客 | [订阅地址](http://www.alloyteam.com/feed/) | {{latest_content}} |
 | 微软亚洲研究院 | 微软亚洲研究院技术博客 | [订阅地址](https://www.msra.cn/feed) | {{latest_content}} |
