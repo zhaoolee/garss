@@ -5,20 +5,13 @@
 ## 《嘎!RSS》为打破信息茧房而生
 
 这个名为**嘎!RSS**的项目会利用免费的Github Actions服务, 提供一个内容全面的信息流, 让现代人的知识体系更广泛, 减弱信息茧房对现代人的影响, 让**非茧房信息流**造福人类~
-
-
 [《嘎!RSS》永久开源页面: https://github.com/zhaoolee/garss](https://github.com/zhaoolee/garss)
-
-
 ## 主要功能
-
-- 收集RSS, 打造无广告内容优质的 **头版头条** 超赞新闻页
-
-- 利用Github Actions, 搜集全部RSS的头版头条新闻标题和超链接, 并自动更新到首页
-
-- 支持邮件订阅RSS(开发进度50%)
-
-
+1. 收集RSS, 打造无广告内容优质的 **头版头条** 超赞新闻页
+2. 利用Github Actions, 搜集全部RSS的头版头条新闻标题和超链接, 并自动更新到首页
+3. 支持邮件订阅RSS(开发进度50%)
+4. 按照关键词, 进行舆情监控, 并自动发邮件(规划中)
+## 收录内容
 | 名称 | 描述 | RSS  |  最新内容 |
 | --- | --- | --- |  --- |
 | <h2 id="软件工具">软件工具</h2> |  |   |  |
@@ -33,6 +26,23 @@
 | 黑果小兵的部落阁 | Hackintosh安装镜像、教程及经验分享| [订阅地址](https://blog.daliansky.net/atom.xml) | {{latest_content}} |
 | 张鑫旭的博客 | 张鑫旭-鑫空间-鑫生活 | [订阅地址](https://www.zhangxinxu.com/wordpress/feed/) | {{latest_content}} |
 | V2方圆 | zhaoolee的博客  | [订阅地址](https://www.v2fy.com/feed/) | {{latest_content}} |
+| 透明创业实验 | timqian的博客  | [订阅地址](https://blog.t9t.io/atom.xml) | {{latest_content}} |
+| wenzi | 蚊子在前端开发工作中的总结  | [订阅地址](https://www.xiabingbao.com/atom.xml) | {{latest_content}} |
+| DIYgod | 人气网红,前端萌新,有猫,开源  | [订阅地址](https://diygod.me/atom.xml) | {{latest_content}} |
+| MacTalk-池建强的随想录 | 关注技术和人文 | [订阅地址](http://macshuo.com/?feed=rss2) | {{latest_content}} |
+| MacTalk-池建强的随想录 | 关注技术和人文 | [订阅地址](http://macshuo.com/?feed=rss2) | {{latest_content}} |
+| ShrekShao | ShrekShao's Blog | [订阅地址](http://shrekshao.github.io/feed.xml) | {{latest_content}} |
+| Phodal | Phodal - A Growth Engineer | [订阅地址](https://www.phodal.com/blog/feeds/rss/) | {{latest_content}} |
+| Phodal | Phodal - A Growth Engineer | [订阅地址](https://www.phodal.com/blog/feeds/rss/) | {{latest_content}} |
+| 追梦人物 | 追梦人物的博客 | [订阅地址](https://www.zmrenwu.com/all/rss/) | {{latest_content}} |
+| 小明明s à domicile | 小明明s à domicile | [订阅地址](https://www.dongwm.com/atom.xml) | {{latest_content}} |
+| 但行好事，莫问前程 | Windard's simple blog web  | [订阅地址](https://windard.com/feed.xml) | {{latest_content}} |
+| 罗磊的独立博客 | 前端工程师，ZUOLUOTV制作人  | [订阅地址](https://luolei.org/feed/) | {{latest_content}} |
+| 阁子 | Newdee's Blog  | [订阅地址](https://newdee.cf/atom.xml) | {{latest_content}} |
+| RidiQulous | RidiQulous's Blog  | [订阅地址](https://ridiqulous.com/feed/) | {{latest_content}} |
+| 代码家 | 善存于心，世界和平 | [订阅地址](https://daimajia.com/feed) | {{latest_content}} |
+| 开源实验室 | 张涛的开源实验室 | [订阅地址](https://www.kymjs.com/feed.xml) | {{latest_content}} |
+| 技术小黑屋 | 一个Android 工程师 | [订阅地址](https://droidyue.com/atom.xml) | {{latest_content}} |
 | <h2 id="团队博客">团队博客</h2> |  |   |  |
 | AlloyTeam | 腾讯全端AlloyTeam团队的技术博客 | [订阅地址](http://www.alloyteam.com/feed/) | {{latest_content}} |
 | 微软亚洲研究院 | 微软亚洲研究院技术博客 | [订阅地址](https://www.msra.cn/feed) | {{latest_content}} |
