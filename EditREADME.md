@@ -41,6 +41,11 @@
 | 代码家 | 善存于心，世界和平 | [订阅地址](https://daimajia.com/feed) | {{latest_content}} |
 | 开源实验室 | 张涛的开源实验室 | [订阅地址](https://www.kymjs.com/feed.xml) | {{latest_content}} |
 | 技术小黑屋 | 一个Android 工程师 | [订阅地址](https://droidyue.com/atom.xml) | {{latest_content}} |
+| 依云 | 依云's Blog | [订阅地址](https://blog.lilydjwg.me/posts.rss) | {{latest_content}} |
+| INTJer | Armin Li（李钊） | [订阅地址](https://arminli.com/feed/) | {{latest_content}} |
+| 思圆笔记 | 促成良性循环 | [订阅地址](https://hintsnet.com/pimgeek/feed/) | {{latest_content}} |
+| 老周快救我 | Life Is Fantastic | [订阅地址](https://zxx.im/feed) | {{latest_content}} |
+| MouT.me | 给生活打个草稿 | [订阅地址](https://ghost.mout.me/rss/) | {{latest_content}} |
 | <h2 id="团队博客">团队博客</h2> |  |   |  |
 | AlloyTeam | 腾讯全端AlloyTeam团队的技术博客 | [订阅地址](http://www.alloyteam.com/feed/) | {{latest_content}} |
 | 微软亚洲研究院 | 微软亚洲研究院技术博客 | [订阅地址](https://www.msra.cn/feed) | {{latest_content}} |
