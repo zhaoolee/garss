@@ -1,4 +1,4 @@
-# Github Actions Rss (garss, 嘎RSS! 已收集61个RSS源, 生成时间: 2021-02-24 11:10:28)
+# Github Actions Rss (garss, 嘎RSS! 已收集64个RSS源, 生成时间: 2021-02-24 11:46:57)
 
 信息茧房是指人们关注的信息领域会习惯性地被自己的兴趣所引导，从而将自己的生活桎梏于像蚕茧一般的“茧房”中的现象。
 
@@ -11,6 +11,8 @@
 2. 利用Github Actions, 搜集全部RSS的头版头条新闻标题和超链接, 并自动更新到首页
 3. 支持邮件订阅RSS(开发进度50%)
 4. 按照关键词, 进行舆情监控, 并自动发邮件(规划中)
+<br>
+
 | 名称 | 描述 | RSS  |  最新内容 |
 | --- | --- | --- |  --- |
 | <h2 id="软件工具">软件工具</h2> |  |   |  |
@@ -31,7 +33,6 @@
 | MacTalk-池建强的随想录 | 关注技术和人文 | [订阅地址](http://macshuo.com/?feed=rss2) | [你老了](http://macshuo.com/?p=1491) |
 | ShrekShao | ShrekShao's Blog | [订阅地址](http://shrekshao.github.io/feed.xml) | [Encounter Game Dev Progress Video MS1](http://shrekshao.github.io/2019/05/28/encounter-game-dev-MS1/) |
 | Phodal | Phodal - A Growth Engineer | [订阅地址](https://www.phodal.com/blog/feeds/rss/) | [轻量级架构可视化：Coco 实现](http://www.phodal.com/blog/lightweight-architecture-visual-in-coco/) |
-| Phodal | Phodal - A Growth Engineer | [订阅地址](https://www.phodal.com/blog/feeds/rss/) | [轻量级架构可视化：Coco 实现](http://www.phodal.com/blog/lightweight-architecture-visual-in-coco/) |
 | 追梦人物 | 追梦人物的博客 | [订阅地址](https://www.zmrenwu.com/all/rss/) | [\[None\] Django 老项目如何从 SQLite 迁到 PostgreSQL](https://www.zmrenwu.com/post/95/) |
 | 小明明s à domicile | 小明明s à domicile | [订阅地址](https://www.dongwm.com/atom.xml) | [博客十年](https://www.dongwm.com/post/ten-years/) |
 | 但行好事，莫问前程 | Windard's simple blog web  | [订阅地址](https://windard.com/feed.xml) | [redis 的一些典型应用 （二）](https://windard.com/opinion/2021/01/10/Redis-Application) |
@@ -46,6 +47,10 @@
 | 思圆笔记 | 促成良性循环 | [订阅地址](https://hintsnet.com/pimgeek/feed/) | [用 TheBrain 8 专业版绘制知识探索路线图](https://hintsnet.com/pimgeek/2020/05/24/make-a-knowledge-exploration-map-with-thebrain-8-pro/) |
 | 老周快救我 | Life Is Fantastic | [订阅地址](https://zxx.im/feed) | [Linux入门到宕机5-基础命令二](https://zxx.im/linux/Linux%E5%85%A5%E9%97%A8%E5%88%B0%E5%AE%95%E6%9C%BA5-%E5%9F%BA%E7%A1%80%E5%91%BD%E4%BB%A4%E4%BA%8C) |
 | MouT.me | 给生活打个草稿 | [订阅地址](https://ghost.mout.me/rss/) | [终于补完了《汪达与巨像》](https://ghost.mout.me/shadow-of-the-colossus/) |
+| diss带码 | 码动人生 | [订阅地址](https://dumplingbao.github.io/atom.xml) | [github自定义主页秀](https://dumplingbao.github.io/2020/09/03/github-custom-home/) |
+| 王登科-DK博客 | 布洛芬爱好者 | [订阅地址](https://greatdk.com/feed) | [大年三十，我在月亮河失去了一些东西](https://greatdk.com/1730.html) |
+| 笨方法学写作 | 笨方法学写作,这一次彻底学会写作 | [订阅地址](https://www.cnfeat.com/feed.xml) | [笨方法问卷2020](http://www.cnfeat.com/blog/2021/01/01/question2020/) |
+| Hawstein's Blog | 这里是 Hawstein 的个人博客，记录生活点滴。 | [订阅地址](https://hawstein.com/feed.xml) | [不上班的 613 天](http://hawstein.com/2020/02/17/be-an-indie-hacker-for-613-days/) |
 | <h2 id="团队博客">团队博客</h2> |  |   |  |
 | AlloyTeam | 腾讯全端AlloyTeam团队的技术博客 | [订阅地址](http://www.alloyteam.com/feed/) | [提高资源的安全性 – SRI 与 CSP](http://www.alloyteam.com/2021/01/sri/) |
 | 微软亚洲研究院 | 微软亚洲研究院技术博客 | [订阅地址](https://www.msra.cn/feed) | [从语言、模型和规模三个维度，打造下一代AI](https://www.msra.cn/zh-cn/news/features/ai-at-scale) |
@@ -58,9 +63,9 @@
 | Apple新闻 | Apple官方消息 | [订阅地址](https://www.apple.com/newsroom/rss-feed.rss) |  [Apple’s Advanced Manufacturing Fund helps COPAN Diagnostics ship millions of COVID-19 test kits](https://www.apple.com/newsroom/2021/02/apples-advanced-manufacturing-fund-helps-copan-diagnostics-ship-millions-of-covid-19-test-kits/) |
 | <h2 id="互联网类">互联网类</h2> |  |   |  |
 | 虎嗅 | 虎嗅网新闻 | [订阅地址](https://www.huxiu.com/rss/0.xml) |  [寻找地球上最冷的冬天](http://www.huxiu.com/article/411084.html?f=wangzhan) |
-| 36kr | 36氪 | [订阅地址](https://www.36kr.com/feed) |  [业绩快报 \| 御家汇2020年度净利1.41亿，同比增加417.58%，国货化妆品的春天要来了？](https://36kr.com/p/1111823217846531) |
+| 36kr | 36氪 | [订阅地址](https://www.36kr.com/feed) |  [市场要闻丨发力自研汽车芯片，四维图新完成40亿元定增募资](https://36kr.com/p/1111908860110857) |
 | <h2 id="金融类">金融类</h2> |  |   |  |
-| 雪球 | 聪明的投资者都在这里,雪球每日精华 | [订阅地址](https://xueqiu.com/hots/topic/rss) |  [后疫情时代价值股腾飞的逻辑](http://xueqiu.com/7694221981/172583329) |
+| 雪球 | 聪明的投资者都在这里,雪球每日精华 | [订阅地址](https://xueqiu.com/hots/topic/rss) |  [再谈中远海控的弱周期化趋势](http://xueqiu.com/6395425170/172587548) |
 | <h2 id="学习类">学习类</h2> |  |   |  |
 | 扔物线 | 帮助 Android 工程师进阶成长 | [订阅地址](https://rengwuxian.com/feed) |  [我用 Jetpack Compose 写了个春节版微信主题，带炸弹特效](https://rengwuxian.com/360.html) |
 | MOOC中国 | 慕课改变你，你改变世界  | [订阅地址](https://www.mooc.cn/feed) |  [黑色星期五从现在开始！好课年度大优惠](https://www.mooc.cn/news/32024.html) |
@@ -76,12 +81,12 @@
 | <h2 id="内容平台">内容平台</h2> |  |   |  |
 | 知乎 | 知乎每日精选 | [订阅地址](https://www.zhihu.com/rss) |  [密钥封装机制和一个公钥加密方案有什么本质的区别？](http://www.zhihu.com/question/443779639/answer/1739265602?utm_campaign=rss&utm_medium=rss&utm_source=rss&utm_content=title) |
 | 小众软件 | 小众软件RSS | [订阅地址](https://www.appinn.com/feed/) |  [KinhDown – 加速下载百度盘资源\[Windows/Android/Web\]](https://www.appinn.com/kinhdown/) |
-| V2EX | 创意工作者的社区 | [订阅地址](https://www.v2ex.com/index.xml) |  [\[iCloud\] 美区 APPLEONE19.95+iCLOUD2.99 开车](https://www.v2ex.com/t/755755#reply0) |
+| V2EX | 创意工作者的社区 | [订阅地址](https://www.v2ex.com/index.xml) |  [\[职场话题\] 准备回西安了](https://www.v2ex.com/t/755763#reply7) |
 | 酷 壳 | 酷 壳RSS | [订阅地址](https://coolshell.cn/feed) |  [Go 编程模式：k8s Visitor 模式](https://coolshell.cn/articles/21263.html) |
 | 豆瓣 | 豆瓣最受欢迎的影评 | [订阅地址](https://www.douban.com/feed/review/movie) |  [为了更好的世界——一生无悔，哪怕一生无名 (评论: 暴风眼)](https://movie.douban.com/review/13276114/) |
 | 豆瓣 | 豆瓣最受欢迎的书评 | [订阅地址](https://www.douban.com/feed/review/book) |  [认识著名美籍华人建筑师林璎 (评论: 雕刻大地)](https://book.douban.com/review/13257915/) |
 | 豆瓣 | 豆瓣最受欢迎的乐评 | [订阅地址](https://www.douban.com/feed/review/music) |  [少年在冒险，肖战在蜕变——记“策马正少年”带给我的惊艳 (评论: 策马正少年)](https://music.douban.com/review/13241976/) |
 | 开源中国 | 开源中国社区推荐文章 | [订阅地址](https://www.oschina.net/blog/rss) |  [KNN 算法-实战篇-如何识别手写数字](https://my.oschina.net/codeshell/blog/4961353) |
 | 博客园 | 博客园精华区 | [订阅地址](http://feed.cnblogs.com/blog/picked/rss) |  [Dapr 知多少 \| 分布式应用运行时 - 「圣杰」](http://www.cnblogs.com/sheng-jie/archive/2021/02/20/14420239.html) |
-| 博客园 | 博客园首页 | [订阅地址](http://feed.cnblogs.com/blog/sitehome/rss) |  [几个小实践带你快速上手MindSpore - 华为云开发者社区](http://www.cnblogs.com/huaweiyun/p/14439987.html) |
-| 吾爱破解 | 吾爱破解 - LCG - LSG 安卓破解 病毒分析 - 最新精华 | [订阅地址](https://www.52pojie.cn/forum.php?mod=guide&view=digest&rss=1) |  [你没看错：动手开发GUI简单操作系统（一）](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1369484) |
+| 博客园 | 博客园首页 | [订阅地址](http://feed.cnblogs.com/blog/sitehome/rss) |  [用OkHttpGo和FastJson获取OneNET云平台数据（解析嵌套数组） - 海芳](http://www.cnblogs.com/maritimeclimate/p/14440230.html) |
+| 吾爱破解 | 吾爱破解 - LCG - LSG 安卓破解 病毒分析 - 最新精华 | [订阅地址](https://www.52pojie.cn/forum.php?mod=guide&view=digest&rss=1) |  [暂无]() |
