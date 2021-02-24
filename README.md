@@ -1,4 +1,4 @@
-# Github Actions Rss (garss, 嘎RSS! 已收集61个RSS源, 生成时间: 2021-02-24 11:10:28)
+# Github Actions Rss (garss, 嘎RSS! 已收集65个RSS源, 生成时间: 2021-02-24 11:17:57)
 
 信息茧房是指人们关注的信息领域会习惯性地被自己的兴趣所引导，从而将自己的生活桎梏于像蚕茧一般的“茧房”中的现象。
 
@@ -11,6 +11,8 @@
 2. 利用Github Actions, 搜集全部RSS的头版头条新闻标题和超链接, 并自动更新到首页
 3. 支持邮件订阅RSS(开发进度50%)
 4. 按照关键词, 进行舆情监控, 并自动发邮件(规划中)
+<br>
+
 | 名称 | 描述 | RSS  |  最新内容 |
 | --- | --- | --- |  --- |
 | <h2 id="软件工具">软件工具</h2> |  |   |  |
@@ -46,6 +48,10 @@
 | 思圆笔记 | 促成良性循环 | [订阅地址](https://hintsnet.com/pimgeek/feed/) | [用 TheBrain 8 专业版绘制知识探索路线图](https://hintsnet.com/pimgeek/2020/05/24/make-a-knowledge-exploration-map-with-thebrain-8-pro/) |
 | 老周快救我 | Life Is Fantastic | [订阅地址](https://zxx.im/feed) | [Linux入门到宕机5-基础命令二](https://zxx.im/linux/Linux%E5%85%A5%E9%97%A8%E5%88%B0%E5%AE%95%E6%9C%BA5-%E5%9F%BA%E7%A1%80%E5%91%BD%E4%BB%A4%E4%BA%8C) |
 | MouT.me | 给生活打个草稿 | [订阅地址](https://ghost.mout.me/rss/) | [终于补完了《汪达与巨像》](https://ghost.mout.me/shadow-of-the-colossus/) |
+| diss带码 | 码动人生 | [订阅地址](https://dumplingbao.github.io/atom.xml) | [github自定义主页秀](https://dumplingbao.github.io/2020/09/03/github-custom-home/) |
+| 王登科-DK博客 | 布洛芬爱好者 | [订阅地址](https://greatdk.com/feed) | [大年三十，我在月亮河失去了一些东西](https://greatdk.com/1730.html) |
+| 笨方法学写作 | 笨方法学写作,这一次彻底学会写作 | [订阅地址](https://www.cnfeat.com/feed.xml) | [笨方法问卷2020](http://www.cnfeat.com/blog/2021/01/01/question2020/) |
+| Hawstein's Blog | 程序员、创作者、生活艺术家与自我改造者 | 这里是 Hawstein 的个人博客，记录生活点滴。 | [订阅地址](https://hawstein.com/feed.xml) | [不上班的 613 天](http://hawstein.com/2020/02/17/be-an-indie-hacker-for-613-days/) |
 | <h2 id="团队博客">团队博客</h2> |  |   |  |
 | AlloyTeam | 腾讯全端AlloyTeam团队的技术博客 | [订阅地址](http://www.alloyteam.com/feed/) | [提高资源的安全性 – SRI 与 CSP](http://www.alloyteam.com/2021/01/sri/) |
 | 微软亚洲研究院 | 微软亚洲研究院技术博客 | [订阅地址](https://www.msra.cn/feed) | [从语言、模型和规模三个维度，打造下一代AI](https://www.msra.cn/zh-cn/news/features/ai-at-scale) |
@@ -83,5 +89,5 @@
 | 豆瓣 | 豆瓣最受欢迎的乐评 | [订阅地址](https://www.douban.com/feed/review/music) |  [少年在冒险，肖战在蜕变——记“策马正少年”带给我的惊艳 (评论: 策马正少年)](https://music.douban.com/review/13241976/) |
 | 开源中国 | 开源中国社区推荐文章 | [订阅地址](https://www.oschina.net/blog/rss) |  [KNN 算法-实战篇-如何识别手写数字](https://my.oschina.net/codeshell/blog/4961353) |
 | 博客园 | 博客园精华区 | [订阅地址](http://feed.cnblogs.com/blog/picked/rss) |  [Dapr 知多少 \| 分布式应用运行时 - 「圣杰」](http://www.cnblogs.com/sheng-jie/archive/2021/02/20/14420239.html) |
-| 博客园 | 博客园首页 | [订阅地址](http://feed.cnblogs.com/blog/sitehome/rss) |  [几个小实践带你快速上手MindSpore - 华为云开发者社区](http://www.cnblogs.com/huaweiyun/p/14439987.html) |
-| 吾爱破解 | 吾爱破解 - LCG - LSG 安卓破解 病毒分析 - 最新精华 | [订阅地址](https://www.52pojie.cn/forum.php?mod=guide&view=digest&rss=1) |  [你没看错：动手开发GUI简单操作系统（一）](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1369484) |
+| 博客园 | 博客园首页 | [订阅地址](http://feed.cnblogs.com/blog/sitehome/rss) |  [用OkHttpGo和FastJson获取OneNET云平台数据（解析嵌套数组） - 海芳](http://www.cnblogs.com/maritimeclimate/p/14440230.html) |
+| 吾爱破解 | 吾爱破解 - LCG - LSG 安卓破解 病毒分析 - 最新精华 | [订阅地址](https://www.52pojie.cn/forum.php?mod=guide&view=digest&rss=1) |  [暂无]() |
