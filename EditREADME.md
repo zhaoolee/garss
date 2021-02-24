@@ -51,7 +51,7 @@
 | diss带码 | 码动人生 | [订阅地址](https://dumplingbao.github.io/atom.xml) | {{latest_content}} |
 | 王登科-DK博客 | 布洛芬爱好者 | [订阅地址](https://greatdk.com/feed) | {{latest_content}} |
 | 笨方法学写作 | 笨方法学写作,这一次彻底学会写作 | [订阅地址](https://www.cnfeat.com/feed.xml) | {{latest_content}} |
-| Hawstein's Blog | 程序员、创作者、生活艺术家与自我改造者 | 这里是 Hawstein 的个人博客，记录生活点滴。 | [订阅地址](https://hawstein.com/feed.xml) | {{latest_content}} |
+| Hawstein's Blog | 这里是 Hawstein 的个人博客，记录生活点滴。 | [订阅地址](https://hawstein.com/feed.xml) | {{latest_content}} |
 | <h2 id="团队博客">团队博客</h2> |  |   |  |
 | AlloyTeam | 腾讯全端AlloyTeam团队的技术博客 | [订阅地址](http://www.alloyteam.com/feed/) | {{latest_content}} |
 | 微软亚洲研究院 | 微软亚洲研究院技术博客 | [订阅地址](https://www.msra.cn/feed) | {{latest_content}} |
