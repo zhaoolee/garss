@@ -1,4 +1,4 @@
-# Github Actions Rss (garss, 嘎RSS! 已收集65个RSS源, 生成时间: 2021-02-24 14:39:51)
+# Github Actions Rss (garss, 嘎RSS! 已收集65个RSS源, 生成时间: 2021-02-24 14:55:32)
 
 信息茧房是指人们关注的信息领域会习惯性地被自己的兴趣所引导，从而将自己的生活桎梏于像蚕茧一般的“茧房”中的现象。
 
@@ -27,7 +27,7 @@
 | 黑果小兵的部落阁 | Hackintosh安装镜像、教程及经验分享| [订阅地址](https://blog.daliansky.net/atom.xml) | [【黑果小兵】【微信首发】macOS Big Sur 11.2.1 20D75 Installer for OpenCore 0.6.6 and CLOVER 5129 and PE三EFI分区原版镜像](https://blog.daliansky.net/macOS-BigSur-11.2.1-20D75-Release-version-with-OC-0.6.6-and-Clover-5129-and-PE-original-image.html) |
 | 张鑫旭的博客 | 张鑫旭-鑫空间-鑫生活 | [订阅地址](https://www.zhangxinxu.com/wordpress/feed/) | [使用CSS text-combine-upright实现字符的横向合并](https://www.zhangxinxu.com/wordpress/2021/02/css-text-combine-upright/) |
 | V2方圆 | zhaoolee的博客  | [订阅地址](https://www.v2fy.com/feed/) | [快来珍藏这款10MB尺寸的Photoshop7.0绿色版(亲测Win10可运行,附下载链接)](https://www.v2fy.com/p/kr-000088/) |
-| FLiNG Trainer | 修改器大神风灵月影 | [订阅地址](https://flingtrainer.com/feed/) | [Persona 5 Strikers Trainer](https://flingtrainer.com/trainer/persona-5-strikers-trainer/?utm_source=rss&utm_medium=rss&utm_campaign=persona-5-strikers-trainer) |
+| FLiNG Trainer | 修改器大神风灵月影 | [订阅地址](https://flingtrainer.com/feed/) | [暂无]() |
 | 透明创业实验 | timqian的博客  | [订阅地址](https://blog.t9t.io/atom.xml) | [一个付费 chrome 插件的一生](https://blog.t9t.io/star-history-2021-01-21/) |
 | wenzi | 蚊子在前端开发工作中的总结  | [订阅地址](https://www.xiabingbao.com/atom.xml) | [学完这 4 个小技巧，让你的移动端交互体验更加优秀](https://www.xiabingbao.com/post/fe/user-interactive-experience.html) |
 | DIYgod | 人气网红,前端萌新,有猫,开源  | [订阅地址](https://diygod.me/atom.xml) | [2020 年终总结](https://diygod.me/2020/) |
@@ -64,7 +64,7 @@
 | Apple新闻 | Apple官方消息 | [订阅地址](https://www.apple.com/newsroom/rss-feed.rss) |  [Apple’s Advanced Manufacturing Fund helps COPAN Diagnostics ship millions of COVID-19 test kits](https://www.apple.com/newsroom/2021/02/apples-advanced-manufacturing-fund-helps-copan-diagnostics-ship-millions-of-covid-19-test-kits/) |
 | <h2 id="互联网类">互联网类</h2> |  |   |  |
 | 虎嗅 | 虎嗅网新闻 | [订阅地址](https://www.huxiu.com/rss/0.xml) |  [地下室女工贾玲，如何逆袭成为资本热捧的“喜剧女王”？](http://www.huxiu.com/article/411155.html?f=wangzhan) |
-| 36kr | 36氪 | [订阅地址](https://www.36kr.com/feed) |  [最前线丨货拉拉今天道歉了，可它早干嘛去了？](https://36kr.com/p/1112037496023046) |
+| 36kr | 36氪 | [订阅地址](https://www.36kr.com/feed) |  [2021年了，数字化转型该找个“懂行人”同行了](https://36kr.com/p/1112098828134401) |
 | <h2 id="金融类">金融类</h2> |  |   |  |
 | 雪球 | 聪明的投资者都在这里,雪球每日精华 | [订阅地址](https://xueqiu.com/hots/topic/rss) |  [再谈中远海控的弱周期化趋势](http://xueqiu.com/6395425170/172587548) |
 | <h2 id="学习类">学习类</h2> |  |   |  |
@@ -82,12 +82,12 @@
 | <h2 id="内容平台">内容平台</h2> |  |   |  |
 | 知乎 | 知乎每日精选 | [订阅地址](https://www.zhihu.com/rss) |  [密钥封装机制和一个公钥加密方案有什么本质的区别？](http://www.zhihu.com/question/443779639/answer/1739265602?utm_campaign=rss&utm_medium=rss&utm_source=rss&utm_content=title) |
 | 小众软件 | 小众软件RSS | [订阅地址](https://www.appinn.com/feed/) |  [KinhDown – 加速下载百度盘资源\[Windows/Android/Web\]](https://www.appinn.com/kinhdown/) |
-| V2EX | 创意工作者的社区 | [订阅地址](https://www.v2ex.com/index.xml) |  [\[Serverless\] Serverless 如何在阿里巴巴实现规模化落地？](https://www.v2ex.com/t/755818#reply0) |
+| V2EX | 创意工作者的社区 | [订阅地址](https://www.v2ex.com/index.xml) |  [\[宽带症候群\] 请教一下家庭 mesh 组网的问题](https://www.v2ex.com/t/755823#reply0) |
 | 酷 壳 | 酷 壳RSS | [订阅地址](https://coolshell.cn/feed) |  [Go 编程模式：k8s Visitor 模式](https://coolshell.cn/articles/21263.html) |
 | 豆瓣 | 豆瓣最受欢迎的影评 | [订阅地址](https://www.douban.com/feed/review/movie) |  [为了更好的世界——一生无悔，哪怕一生无名 (评论: 暴风眼)](https://movie.douban.com/review/13276114/) |
 | 豆瓣 | 豆瓣最受欢迎的书评 | [订阅地址](https://www.douban.com/feed/review/book) |  [认识著名美籍华人建筑师林璎 (评论: 雕刻大地)](https://book.douban.com/review/13257915/) |
 | 豆瓣 | 豆瓣最受欢迎的乐评 | [订阅地址](https://www.douban.com/feed/review/music) |  [少年当逐梦 (评论: 策马正少年)](https://music.douban.com/review/13262978/) |
 | 开源中国 | 开源中国社区推荐文章 | [订阅地址](https://www.oschina.net/blog/rss) |  [Serverless 如何在阿里巴巴实现规模化落地？](https://my.oschina.net/u/4611872/blog/4961561) |
 | 博客园 | 博客园精华区 | [订阅地址](http://feed.cnblogs.com/blog/picked/rss) |  [Dapr 知多少 \| 分布式应用运行时 - 「圣杰」](http://www.cnblogs.com/sheng-jie/archive/2021/02/20/14420239.html) |
-| 博客园 | 博客园首页 | [订阅地址](http://feed.cnblogs.com/blog/sitehome/rss) |  [🎊 Element UI 新春快报 - 朱昆](http://www.cnblogs.com/iamkun/p/14441007.html) |
+| 博客园 | 博客园首页 | [订阅地址](http://feed.cnblogs.com/blog/sitehome/rss) |  [GET和POST两者的区别 - 夜千灯](http://www.cnblogs.com/wl0804/p/14441454.html) |
 | 吾爱破解 | 吾爱破解 - LCG - LSG 安卓破解 病毒分析 - 最新精华 | [订阅地址](https://www.52pojie.cn/forum.php?mod=guide&view=digest&rss=1) |  [你没看错：动手开发GUI简单操作系统（一）](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1369484) |
