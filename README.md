@@ -1,4 +1,4 @@
-# Github Actions Rss (garss, 嘎RSS! 已收集71个RSS源, 生成时间: 2021-02-28 06:21:52)
+# Github Actions Rss (garss, 嘎RSS! 已收集75个RSS源, 生成时间: 2021-02-28 11:05:22)
 
 信息茧房是指人们关注的信息领域会习惯性地被自己的兴趣所引导，从而将自己的生活桎梏于像蚕茧一般的“茧房”中的现象。
 
@@ -36,6 +36,10 @@
 | 张鑫旭的博客 | 张鑫旭-鑫空间-鑫生活 | [订阅地址](https://www.zhangxinxu.com/wordpress/feed/) | [使用CSS text-combine-upright实现字符的横向合并](https://www.zhangxinxu.com/wordpress/2021/02/css-text-combine-upright/) |
 | V2方圆 | zhaoolee的博客  | [订阅地址](https://www.v2fy.com/feed/) | [快来珍藏这款10MB尺寸的Photoshop7.0绿色版(亲测Win10可运行,附下载链接)](https://www.v2fy.com/p/kr-000088/) |
 | FLiNG Trainer | 修改器大神风灵月影 | [订阅地址](https://flingtrainer.com/feed/) | [Persona 5 Strikers Trainer](https://flingtrainer.com/trainer/persona-5-strikers-trainer/?utm_source=rss&utm_medium=rss&utm_campaign=persona-5-strikers-trainer) |
+| 奔跑中的奶酪 | 有智，有趣，有爱 | [订阅地址](https://www.runningcheese.com/feed) | [RunningCheese Edge (2020-02-01 88.0 稳定版)](https://www.runningcheese.com/edge) |
+| 唐巧的博客 | 记录下自己学习的点滴 | [订阅地址](https://blog.devtang.com/atom.xml) | [我对比特币的理解](https://blog.devtang.com/2021/02/23/talk-about-btc/) |
+| 卡瓦邦噶！ | 无法自制的人得不到自由。 | [订阅地址](https://www.kawabangga.com/feed) | [如何杀死一个进程？](https://www.kawabangga.com/posts/4186) |
+| I'M TUALATRIX | Hello! This is TualatriX's blog | [订阅地址](https://imtx.me/feed/latest/) | [SwiftUI Previews 不工作时的一种解法](https://imtx.me/blog/how-to-solve-the-broken-swiftui-previews/) |
 | 透明创业实验 | timqian的博客  | [订阅地址](https://blog.t9t.io/atom.xml) | [一个付费 chrome 插件的一生](https://blog.t9t.io/star-history-2021-01-21/) |
 | wenzi | 蚊子在前端开发工作中的总结  | [订阅地址](https://www.xiabingbao.com/atom.xml) | [学完这 4 个小技巧，让你的移动端交互体验更加优秀](https://www.xiabingbao.com/post/fe/user-interactive-experience.html) |
 | DIYgod | 人气网红,前端萌新,有猫,开源  | [订阅地址](https://diygod.me/atom.xml) | [2020 年终总结](https://diygod.me/2020/) |
@@ -62,8 +66,8 @@
 | Hawstein's Blog | 这里是 Hawstein 的个人博客，记录生活点滴。 | [订阅地址](https://hawstein.com/feed.xml) | [不上班的 613 天](http://hawstein.com/2020/02/17/be-an-indie-hacker-for-613-days/) |
 | <h2 id="数码">数码</h2> |  |   |  |
 | 少数派 | 少数派致力于更好地运用数字产品或科学方法，帮助用户提升工作效率和生活品质 | [订阅地址](https://sspai.com/feed) | [一周游戏见闻：本周值得关注的资讯、限免与新作](https://sspai.com/post/65283) |
-| 数字尾巴 | 分享美好数字生活 | [订阅地址](https://www.dgtle.com/rss/dgtle.xml) | [2021 的人像开端](http://www.dgtle.com/article-1642692-1.html) |
-| Chiphell  | 分享与交流用户体验 | [订阅地址](https://www.chiphell.com/portal.php?mod=rss)  | [佳能 EF35mm f/1.4LII 作业（对比EF35L）](https://www.chiphell.com/article-25105-1.html) |
+| 数字尾巴 | 分享美好数字生活 | [订阅地址](https://www.dgtle.com/rss/dgtle.xml) | [DIY 修复自家用凤凰 205-B 胶卷相机](http://www.dgtle.com/article-1642713-1.html) |
+| Chiphell  | 分享与交流用户体验 | [订阅地址](https://www.chiphell.com/portal.php?mod=rss)  | [ASUS ROG STRIX G17 G713QR 评测](https://www.chiphell.com/article-25109-1.html) |
 | <h2 id="IT团队博客">IT团队博客</h2> |  |   |  |
 | AlloyTeam | 腾讯全端AlloyTeam团队的技术博客 | [订阅地址](http://www.alloyteam.com/feed/) | [提高资源的安全性 – SRI 与 CSP](http://www.alloyteam.com/2021/01/sri/) |
 | 奇舞周刊 | 360前端团队博客，领略前端技术，阅读奇舞周刊  | [订阅地址](https://weekly.75.team/rss) | [奇舞周刊第 386 期](https://weekly.75.team/issue386.html) |
@@ -74,10 +78,10 @@
 | <h2 id="公司官方新闻">公司官方新闻</h2> |  |   |  |
 | Apple新闻 | Apple官方消息 | [订阅地址](https://www.apple.com/newsroom/rss-feed.rss) |  [Apple celebrates Women’s History Month and International Women’s Day](https://www.apple.com/newsroom/2021/02/apple-celebrates-womens-history-month-and-international-womens-day/) |
 | <h2 id="互联网类">互联网类</h2> |  |   |  |
-| 虎嗅 | 虎嗅网新闻 | [订阅地址](https://www.huxiu.com/rss/0.xml) |  [吴孟达去世：与周星驰一起的日子](http://www.huxiu.com/article/347993.html?f=wangzhan) |
-| 36kr | 36氪 | [订阅地址](https://www.36kr.com/feed) |  [社区团购巨头失速五环内，烧钱能烧出一片天吗？](https://36kr.com/p/1116321729393157) |
+| 虎嗅 | 虎嗅网新闻 | [订阅地址](https://www.huxiu.com/rss/0.xml) |  [2021饭局指南：从忘掉米其林开始](http://www.huxiu.com/article/411797.html?f=wangzhan) |
+| 36kr | 36氪 | [订阅地址](https://www.36kr.com/feed) |  [产业观察 \| 重疾新规落地近一月，以后重疾险怎么买？](https://36kr.com/p/1117452874297351) |
 | 微软亚洲研究院 | 微软亚洲研究院技术博客 | [订阅地址](https://www.msra.cn/feed) | [全面了解计算机系统研究的必读书目](https://www.msra.cn/zh-cn/news/features/book-list-on-systems) |
-| 极客公园 | 极客公园  | [订阅地址](https://www.geekpark.net/rss) | [深度学习红利将尽，AI 是否又面临「死亡之谷」？](http://www.geekpark.net/news/274285) |
+| 极客公园 | 极客公园  | [订阅地址](https://www.geekpark.net/rss) | [米聊「复活」、抖快「增长魔咒」和生鲜第一股｜极客一周](http://www.geekpark.net/news/274288) |
 | <h2 id="金融类">金融类</h2> |  |   |  |
 | 雪球 | 聪明的投资者都在这里,雪球每日精华 | [订阅地址](https://xueqiu.com/hots/topic/rss) |  [简单谈谈万科的投资价值](http://xueqiu.com/1987147481/172948208) |
 | <h2 id="学习类">学习类</h2> |  |   |  |
@@ -87,22 +91,22 @@
 | 青柠学术 | 每个科研小白都有成为大神的潜力 | [订阅地址](https://iseex.github.io/feed) |  [官宣！Zotero iOS App来了！](https://iseex.github.io//2021-02/Zotero-iOS-App/) |
 | <h2 id="生活类">生活类</h2> |  |   |  |
 | 李子柒 | 李子柒的微博 | [订阅地址](https://rsshub.app/weibo/user/2970452952) |  [一年又到头啦！年俗、年货小零食做起来准备过大年喽～瓜子 花生 糖葫芦、馓子 虾片走起来！给所有没回家就地过年的小伙伴们大大的拥抱我相信，生生不息的希望和...](https://weibo.com/2970452952/K1k5NkiX2) |
-| 理想生活实验室 | 为更理想的生活 | [订阅地址](https://www.toodaylab.com/rss) |  [实验室带你过周末：2021.2.27 - 2.28 北京篇](http://www.toodaylab.com/79560) |
+| 理想生活实验室 | 为更理想的生活 | [订阅地址](https://www.toodaylab.com/rss) |  [今日消费资讯：Acne Studios 推出 2021 秋冬系列、ECCO 带来 BIOM 2.0 健步 2.0 系列](http://www.toodaylab.com/79561) |
 | <h2 id="设计类">设计类</h2> |  |   |  |
-| Behance |  Adobe旗下设计网站Behance | [订阅地址](https://www.behance.net/feeds/projects) |  [Vorgang I ? Exhibition Catalogue](https://www.behance.net/gallery/113619001/Vorgang-I-Exhibition-Catalogue) |
+| Behance |  Adobe旗下设计网站Behance | [订阅地址](https://www.behance.net/feeds/projects) |  [Ripples](https://www.behance.net/gallery/114347083/Ripples) |
 | Pinterest |  图片设计社交 | [订阅地址](https://newsroom.pinterest.com/en/feed/posts.xml) |  [Pinterest partners with National Eating Disorders Association to support body positivity](https://newsroom.pinterest.com/en/post/pinterest-partners-with-national-eating-disorders-association-to-support-body-positivity) |
 | 优设 |  优秀设计联盟-优设网-设计师交流学习平台-看设计文章，学软件教程，找灵感素材，尽在优设网！ | [订阅地址](https://www.uisdc.com/feed) |  [千万张图片免费用！Wunderstock 这个网站太良心了！](https://www.uisdc.com/wunderstock) |
 | <h2 id="内容平台">内容平台</h2> |  |   |  |
 | 知乎 | 知乎每日精选 | [订阅地址](https://www.zhihu.com/rss) |  [流量时代，做数据、打投、抱团...我们的生活是否已经被「饭圈逻辑」裹挟了？](http://www.zhihu.com/question/446294551/answer/1750863882?utm_campaign=rss&utm_medium=rss&utm_source=rss&utm_content=title) |
 | 小众软件 | 小众软件RSS | [订阅地址](https://www.appinn.com/feed/) |  [Windows 10 更换文件图标小技巧](https://www.appinn.com/tips-change-files-icon-for-windows/) |
-| V2EX | 创意工作者的社区 | [订阅地址](https://www.v2ex.com/index.xml) |  [\[宽带症候群\] 软路由， openwrt， ss 全局，增加 kcptun 该怎么配置？找不到 ss-redir 排除 kcptun 的说明，一直跑不起来](https://www.v2ex.com/t/756869#reply0) |
+| V2EX | 创意工作者的社区 | [订阅地址](https://www.v2ex.com/index.xml) |  [\[分享发现\] NUC11i5 已到手](https://www.v2ex.com/t/756901#reply3) |
 | 酷 壳 | 酷 壳RSS | [订阅地址](https://coolshell.cn/feed) |  [Go 编程模式：k8s Visitor 模式](https://coolshell.cn/articles/21263.html) |
 | 豆瓣 | 豆瓣最受欢迎的影评 | [订阅地址](https://www.douban.com/feed/review/movie) |  [编剧程婷钰这种狗血大肠，麻烦以后有多远滚多远 (评论: 锦心似玉)](https://movie.douban.com/review/13284822/) |
 | 豆瓣 | 豆瓣最受欢迎的书评 | [订阅地址](https://www.douban.com/feed/review/book) |  [完全颠覆了我对牛顿的印象 (评论: 牛顿新传-牛津通识读本)](https://book.douban.com/review/13277703/) |
 | 豆瓣 | 豆瓣最受欢迎的乐评 | [订阅地址](https://www.douban.com/feed/review/music) |  [策马正少年很好听，肖战唱歌真的是又努力又有天赋 (评论: 策马正少年)](https://music.douban.com/review/13259900/) |
 | 开源中国 | 开源中国社区推荐文章 | [订阅地址](https://www.oschina.net/blog/rss) |  [平稳运行半年的系统宕机了，记录一次排错调优的全过程！](https://my.oschina.net/u/4873431/blog/4965238) |
 | 博客园 | 博客园精华区 | [订阅地址](http://feed.cnblogs.com/blog/picked/rss) |  [Dapr 知多少 \| 分布式应用运行时 - 「圣杰」](http://www.cnblogs.com/sheng-jie/archive/2021/02/20/14420239.html) |
-| 博客园 | 博客园首页 | [订阅地址](http://feed.cnblogs.com/blog/sitehome/rss) |  [Hexo一键部署到阿里云OSS并设置浏览器缓存 - JeffreyHu](http://www.cnblogs.com/huzhanfei/p/hexo-yi-jian-bu-shu-dao-a-li-yunoss-bing-she-zhi-l.html) |
+| 博客园 | 博客园首页 | [订阅地址](http://feed.cnblogs.com/blog/sitehome/rss) |  [《Asp.Net Core3 + Vue3入坑教程》 - 配置CORS策略解决跨域问题 - Iannnnnnnnnnnnn](http://www.cnblogs.com/Iannnnnnnnnnnnn/p/14438539.html) |
 | 吾爱破解 | 吾爱破解 - LCG - LSG 安卓破解 病毒分析 - 最新精华 | [订阅地址](https://www.52pojie.cn/forum.php?mod=guide&view=digest&rss=1) |  [暂无]() |
 | <h2 id="影视资源">影视资源</h2> |  |   |  |
-| VIP影院 |  666影院 - 全网VIP电影免费看！ | [订阅地址](https://bukaivip.com/rss) |  [斗罗大陆 更新至145集/](https://bukaivip.com/index.php/vod/detail/id/39708.html) |
+| VIP影院 |  666影院 - 全网VIP电影免费看！ | [订阅地址](https://bukaivip.com/rss) |  [吐槽大会第五季 20210221期](https://bukaivip.com/index.php/vod/detail/id/46810.html) |
