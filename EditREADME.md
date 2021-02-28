@@ -40,7 +40,9 @@
 | 唐巧的博客 | 记录下自己学习的点滴 | [订阅地址](https://blog.devtang.com/atom.xml) | {{latest_content}} |
 | 卡瓦邦噶！ | 无法自制的人得不到自由。 | [订阅地址](https://www.kawabangga.com/feed) | {{latest_content}} |
 | I'M TUALATRIX | Hello! This is TualatriX's blog | [订阅地址](https://imtx.me/feed/latest/) | {{latest_content}} |
+| 云风的 BLOG | 思绪来得快去得也快，偶尔会在这里停留 | [订阅地址](https://blog.codingnow.com/atom.xml) | {{latest_content}} |
 | 透明创业实验 | timqian的博客  | [订阅地址](https://blog.t9t.io/atom.xml) | {{latest_content}} |
+| 扯氮集 | 多歧为贵 不取苟同 | [订阅地址](http://weiwuhui.com/feed) | {{latest_content}} |
 | wenzi | 蚊子在前端开发工作中的总结  | [订阅地址](https://www.xiabingbao.com/atom.xml) | {{latest_content}} |
 | DIYgod | 人气网红,前端萌新,有猫,开源  | [订阅地址](https://diygod.me/atom.xml) | {{latest_content}} |
 | MacTalk-池建强的随想录 | 关注技术和人文 | [订阅地址](http://macshuo.com/?feed=rss2) | {{latest_content}} |
@@ -75,6 +77,7 @@
 | 字节跳动团队技术博客 | 字节跳动团队技术博客 | [订阅地址](https://blog.csdn.net/ByteDanceTech/rss/list) | {{latest_content}} |
 | 美团技术团队博客 | 美团技术团队博客 | [订阅地址](https://tech.meituan.com/feed/)  | {{latest_content}} |
 | 云音乐大前端专栏 | 网易云音乐大前端专栏 | [订阅地址](https://musicfe.dev/rss)  | {{latest_content}} |
+| 百度 FEX 团队 | FEX 技术周刊 | [订阅地址](https://fex.baidu.com/feed.xml)  | {{latest_content}} |
 | <h2 id="公司官方新闻">公司官方新闻</h2> |  |   |  |
 | Apple新闻 | Apple官方消息 | [订阅地址](https://www.apple.com/newsroom/rss-feed.rss) |  {{latest_content}} |
 | <h2 id="互联网类">互联网类</h2> |  |   |  |
@@ -98,7 +101,10 @@
 | 优设 |  优秀设计联盟-优设网-设计师交流学习平台-看设计文章，学软件教程，找灵感素材，尽在优设网！ | [订阅地址](https://www.uisdc.com/feed) |  {{latest_content}} |
 | <h2 id="内容平台">内容平台</h2> |  |   |  |
 | 知乎 | 知乎每日精选 | [订阅地址](https://www.zhihu.com/rss) |  {{latest_content}} |
+| 湾区日报 | 关注创业与技术，每天推送3到5篇优质英文文章 | [订阅地址](https://wanqu.co/feed/) |  {{latest_content}} |
 | 小众软件 | 小众软件RSS | [订阅地址](https://www.appinn.com/feed/) |  {{latest_content}} |
+| HelloGitHub 月刊 | 一切出于兴趣。兴趣是最好的老师，HelloGitHub 就是帮你找到编程的兴趣。 | [订阅地址](https://hellogithub.com/rss) |  {{latest_content}} |
+| 蠎周刊 | Python各种Weekly中译版。 | [订阅地址](https://weekly.pychina.org/feeds/all.atom.xml) |  {{latest_content}} |
 | V2EX | 创意工作者的社区 | [订阅地址](https://www.v2ex.com/index.xml) |  {{latest_content}} |
 | 酷 壳 | 酷 壳RSS | [订阅地址](https://coolshell.cn/feed) |  {{latest_content}} |
 | 豆瓣 | 豆瓣最受欢迎的影评 | [订阅地址](https://www.douban.com/feed/review/movie) |  {{latest_content}} |
