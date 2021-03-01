@@ -1,4 +1,4 @@
-# Github Actions Rss (garss, 嘎RSS! 已收集94个RSS源, 生成时间: 2021-03-01 11:04:39)
+# Github Actions Rss (garss, 嘎RSS! 已收集98个RSS源, 生成时间: 2021-03-01 11:17:55)
 
 信息茧房是指人们关注的信息领域会习惯性地被自己的兴趣所引导，从而将自己的生活桎梏于像蚕茧一般的“茧房”中的现象。
 
@@ -36,7 +36,7 @@
 | 黑果小兵的部落阁 | Hackintosh安装镜像、教程及经验分享| [订阅地址](https://blog.daliansky.net/atom.xml) | [](https://blog.daliansky.net/undefined.html) |
 | 张鑫旭的博客 | 张鑫旭-鑫空间-鑫生活 | [订阅地址](https://www.zhangxinxu.com/wordpress/feed/) | [使用CSS text-combine-upright实现字符的横向合并](https://www.zhangxinxu.com/wordpress/2021/02/css-text-combine-upright/) |
 | V2方圆 | zhaoolee的博客  | [订阅地址](https://www.v2fy.com/feed/) | [快来珍藏这款10MB尺寸的Photoshop7.0绿色版(亲测Win10可运行,附下载链接)](https://www.v2fy.com/p/kr-000088/) |
-| FLiNG Trainer | 修改器大神风灵月影 | [订阅地址](https://flingtrainer.com/feed/) | [Persona 5 Strikers Trainer](https://flingtrainer.com/trainer/persona-5-strikers-trainer/?utm_source=rss&utm_medium=rss&utm_campaign=persona-5-strikers-trainer) |
+| FLiNG Trainer | 修改器大神风灵月影 | [订阅地址](https://flingtrainer.com/feed/) | [暂无]() |
 | 奔跑中的奶酪 | 有智，有趣，有爱 | [订阅地址](https://www.runningcheese.com/feed) | [RunningCheese Edge (2020-02-01 88.0 稳定版)](https://www.runningcheese.com/edge) |
 | 唐巧的博客 | 记录下自己学习的点滴 | [订阅地址](https://blog.devtang.com/atom.xml) | [我对比特币的理解](https://blog.devtang.com/2021/02/23/talk-about-btc/) |
 | 卡瓦邦噶！ | 无法自制的人得不到自由。 | [订阅地址](https://www.kawabangga.com/feed) | [如何杀死一个进程？](https://www.kawabangga.com/posts/4186) |
@@ -69,6 +69,9 @@
 | 风雪之隅 | 左手代码右手诗 | [订阅地址](https://www.laruence.com/feed) | [PHP8新特性之match表达式](https://www.laruence.com/2020/07/13/6033.html) |
 | Hawstein's Blog | 这里是 Hawstein 的个人博客，记录生活点滴。 | [订阅地址](https://hawstein.com/feed.xml) | [不上班的 613 天](http://hawstein.com/2020/02/17/be-an-indie-hacker-for-613-days/) |
 | DeveWork | WordPress极客一枚 | [订阅地址](https://devework.com/feed) | [contenteditable 简单富文本输入框的实现与踩坑记录](https://devework.com/contenteditable-textarea.html) |
+| 海交史 | 东亚文史研究动态网 | [订阅地址](https://www.haijiaoshi.com/feed) | [英国剑桥大学图书馆藏怡和洋行中文档案](https://www.haijiaoshi.com/archives/7797) |
+| 四季书评 | 四季书评 | [订阅地址](http://www.4sbooks.com/feed) | [译文专辑：毛主义与法国的六十年代](http://www.4sbooks.com/archives/6319.html) |
+| 文三娃| 网络上甘岭战区候任参谋长 | [订阅地址](https://wentommy.wordpress.com/feed/) | [环球节律赏析](https://wentommy.wordpress.com/2019/08/19/%e7%8e%af%e7%90%83%e8%8a%82%e5%be%8b%e8%b5%8f%e6%9e%90/) |
 | <h2 id="数码">数码</h2> |  |   |  |
 | 少数派 | 少数派致力于更好地运用数字产品或科学方法，帮助用户提升工作效率和生活品质 | [订阅地址](https://sspai.com/feed) | [派早报：高通推出 AR 眼镜参考设计、一加或将推出中端机型等](https://sspai.com/post/65290) |
 | 数字尾巴 | 分享美好数字生活 | [订阅地址](https://www.dgtle.com/rss/dgtle.xml) | [五年又五年，我总是对平直边框着迷](http://www.dgtle.com/article-1642761-1.html) |
@@ -116,7 +119,7 @@
 | 蠎周刊 | Python各种Weekly中译版。 | [订阅地址](https://weekly.pychina.org/feeds/all.atom.xml) |  [Issue 461](https://weekly.pychina.org/issue/issue-461.html) |
 | WordPress大学 | WordPress建站资源平台 | [订阅地址](https://www.wpdaxue.com/feed) |  [WordPress 5.7 增强导入/导出功能](https://www.wpdaxue.com/wordpress-5-7-enhanced-import-export.html) |
 | Linux中国 | Linux中文开源社区 | [订阅地址](https://linux.cn/rss.xml) |  [使用 duf 终端工具检查你的磁盘使用情况](https://linux.cn/article-13165-1.html?utm_source=rss&utm_medium=rss) |
-| V2EX | 创意工作者的社区 | [订阅地址](https://www.v2ex.com/index.xml) |  [\[程序员\] 有哪些可以接私活的渠道资源推荐一下吗？](https://www.v2ex.com/t/757173#reply0) |
+| V2EX | 创意工作者的社区 | [订阅地址](https://www.v2ex.com/index.xml) |  [\[Nintendo Switch\] 任天堂 switch 家庭组开车，有没有一起拼车的](https://www.v2ex.com/t/757178#reply0) |
 | 酷 壳 | 酷 壳RSS | [订阅地址](https://coolshell.cn/feed) |  [Go 编程模式：k8s Visitor 模式](https://coolshell.cn/articles/21263.html) |
 | 豆瓣 | 豆瓣最受欢迎的影评 | [订阅地址](https://www.douban.com/feed/review/movie) |  [编剧程婷钰这种狗血大肠，麻烦以后有多远滚多远 (评论: 锦心似玉)](https://movie.douban.com/review/13284822/) |
 | 豆瓣 | 豆瓣最受欢迎的书评 | [订阅地址](https://www.douban.com/feed/review/book) |  [完全颠覆了我对牛顿的印象 (评论: 牛顿新传-牛津通识读本)](https://book.douban.com/review/13277703/) |
@@ -124,10 +127,11 @@
 | 开源中国 | 开源中国社区推荐文章 | [订阅地址](https://www.oschina.net/blog/rss) |  [流批一体生产应用！Bigo 实时计算平台建设实践](https://my.oschina.net/u/1464083/blog/4965713) |
 | 博客园 | 博客园精华区 | [订阅地址](http://feed.cnblogs.com/blog/picked/rss) |  [Dapr 知多少 \| 分布式应用运行时 - 「圣杰」](http://www.cnblogs.com/sheng-jie/archive/2021/02/20/14420239.html) |
 | 博客园 | 博客园首页 | [订阅地址](http://feed.cnblogs.com/blog/sitehome/rss) |  [学习java之基础语法（三） - 上官玉辉](http://www.cnblogs.com/wang-ren/p/14462472.html) |
-| PTT(台湾论坛) | PTT电影专题 | [订阅地址](https://www.ptt.cc/atom/movie.xml) |  [\[好無雷\]《澪之料理帖》透過料理傳達思念之情](https://www.ptt.cc/bbs/movie/M.1614562960.A.4DA.html) |
+| PTT(台湾论坛) | PTT电影专题 | [订阅地址](https://www.ptt.cc/atom/movie.xml) |  [\[討論\] 2021 金球獎 頒獎典禮](https://www.ptt.cc/bbs/movie/M.1614568669.A.724.html) |
 | PTT(台湾论坛) | PTT正妹专题 | [订阅地址](https://www.ptt.cc/atom/beauty.xml) |  [\[正妹\] 好吃好吃](https://www.ptt.cc/bbs/Beauty/M.1614561729.A.42D.html) |
-| 吾爱破解 | 吾爱破解 - LCG - LSG 安卓破解 病毒分析 - 最新精华 | [订阅地址](https://www.52pojie.cn/forum.php?mod=guide&view=digest&rss=1) |  [暂无]() |
+| 吾爱破解 | 吾爱破解 - LCG - LSG 安卓破解 病毒分析 - 最新精华 | [订阅地址](https://www.52pojie.cn/forum.php?mod=guide&view=digest&rss=1) |  [【2021春节】安卓中级题逆向总结](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1378761) |
 | <h2 id="影视资源">影视资源</h2> |  |   |  |
 | VIP影院 |  666影院 - 全网VIP电影免费看！ | [订阅地址](https://bukaivip.com/rss) |  [念念桃花源 更新至20210227期](https://bukaivip.com/index.php/vod/detail/id/45932.html) |
 | <h2 id="游戏">游戏</h2> |  |   |  |
 | 机核网 |  不止是游戏 | [订阅地址](https://www.gcores.com/rss) |  [泡个动漫22：古拉：弗利萨是我小弟弟！](https://www.gcores.com/volumes/134479) |
+| 游研社 |  无论你是游戏死忠，还是轻度的休闲玩家，在这里都能找到感兴趣的东西。 | [订阅地址](https://www.yystv.cn/rss/feed) |  [智商被低估了的猪，已经开始学习打游戏了](https://www.yystv.cn/p/7640) |
