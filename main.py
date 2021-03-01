@@ -11,7 +11,6 @@ import json
 
 def get_rss_info(feed_url):
     result = {"result": []}
-
     # 如何请求出错,则重新请求,最多五次
     for i in range(5):
         try:
@@ -20,7 +19,8 @@ def get_rss_info(feed_url):
                 "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36",
                 "Content-Encoding": "gzip"
             }
-            feed_url_content = requests.get(feed_url,  headers = headers).content
+            # 设置15秒钟超时
+            feed_url_content = requests.get(feed_url,  timeout= 15 ,headers = headers).content
             feed = feedparser.parse(feed_url_content)
             feed_entries = feed["entries"]
             feed_entries_length = len(feed_entries)
@@ -91,22 +91,26 @@ def replace_readme():
             # 生成超链接
             rss_info = get_rss_info(link)
             latest_content = ""
+            latest_content = "[暂无法通过爬虫获取信息](https://github.com/zhaoolee/garss)"
+            
             if(len(rss_info) > 0):
                 rss_info[0]["title"] = rss_info[0]["title"].replace("|", "\|")
                 rss_info[0]["title"] = rss_info[0]["title"].replace("[", "\[")
                 rss_info[0]["title"] = rss_info[0]["title"].replace("]", "\]")
-
                 latest_content = "[" + rss_info[0]["title"] +"](" + rss_info[0]["link"] +")"
-            else:
-                latest_content = "[暂无]()"
-            
+
+            if(len(rss_info) > 1):
+                rss_info[1]["title"] = rss_info[1]["title"].replace("|", "\|")
+                rss_info[1]["title"] = rss_info[1]["title"].replace("[", "\[")
+                rss_info[1]["title"] = rss_info[1]["title"].replace("]", "\]")
+                latest_content = latest_content + "\n" + "[" + rss_info[1]["title"] +"](" + rss_info[1]["link"] +")"
 
             # 生成after_info
             after_info = before_info.replace("{{latest_content}}", latest_content)
             print("====latest_content==>", latest_content)
             # 替换edit_readme_md中的内容
             new_edit_readme_md[0] = new_edit_readme_md[0].replace(before_info, after_info)
-            # 将新内容
+    # 将新内容
     with open(os.path.join(os.getcwd(),"README.md"),'w') as load_f:
         load_f.write(new_edit_readme_md[0])
     
