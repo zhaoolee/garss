@@ -101,6 +101,7 @@
 | 理想生活实验室 | 为更理想的生活 | [订阅地址](https://www.toodaylab.com/rss) |  {{latest_content}} |
 | <h2 id="设计类">设计类</h2> |  |   |  |
 | Behance |  Adobe旗下设计网站Behance | [订阅地址](https://www.behance.net/feeds/projects) |  {{latest_content}} |
+| Behance官方博客 |  Behance官方博客 | [订阅地址](https://medium.com/feed/@behance) |  {{latest_content}} |
 | Pinterest |  图片设计社交 | [订阅地址](https://newsroom.pinterest.com/en/feed/posts.xml) |  {{latest_content}} |
 | 优设 |  优秀设计联盟-优设网-设计师交流学习平台-看设计文章，学软件教程，找灵感素材，尽在优设网！ | [订阅地址](https://www.uisdc.com/feed) |  {{latest_content}} |
 | 腾讯CDC | 腾讯用户研究与体验设计部 | [订阅地址](https://cdc.tencent.com/feed/) | {{latest_content}} |
@@ -108,8 +109,12 @@
 | 知乎 | 知乎每日精选 | [订阅地址](https://www.zhihu.com/rss) |  {{latest_content}} |
 | 湾区日报 | 关注创业与技术，每天推送3到5篇优质英文文章 | [订阅地址](https://wanqu.co/feed/) |  {{latest_content}} |
 | 小众软件 | 小众软件RSS | [订阅地址](https://www.appinn.com/feed/) |  {{latest_content}} |
+| 199IT | 互联网数据资讯网 | [订阅地址](https://www.199it.com/feed) |  {{latest_content}} |
+| IT之家 | IT之家 - 软媒旗下网站 | [订阅地址](https://www.ithome.com/rss) |  {{latest_content}} |
 | HelloGitHub 月刊 | 一切出于兴趣。兴趣是最好的老师，HelloGitHub 就是帮你找到编程的兴趣。 | [订阅地址](https://hellogithub.com/rss) |  {{latest_content}} |
 | 蠎周刊 | Python各种Weekly中译版。 | [订阅地址](https://weekly.pychina.org/feeds/all.atom.xml) |  {{latest_content}} |
+| WordPress大学 | WordPress建站资源平台 | [订阅地址](https://www.wpdaxue.com/feed) |  {{latest_content}} |
+| Linux中国 | Linux中文开源社区 | [订阅地址](https://linux.cn/rss.xml) |  {{latest_content}} |
 | V2EX | 创意工作者的社区 | [订阅地址](https://www.v2ex.com/index.xml) |  {{latest_content}} |
 | 酷 壳 | 酷 壳RSS | [订阅地址](https://coolshell.cn/feed) |  {{latest_content}} |
 | 豆瓣 | 豆瓣最受欢迎的影评 | [订阅地址](https://www.douban.com/feed/review/movie) |  {{latest_content}} |
