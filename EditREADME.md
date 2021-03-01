@@ -121,3 +121,5 @@
 | 吾爱破解 | 吾爱破解 - LCG - LSG 安卓破解 病毒分析 - 最新精华 | [订阅地址](https://www.52pojie.cn/forum.php?mod=guide&view=digest&rss=1) |  {{latest_content}} |
 | <h2 id="影视资源">影视资源</h2> |  |   |  |
 | VIP影院 |  666影院 - 全网VIP电影免费看！ | [订阅地址](https://bukaivip.com/rss) |  {{latest_content}} |
+| <h2 id="游戏">游戏</h2> |  |   |  |
+| 机核网 |  不止是游戏 | [订阅地址](https://www.gcores.com/rss) |  {{latest_content}} |
