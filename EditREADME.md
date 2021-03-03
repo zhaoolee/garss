@@ -35,7 +35,7 @@
 | 当我在扯淡 | 王垠的博客，观点奇妙有趣 | [订阅地址](https://yinwang1.wordpress.com/feed/) | {{latest_content}} |
 | 黑果小兵的部落阁 | Hackintosh安装镜像、教程及经验分享| [订阅地址](https://blog.daliansky.net/atom.xml) | {{latest_content}} |
 | 张鑫旭的博客 | 张鑫旭-鑫空间-鑫生活 | [订阅地址](https://www.zhangxinxu.com/wordpress/feed/) | {{latest_content}} |
-| V2方圆 | zhaoolee的博客  | [订阅地址](https://www.v2fy.com/feed/) | {{latest_content}} |
+| V2方圆 | zhaoolee的博客  | [订阅地址](https://v2fy.com/feed/) | {{latest_content}} |
 | FLiNG Trainer | 修改器大神风灵月影 | [订阅地址](https://flingtrainer.com/feed/) | {{latest_content}} |
 | 奔跑中的奶酪 | 有智，有趣，有爱 | [订阅地址](https://www.runningcheese.com/feed) | {{latest_content}} |
 | 唐巧的博客 | 记录下自己学习的点滴 | [订阅地址](https://blog.devtang.com/atom.xml) | {{latest_content}} |
