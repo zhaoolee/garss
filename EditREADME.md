@@ -35,7 +35,8 @@
 | 当我在扯淡 | 王垠的博客，观点奇妙有趣 | [订阅地址](https://yinwang1.wordpress.com/feed/) | {{latest_content}} |
 | 黑果小兵的部落阁 | Hackintosh安装镜像、教程及经验分享| [订阅地址](https://blog.daliansky.net/atom.xml) | {{latest_content}} |
 | 张鑫旭的博客 | 张鑫旭-鑫空间-鑫生活 | [订阅地址](https://www.zhangxinxu.com/wordpress/feed/) | {{latest_content}} |
-| V2方圆 | zhaoolee的博客  | [订阅地址](https://v2fy.com/feed/) | {{latest_content}} |
+| 方圆小站 | zhaoolee的杂谈博客  | [订阅地址](https://fangyuanxiaozhan.com/feed/) | {{latest_content}} |
+| V2方圆 | 防加班办公工具技能宝典  | [订阅地址](https://v2fy.com/feed/) | {{latest_content}} |
 | 老左笔记 | 记录云主机商活动和建站运维教程  | [订阅地址](https://www.laozuo.org/feed) | {{latest_content}} |
 | FLiNG Trainer | 修改器大神风灵月影 | [订阅地址](https://flingtrainer.com/feed/) | {{latest_content}} |
 | 奔跑中的奶酪 | 有智，有趣，有爱 | [订阅地址](https://www.runningcheese.com/feed) | {{latest_content}} |
@@ -138,3 +139,9 @@
 | <h2 id="游戏">游戏</h2> |  |   |  |
 | 机核网 |  不止是游戏 | [订阅地址](https://www.gcores.com/rss) |  {{latest_content}} |
 | 游研社 |  无论你是游戏死忠，还是轻度的休闲玩家，在这里都能找到感兴趣的东西。 | [订阅地址](https://www.yystv.cn/rss/feed) |  {{latest_content}} |
+
+
+
+## 赞助本项目
+
+![https://raw.githubusercontent.com/zhaoolee/ChromeAppHeroes/master/README/3qr.png](https://raw.githubusercontent.com/zhaoolee/ChromeAppHeroes/master/README/3qr.png)
