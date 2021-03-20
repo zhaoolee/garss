@@ -101,7 +101,7 @@ def replace_readme():
                 rss_info[0]["title"] = rss_info[0]["title"].replace("[", "\[")
                 rss_info[0]["title"] = rss_info[0]["title"].replace("]", "\]")
                 print("===date===>>", rss_info[0]["date"])
-                latest_content = "[" + "‣ " + rss_info[0]["title"] +"\(" + rss_info[0]["date"] + "\)" +"](" + rss_info[0]["link"] +")"  
+                latest_content = "[" + "‣ " + rss_info[0]["title"] +"￣▽￣" + rss_info[0]["date"] +"](" + rss_info[0]["link"] +")"  
 
             if(len(rss_info) > 1):
                 rss_info[1]["title"] = rss_info[1]["title"].replace("|", "\|")
@@ -109,7 +109,7 @@ def replace_readme():
                 rss_info[1]["title"] = rss_info[1]["title"].replace("]", "\]")
                 print("===date===>>", rss_info[0]["date"])
 
-                latest_content = latest_content + "<br/>[" + "‣ " +  rss_info[1]["title"]+"\(" + rss_info[0]["date"] + "\)" +"](" + rss_info[1]["link"] +")"
+                latest_content = latest_content + "<br/>[" + "‣ " +  rss_info[1]["title"] +"￣▽￣" + rss_info[0]["date"] +"](" + rss_info[1]["link"] +")"
 
             # 生成after_info
             after_info = before_info.replace("{{latest_content}}", latest_content)
