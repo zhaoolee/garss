@@ -8,6 +8,7 @@ import yagmail
 import requests
 import markdown
 import json
+import shutil
 
 def get_rss_info(feed_url):
     result = {"result": []}
@@ -28,9 +29,11 @@ def get_rss_info(feed_url):
             for entrie in feed_entries[0: feed_entries_length-1]:
                 title = entrie["title"]
                 link = entrie["link"]
+                date = time.strftime("%Y-%m-%d", entrie["published_parsed"])
                 result["result"].append({
                     "title": title,
-                    "link": link
+                    "link": link,
+                    "date": date
                 })
             break
         except Exception as e:
@@ -97,13 +100,16 @@ def replace_readme():
                 rss_info[0]["title"] = rss_info[0]["title"].replace("|", "\|")
                 rss_info[0]["title"] = rss_info[0]["title"].replace("[", "\[")
                 rss_info[0]["title"] = rss_info[0]["title"].replace("]", "\]")
-                latest_content = "[" + "‣ " + rss_info[0]["title"] +"](" + rss_info[0]["link"] +")"
+                print("===date===>>", rss_info[0]["date"])
+                latest_content = "[" + "‣ " + rss_info[0]["title"] +"\(" + rss_info[0]["date"] + "\)" +"](" + rss_info[0]["link"] +")"  
 
             if(len(rss_info) > 1):
                 rss_info[1]["title"] = rss_info[1]["title"].replace("|", "\|")
                 rss_info[1]["title"] = rss_info[1]["title"].replace("[", "\[")
                 rss_info[1]["title"] = rss_info[1]["title"].replace("]", "\]")
-                latest_content = latest_content + "<br/>[" + "‣ " +  rss_info[1]["title"] +"](" + rss_info[1]["link"] +")"
+                print("===date===>>", rss_info[0]["date"])
+
+                latest_content = latest_content + "<br/>[" + "‣ " +  rss_info[1]["title"]+"\(" + rss_info[0]["date"] + "\)" +"](" + rss_info[1]["link"] +")"
 
             # 生成after_info
             after_info = before_info.replace("{{latest_content}}", latest_content)
@@ -115,6 +121,12 @@ def replace_readme():
         load_f.write(new_edit_readme_md[0])
     
     return new_edit_readme_md[0]
+
+# 将README.md复制到docs中
+
+def cp_readme_md_to_docs():
+    shutil.copyfile(os.path.join(os.getcwd(),"README.md"), os.path.join(os.getcwd(), "docs","README.md"))
+    
 
 
 def get_email_list():
@@ -129,6 +141,7 @@ def get_email_list():
 def main():
     readme_md = replace_readme()
     content = markdown.markdown(readme_md, extensions=['tables', 'fenced_code'])
+    cp_readme_md_to_docs()
     email_list = get_email_list()
     send_mail(email_list, "嘎!RSS订阅", content)
 
