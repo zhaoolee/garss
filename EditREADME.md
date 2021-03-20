@@ -18,6 +18,7 @@
 2. 利用Github Actions, 搜集全部RSS的头版头条新闻标题和超链接, 并自动更新到首页
 3. 支持邮件订阅RSS(开发进度50%)
 4. 按照关键词, 进行舆情监控, 并自动发邮件(规划中)
+5. 添加展示图标https://v2fy.com/get-favicon/get.php?url=
 <br>
 
 

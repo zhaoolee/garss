@@ -95,7 +95,7 @@ def replace_readme():
             rss_info = get_rss_info(link)
             latest_content = ""
             parse_result = urlparse(link)
-            scheme_netloc_url = parse_result["scheme"]+"://"+parse_result["netloc"]
+            scheme_netloc_url = str(parse_result.scheme)+"://"+str(parse_result.netloc)
             latest_content = "[暂无法通过爬虫获取信息, 点击进入源网站主页]("+ scheme_netloc_url +")"
             
             if(len(rss_info) > 0):
