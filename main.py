@@ -9,6 +9,7 @@ import requests
 import markdown
 import json
 import shutil
+from urllib.parse import urlparse
 
 def get_rss_info(feed_url):
     result = {"result": []}
@@ -87,14 +88,15 @@ def replace_readme():
         # 填充统计时间
         ga_rss_datetime = datetime.fromtimestamp(int(time.time()),pytz.timezone('Asia/Shanghai')).strftime('%Y-%m-%d %H:%M:%S')
         new_edit_readme_md[0] = new_edit_readme_md[0].replace("{{ga_rss_datetime}}", str(ga_rss_datetime))
-
         for before_info in before_info_list:
             # 获取link
             link = re.findall(r'\[订阅地址\]\((.*)\)', before_info)[0]
             # 生成超链接
             rss_info = get_rss_info(link)
             latest_content = ""
-            latest_content = "[暂无法通过爬虫获取信息](https://github.com/zhaoolee/garss)"
+            parse_result = urlparse(link)
+            scheme_netloc_url = parse_result["scheme"]+"://"+parse_result["netloc"]
+            latest_content = "[暂无法通过爬虫获取信息, 点击进入源网站主页]("+ scheme_netloc_url +")"
             
             if(len(rss_info) > 0):
                 rss_info[0]["title"] = rss_info[0]["title"].replace("|", "\|")

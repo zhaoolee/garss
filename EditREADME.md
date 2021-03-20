@@ -24,7 +24,7 @@
 | 名称 | 描述 | RSS  |  最新内容 |
 | --- | --- | --- |  --- |
 | <h2 id="软件工具">软件工具</h2> |  |   |  |
-| 不死鸟 | 不死鸟:专注分享优质资源 | [订阅地址](https://iao.su/feed) |  {{latest_content}} |
+| <img src="https://api.iowen.cn/favicon/iao.su.png" style="width:20px;height: auto;"/> <br> 不死鸟 | 不死鸟:专注分享优质资源 | [订阅地址](https://iao.su/feed) |  {{latest_content}} |
 | 精品MAC应用分享 | 精品MAC应用分享，每天分享大量mac软件，为您提供优质的mac软件,免费软件下载服务 | [订阅地址](https://xclient.info/feed) |  {{latest_content}} |
 | 老殁 | 免费推荐优秀软件 | [订阅地址](https://www.mpyit.com/feed) |  {{latest_content}} |
 | 鹏少资源网 | 专注于精品软件收录分享 | [订阅地址](https://www.jokerps.com/feed) |  {{latest_content}} |
@@ -32,7 +32,7 @@
 | 懒得勤快的博客 | 懒得勤快，互联网分享精神，勤于发现，乐于分享 | [订阅地址](https://masuit.com/rss) | {{latest_content}} |
 | 反斗限免 | 反斗软件旗下软件限免资讯网站 | [订阅地址](https://free.apprcn.com/feed/) |  {{latest_content}} |
 | <h2 id="活着的个人独立博客">活着的个人独立博客</h2> |  |   |  |
-| 阮一峰的网络日志 | 一个科技博客，讲解的知识通俗易懂 | [订阅地址](http://www.ruanyifeng.com/blog/atom.xml) | {{latest_content}} |
+| <img src="https://api.iowen.cn/favicon/www.ruanyifeng.com.png" style="width:20px;height: auto;"/>  <br> 阮一峰的网络日志 | 一个科技博客，讲解的知识通俗易懂 | [订阅地址](http://www.ruanyifeng.com/blog/atom.xml) | {{latest_content}} |
 | 当我在扯淡 | 王垠的博客，观点奇妙有趣 | [订阅地址](https://yinwang1.wordpress.com/feed/) | {{latest_content}} |
 | 黑果小兵的部落阁 | Hackintosh安装镜像、教程及经验分享| [订阅地址](https://blog.daliansky.net/atom.xml) | {{latest_content}} |
 | 张鑫旭的博客 | 张鑫旭-鑫空间-鑫生活 | [订阅地址](https://www.zhangxinxu.com/wordpress/feed/) | {{latest_content}} |
@@ -106,6 +106,14 @@
 | 褪墨・时间管理，个人提升，生活健康与习惯 | 褪墨・时间管理是一个关注时间管理、GTD、个人提升、生活健康与习惯、学习方法和演讲技巧的网站。我们的目标是：把事情做到更好！| [订阅地址](https://www.mifengtd.cn/feed.xml) | {{latest_content}} |
 | 数字移民 | 数字移民是一种生活方式 | [订阅地址](https://blog.shuziyimin.org/feed) | {{latest_content}} |
 | Just lepture | Love its people, but never trust its government. | [订阅地址](https://lepture.com/feed.xml) | {{latest_content}} |
+| 1 Byte | Articles about life, technology, and startups. | [订阅地址](https://1byte.io/rss.xml) | {{latest_content}} |
+| 庭说 | 保持蓬勃的好奇心 | [订阅地址](https://tingtalk.me/atom.xml) | {{latest_content}} |
+| KAIX.IN | 杂文、随笔、感悟、记录 | [订阅地址](https://kaix.in/feed/) | {{latest_content}} |
+| 硕鼠的博客站 | 范路的博客主站，时而会发些东西。 | [订阅地址](http://lukefan.com/?feed=rss2) | {{latest_content}} |
+| 构建我的被动收入 | Lifelong Learner | [订阅地址](https://www.bmpi.dev/index.xml) | {{latest_content}} |
+| Livid | Beautifully Advance | [订阅地址](https://livid.v2ex.com/feed.xml) | {{latest_content}} |
+| 胡涂说 | hutusi.com | [订阅地址](https://hutusi.com/feed.xml) | {{latest_content}} |
+| 鸟窝 | 万物之始，大道至简，衍化至繁 | [订阅地址](https://colobu.com/atom.xml) | {{latest_content}} |
 | <h2 id="数码">数码</h2> |  |   |  |
 | 少数派 | 少数派致力于更好地运用数字产品或科学方法，帮助用户提升工作效率和生活品质 | [订阅地址](https://sspai.com/feed) | {{latest_content}} |
 | 数字尾巴 | 分享美好数字生活 | [订阅地址](https://www.dgtle.com/rss/dgtle.xml) | {{latest_content}} |
