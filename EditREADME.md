@@ -24,12 +24,13 @@
 | 名称 | 描述 | RSS  |  最新内容 |
 | --- | --- | --- |  --- |
 | <h2 id="软件工具">软件工具</h2> |  |   |  |
-| 反斗限免 | 反斗软件旗下软件限免资讯网站 | [订阅地址](https://free.apprcn.com/feed/) |  {{latest_content}} |
 | 不死鸟 | 不死鸟:专注分享优质资源 | [订阅地址](https://iao.su/feed) |  {{latest_content}} |
 | 精品MAC应用分享 | 精品MAC应用分享，每天分享大量mac软件，为您提供优质的mac软件,免费软件下载服务 | [订阅地址](https://xclient.info/feed) |  {{latest_content}} |
 | 老殁 | 免费推荐优秀软件 | [订阅地址](https://www.mpyit.com/feed) |  {{latest_content}} |
 | 鹏少资源网 | 专注于精品软件收录分享 | [订阅地址](https://www.jokerps.com/feed) |  {{latest_content}} |
 | 小众软件 | 分享免费、小巧、实用、有趣、绿色的软件 | [订阅地址](https://www.appinn.com/feed/) | {{latest_content}} |
+| 懒得勤快的博客 | 懒得勤快，互联网分享精神，勤于发现，乐于分享 | [订阅地址](https://masuit.com/rss) | {{latest_content}} |
+| 反斗限免 | 反斗软件旗下软件限免资讯网站 | [订阅地址](https://free.apprcn.com/feed/) |  {{latest_content}} |
 | <h2 id="活着的个人独立博客">活着的个人独立博客</h2> |  |   |  |
 | 阮一峰的网络日志 | 一个科技博客，讲解的知识通俗易懂 | [订阅地址](http://www.ruanyifeng.com/blog/atom.xml) | {{latest_content}} |
 | 当我在扯淡 | 王垠的博客，观点奇妙有趣 | [订阅地址](https://yinwang1.wordpress.com/feed/) | {{latest_content}} |
@@ -75,6 +76,36 @@
 | 四季书评 | 四季书评 | [订阅地址](http://www.4sbooks.com/feed) | {{latest_content}} |
 | 文三娃| 网络上甘岭战区候任参谋长 | [订阅地址](https://wentommy.wordpress.com/feed/) | {{latest_content}} |
 | 我的小角落 | 点击文章标题可评论哦 | [订阅地址](http://micheer.net/?feed=rss2) | {{latest_content}} |
+| 木遥 | 木遥的窗子 | [订阅地址](http://blog.farmostwood.net/feed) | {{latest_content}} |
+| Limboy's HQ | Limboy's HQ | [订阅地址](https://limboy.me/index.xml) | {{latest_content}} |
+| 人人都是产品经理——iamsujie | 成长中的产品经理，期待和同学们一起，用好产品改变世界~ | [订阅地址](http://iamsujie.com/feed/) | {{latest_content}} |
+| 土木坛子 | 和光同尘，与时舒卷 | [订阅地址](https://tumutanzi.com/feed) | {{latest_content}} |
+| 火丁笔记 | 多研究些问题，少谈些主义。 | [订阅地址](https://blog.huoding.com/feed) | {{latest_content}} |
+| 產品經理 x 成長駭客 \| Mr. PM下午先生 | PM可以是產品經理、下午、Pig Man，但絕對不是Poor Man | [订阅地址](http://mrpm.cc/?feed=rss2) | {{latest_content}} |
+| Matrix67 | Matrix67: The Aha Moments  | [订阅地址](http://www.matrix67.com/blog/feed) | {{latest_content}} |
+| 我爱自然语言处理 | I Love Natural Language Processing  | [订阅地址](https://www.52nlp.cn/feed) | {{latest_content}} |
+| sunnyxx | sunnyxx的技术博客  | [订阅地址](http://blog.sunnyxx.com/atom.xml) | {{latest_content}} |
+| 搞笑談軟工 | 敏捷開發，設計模式，精實開發，Scrum，軟體設計，軟體架構  | [订阅地址](http://teddy-chen-tw.blogspot.com/feeds/posts/default) | {{latest_content}} |
+| Beyond the Void | 遊記、語言學、經濟學、信息學競賽/ACM經驗、算法講解、技術知識  | [订阅地址](https://byvoid.com/zht/feed.xml) | {{latest_content}} |
+| Est's Blog | This blog is rated  R, viewer discretion is advised  | [订阅地址](https://blog.est.im/rss) | {{latest_content}} |
+| 卢昌海个人主页 | Changhai Lu's Homepage  | [订阅地址](https://www.changhai.org//feed.xml) | {{latest_content}} |
+| 程序师 | 程序员、编程语言、软件开发、编程技术 | [订阅地址](https://www.techug.com/feed) | {{latest_content}} |
+| bang's blog | 我的世界 | [订阅地址](http://blog.cnbang.net/feed/) | {{latest_content}} |
+| Phodal - A Growth Engineer | Phodal Huang is a geek, creator and author | [订阅地址](https://www.phodal.com/blog/feeds/rss/) | {{latest_content}} |
+| Jason 独立开发，自由职业 | 记录一位独立开发者的精进之路，分享自由职业者的生存方式。 | [订阅地址](https://atjason.com/atom.xml/) | {{latest_content}} |
+| Randy's Blog | Randy is blogging about life, tech and music. | [订阅地址](https://lutaonan.com/rss.xml) | {{latest_content}} |
+| 木木木木木 | 林小沐的博客 | [订阅地址](https://immmmm.com/atom.xml) | {{latest_content}} |
+| Skywind Inside | 写自己的代码，让别人猜去吧 | [订阅地址](http://www.skywind.me/blog/feed) | {{latest_content}} |
+| 轉個彎日誌 | by 阿川先生 | [订阅地址](https://blog.turn.tw/?feed=rss2) | {{latest_content}} |
+| 余果的博客 | 公众号：余果专栏 | [订阅地址](https://yuguo.us/feed.xml) | {{latest_content}} |
+| 陈沙克日志 | 把我的过程记录下来，以免以后忘了 | [订阅地址](http://www.chenshake.com/feed/) | {{latest_content}} |
+| 透明思考 Transparent Thoughts | 就，觉得自己还挺有洞察力的…… | [订阅地址](http://gigix.thoughtworkers.org/atom.xml) | {{latest_content}} |
+| 依云's Blog | Happy coding, happy living! | [订阅地址](https://blog.lilydjwg.me/feed) | {{latest_content}} |
+| 王子亭的博客 | 精子真名叫「王子亭」，生于 1995.11.25，英文ID是jysperm.  精子是一名独立博客作者 | [订阅地址](https://jysperm.me/atom.xml) | {{latest_content}} |
+| 谢益辉 | 中文日志 - Yihui Xie  | [订阅地址](https://yihui.org/cn/index.xml) | {{latest_content}} |
+| 褪墨・时间管理，个人提升，生活健康与习惯 | 褪墨・时间管理是一个关注时间管理、GTD、个人提升、生活健康与习惯、学习方法和演讲技巧的网站。我们的目标是：把事情做到更好！| [订阅地址](https://www.mifengtd.cn/feed.xml) | {{latest_content}} |
+| 数字移民 | 数字移民是一种生活方式 | [订阅地址](https://blog.shuziyimin.org/feed) | {{latest_content}} |
+| Just lepture | Love its people, but never trust its government. | [订阅地址](https://lepture.com/feed.xml) | {{latest_content}} |
 | <h2 id="数码">数码</h2> |  |   |  |
 | 少数派 | 少数派致力于更好地运用数字产品或科学方法，帮助用户提升工作效率和生活品质 | [订阅地址](https://sspai.com/feed) | {{latest_content}} |
 | 数字尾巴 | 分享美好数字生活 | [订阅地址](https://www.dgtle.com/rss/dgtle.xml) | {{latest_content}} |
