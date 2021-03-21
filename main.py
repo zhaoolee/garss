@@ -11,6 +11,7 @@ import json
 import shutil
 from urllib.parse import urlparse
 
+
 def get_rss_info(feed_url):
     result = {"result": []}
     # 如何请求出错,则重新请求,最多五次
@@ -79,10 +80,11 @@ def send_mail(email, title, contents):
 def replace_readme():
     new_edit_readme_md = [""]
     # 读取EditREADME.md
+    print("replace_readme")
     with open(os.path.join(os.getcwd(),"EditREADME.md"),'r') as load_f:
         edit_readme_md = load_f.read();
         new_edit_readme_md[0] = edit_readme_md
-        before_info_list =  re.findall(r'\[订阅地址\]\(.*\).*\{\{latest_content\}\}' ,edit_readme_md);
+        before_info_list =  re.findall(r'\{\{latest_content\}\}.*\[订阅地址\]\(.*\)' ,edit_readme_md);
         # 填充统计RSS数量
         new_edit_readme_md[0] = new_edit_readme_md[0].replace("{{rss_num}}", str(len(before_info_list)))
         # 填充统计时间
@@ -103,16 +105,14 @@ def replace_readme():
                 rss_info[0]["title"] = rss_info[0]["title"].replace("[", "\[")
                 rss_info[0]["title"] = rss_info[0]["title"].replace("]", "\]")
                 print("===date===>>", rss_info[0]["date"])
-                latest_content = "[" + "‣ " + rss_info[0]["title"] +"￣▽￣" + rss_info[0]["date"] +"](" + rss_info[0]["link"] +")"  
+                latest_content = "[" + "‣ " + rss_info[0]["title"] + ( (" 🌈 " + rss_info[0]["date"]) if (rss_info[0]["date"] == datetime.today().strftime("%Y-%m-%d")) else (" | " + rss_info[0]["date"]) ) +"](" + rss_info[0]["link"] +")"  
 
             if(len(rss_info) > 1):
                 rss_info[1]["title"] = rss_info[1]["title"].replace("|", "\|")
                 rss_info[1]["title"] = rss_info[1]["title"].replace("[", "\[")
                 rss_info[1]["title"] = rss_info[1]["title"].replace("]", "\]")
                 print("===date===>>", rss_info[0]["date"])
-
-                latest_content = latest_content + "<br/>[" + "‣ " +  rss_info[1]["title"] +"￣▽￣" + rss_info[0]["date"] +"](" + rss_info[1]["link"] +")"
-
+                latest_content = latest_content + "<br/>[" + "‣ " +  rss_info[1]["title"] + ( (" 🌈 " + rss_info[0]["date"]) if (rss_info[0]["date"] == datetime.today().strftime("%Y-%m-%d")) else (" | " + rss_info[0]["date"]) ) +"](" + rss_info[1]["link"] +")"
             # 生成after_info
             after_info = before_info.replace("{{latest_content}}", latest_content)
             print("====latest_content==>", latest_content)
@@ -129,7 +129,10 @@ def replace_readme():
 def cp_readme_md_to_docs():
     shutil.copyfile(os.path.join(os.getcwd(),"README.md"), os.path.join(os.getcwd(), "docs","README.md"))
     
-
+def cp_media_to_docs():
+    if os.path.exists(os.path.join(os.getcwd(), "docs","_media")):
+        shutil.rmtree(os.path.join(os.getcwd(), "docs","_media"))	
+    shutil.copytree(os.path.join(os.getcwd(),"_media"), os.path.join(os.getcwd(), "docs","_media"))
 
 def get_email_list():
     email_list = []
@@ -144,6 +147,7 @@ def main():
     readme_md = replace_readme()
     content = markdown.markdown(readme_md, extensions=['tables', 'fenced_code'])
     cp_readme_md_to_docs()
+    cp_media_to_docs()
     email_list = get_email_list()
     send_mail(email_list, "嘎!RSS订阅", content)
 
