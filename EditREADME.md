@@ -37,13 +37,13 @@
 | <div id="B002" style="text-align: center;"><img src="./_media/favicon/B002.png" style="width:30px;height: auto;"/><br><span>B002</span></div> | 当我在扯淡 | 王垠的博客，观点奇妙有趣 |  {{latest_content}} | [订阅地址](https://yinwang1.wordpress.com/feed/) |
 | <div id="B003" style="text-align: center;"><img src="./_media/favicon/B003.png" style="width:30px;height: auto;"/><br><span>B003</span></div> | 黑果小兵的部落阁 | Hackintosh安装镜像、教程及经验分享|  {{latest_content}} | [订阅地址](https://blog.daliansky.net/atom.xml) |
 | <div id="B004" style="text-align: center;"><img src="./_media/favicon/B004.png" style="width:30px;height: auto;"/><br><span>B004</span></div> | 张鑫旭的博客 | 张鑫旭-鑫空间-鑫生活 | {{latest_content}} | [订阅地址](https://www.zhangxinxu.com/wordpress/feed/) | 
-| B005 | 方圆小站 | zhaoolee的杂谈博客  | {{latest_content}} | [订阅地址](https://fangyuanxiaozhan.com/feed/) |
-| B006 | V2方圆 | 防加班办公工具技能宝典  | {{latest_content}} | [订阅地址](https://v2fy.com/feed/) |
-| B007 | 老左笔记 | 记录云主机商活动和建站运维教程  | {{latest_content}} | [订阅地址](https://www.laozuo.org/feed) |
-| B008 | FLiNG Trainer | 修改器大神风灵月影 | {{latest_content}} | [订阅地址](https://flingtrainer.com/feed/) |
-| B009 | 奔跑中的奶酪 | 有智，有趣，有爱 | {{latest_content}} | [订阅地址](https://www.runningcheese.com/feed) |
-| B010 | 唐巧的博客 | 记录下自己学习的点滴 | {{latest_content}} | [订阅地址](https://blog.devtang.com/atom.xml) |
-| B011 | I'M TUALATRIX | Hello! This is TualatriX's blog | {{latest_content}} | [订阅地址](https://imtx.me/feed/latest/) |
+| <div id="B005" style="text-align: center;"><img src="./_media/favicon/B005.png" style="width:30px;height: auto;"/><br><span>B005</span></div> | 方圆小站 | zhaoolee的杂谈博客  | {{latest_content}} | [订阅地址](https://fangyuanxiaozhan.com/feed/) |
+| <div id="B006" style="text-align: center;"><img src="./_media/favicon/B006.png" style="width:30px;height: auto;"/><br><span>B006</span></div> | V2方圆 | 防加班办公工具技能宝典  | {{latest_content}} | [订阅地址](https://v2fy.com/feed/) |
+| <div id="B007" style="text-align: center;"><img src="./_media/favicon/B007.png" style="width:30px;height: auto;"/><br><span>B007</span></div> | 老左笔记 | 记录云主机商活动和建站运维教程  | {{latest_content}} | [订阅地址](https://www.laozuo.org/feed) |
+| <div id="B008" style="text-align: center;"><img src="./_media/favicon/B008.png" style="width:30px;height: auto;"/><br><span>B008</span></div> | FLiNG Trainer | 修改器大神风灵月影 | {{latest_content}} | [订阅地址](https://flingtrainer.com/feed/) |
+| <div id="B009" style="text-align: center;"><img src="./_media/favicon/B009.png" style="width:30px;height: auto;"/><br><span>B009</span></div> | 奔跑中的奶酪 | 有智，有趣，有爱 | {{latest_content}} | [订阅地址](https://www.runningcheese.com/feed) |
+| <div id="B010" style="text-align: center;"><img src="./_media/favicon/B010.png" style="width:30px;height: auto;"/><br><span>B010</span></div> | 唐巧的博客 | 记录下自己学习的点滴 | {{latest_content}} | [订阅地址](https://blog.devtang.com/atom.xml) |
+| <div id="B011" style="text-align: center;"><img src="./_media/favicon/B011.png" style="width:30px;height: auto;"/><br><span>B011</span></div> | I'M TUALATRIX | Hello! This is TualatriX's blog | {{latest_content}} | [订阅地址](https://imtx.me/feed/latest/) |
 | B012 | 云风的 BLOG | 思绪来得快去得也快，偶尔会在这里停留 | {{latest_content}} | [订阅地址](https://blog.codingnow.com/atom.xml) |
 | B013 | 透明创业实验 | timqian的博客  | {{latest_content}} | [订阅地址](https://blog.t9t.io/atom.xml) |
 | B014 | 扯氮集 | 多歧为贵 不取苟同 | {{latest_content}} | [订阅地址](http://weiwuhui.com/feed) |
