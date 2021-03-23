@@ -4,23 +4,19 @@
 
 ## 《嘎!RSS》🐣为打破信息茧房而生
 
+![](./_media/ga-rss.png)
+
 这个名为**嘎!RSS**的项目会利用免费的Github Actions服务, 提供一个内容全面的信息流, 让现代人的知识体系更广泛, 减弱信息茧房对现代人的影响, 让**非茧房信息流**造福人类~
 [《嘎!RSS》永久开源页面: https://github.com/zhaoolee/garss](https://github.com/zhaoolee/garss)
 
 ## 推荐使用什么软件订阅RSS？
-
 我推荐一款免费的浏览器扩展程序Feedbro ，使用教程[Chrome插件英雄榜第96期《Feedbro》在Chrome中订阅RSS信息流](https://www.v2fy.com/p/096-feedbro-2021-02-27/)
-
-
 
 ## 主要功能
 1. 收集RSS, 打造无广告内容优质的 **头版头条** 超赞新闻页
-2. 利用Github Actions, 搜集全部RSS的头版头条新闻标题和超链接, 并自动更新到首页
-3. 支持邮件订阅RSS(开发进度50%)
-4. 按照关键词, 进行舆情监控, 并自动发邮件(规划中)
-5. 添加展示图标https://v2fy.com/get-favicon/get.php?url=
-<br>
+2. 利用Github Actions, 搜集全部RSS的头版头条新闻标题和超链接, 并自动更新到首页,当天最新发布的文章会出现🌈 标志
 
+<br>
 
 | 编号 | 名称 | 描述 | RSS  |  最新内容 |
 | --- | --- | --- | --- |  --- |
@@ -88,13 +84,13 @@
 | <div id="B053" style="text-align: center;"><img src="./_media/favicon/B053.png" width="30px" style="width:30px;height: auto;"/><br><span>B053</span></div> | 搞笑談軟工 | 敏捷開發，設計模式，精實開發，Scrum，軟體設計，軟體架構  | {{latest_content}}  |  [订阅地址](http://teddy-chen-tw.blogspot.com/feeds/posts/default) | 
 | <div id="B054" style="text-align: center;"><img src="./_media/favicon/B054.png" width="30px" style="width:30px;height: auto;"/><br><span>B054</span></div> | Beyond the Void | 遊記、語言學、經濟學、信息學競賽/ACM經驗、算法講解、技術知識  | {{latest_content}}  |  [订阅地址](https://byvoid.com/zht/feed.xml) | 
 | B055 | Est's Blog | This blog is rated  R, viewer discretion is advised  | {{latest_content}}  |  [订阅地址](https://blog.est.im/rss) | 
-| B056 | 卢昌海个人主页 | Changhai Lu's Homepage  | {{latest_content}}  |  [订阅地址](https://www.changhai.org//feed.xml) | 
-| B057 | 程序师 | 程序员、编程语言、软件开发、编程技术 | {{latest_content}}  |  [订阅地址](https://www.techug.com/feed) | 
+| <div id="B056" style="text-align: center;"><img src="./_media/favicon/B056.png" width="30px" style="width:30px;height: auto;"/><br><span>B056</span></div> | 卢昌海个人主页 | Changhai Lu's Homepage  | {{latest_content}}  |  [订阅地址](https://www.changhai.org//feed.xml) | 
+| <div id="B057" style="text-align: center;"><img src="./_media/favicon/B057.png" width="30px" style="width:30px;height: auto;"/><br><span>B057</span></div> | 程序师 | 程序员、编程语言、软件开发、编程技术 | {{latest_content}}  |  [订阅地址](https://www.techug.com/feed) | 
 | B058 | bang's blog | 我的世界 | {{latest_content}}  |  [订阅地址](http://blog.cnbang.net/feed/) | 
-| B059 | Phodal - A Growth Engineer | Phodal Huang is a geek, creator and author | {{latest_content}}  |  [订阅地址](https://www.phodal.com/blog/feeds/rss/) | 
-| B060 | Jason 独立开发，自由职业 | 记录一位独立开发者的精进之路，分享自由职业者的生存方式。 | {{latest_content}}  |  [订阅地址](https://atjason.com/atom.xml/) | 
-| B061 | Randy's Blog | Randy is blogging about life, tech and music. | {{latest_content}}  |  [订阅地址](https://lutaonan.com/rss.xml) | 
-| B062 | 木木木木木 | 林小沐的博客 | {{latest_content}}  |  [订阅地址](https://immmmm.com/atom.xml) | 
+| B059 | 白宦成 | 思无邪 | {{latest_content}}  |  [订阅地址](https://www.ixiqin.com/feed/) | 
+| <div id="B060" style="text-align: center;"><img src="./_media/favicon/B060.png" width="30px" style="width:30px;height: auto;"/><br><span>B060</span></div> | Jason 独立开发，自由职业 | 记录一位独立开发者的精进之路，分享自由职业者的生存方式。 | {{latest_content}}  |  [订阅地址](https://atjason.com/atom.xml/) | 
+| <div id="B061" style="text-align: center;"><img src="./_media/favicon/B061.png" width="30px" style="width:30px;height: auto;"/><br><span>B061</span></div> | Randy's Blog | Randy is blogging about life, tech and music. | {{latest_content}}  |  [订阅地址](https://lutaonan.com/rss.xml) | 
+| <div id="B062" style="text-align: center;"><img src="./_media/favicon/B062.png" width="30px" style="width:30px;height: auto;"/><br><span>B062</span></div> | 木木木木木 | 林小沐的博客 | {{latest_content}}  |  [订阅地址](https://immmmm.com/atom.xml) | 
 | B063 | Skywind Inside | 写自己的代码，让别人猜去吧 | {{latest_content}}  |  [订阅地址](http://www.skywind.me/blog/feed) | 
 | B064 | 轉個彎日誌 | by 阿川先生 | {{latest_content}}  |  [订阅地址](https://blog.turn.tw/?feed=rss2) | 
 | B065 | 余果的博客 | 公众号：余果专栏 | {{latest_content}}  |  [订阅地址](https://yuguo.us/feed.xml) | 
@@ -175,18 +171,13 @@
 | C018 | 博客园 | 博客园首页 | {{latest_content}}  |  [订阅地址](http://feed.cnblogs.com/blog/sitehome/rss) |  
 | C019 | PTT(台湾论坛) | PTT电影专题 | {{latest_content}}  |  [订阅地址](https://www.ptt.cc/atom/movie.xml) |  
 | C020 | PTT(台湾论坛) | PTT正妹专题 | {{latest_content}}  |  [订阅地址](https://www.ptt.cc/atom/beauty.xml) |  
-| C021 | 吾爱破解 | 吾爱破解 - LCG - LSG 安卓破解 病毒分析 - 最新精华 | {{latest_content}}  |  [订阅地址](https://www.52pojie.cn/forum.php?mod=guide&view=digest&rss=1) |  
-| C022 | cnBeta.COM 精彩优秀评论 | 从cnBeta每天数千评论中精选出来的优秀评论 | {{latest_content}}  |  [订阅地址](https://www.cnbeta.com/commentrss.php) |  
-| C023 | 比特客栈的文艺复兴 | We do not choose who we are, but we do choose who we become. | {{latest_content}}  |  [订阅地址](https://bitinn.net/feed/) |  
+| <div id="C021" style="text-align: center;"><img src="./_media/favicon/C021.png" width="30px" style="width:30px;height: auto;"/><br><span>C021</span></div> | 吾爱破解 | 吾爱破解 - LCG - LSG 安卓破解 病毒分析 - 最新精华 | {{latest_content}}  |  [订阅地址](https://www.52pojie.cn/forum.php?mod=guide&view=digest&rss=1) |  
+| <div id="C022" style="text-align: center;"><img src="./_media/favicon/C022.png" width="30px" style="width:30px;height: auto;"/><br><span>C022</span></div> | cnBeta.COM 精彩优秀评论 | 从cnBeta每天数千评论中精选出来的优秀评论 | {{latest_content}}  |  [订阅地址](https://www.cnbeta.com/commentrss.php) |  
+| <div id="C023" style="text-align: center;"><img src="./_media/favicon/C023.png" width="30px" style="width:30px;height: auto;"/><br><span>C023</span></div> | 比特客栈的文艺复兴 | We do not choose who we are, but we do choose who we become. | {{latest_content}}  |  [订阅地址](https://bitinn.net/feed/) |  
 | <h2 id="影视资源">影视资源</h2> |  |   |  |
-| M001 | VIP影院 |  666影院 - 全网VIP电影免费看！ | {{latest_content}}  |  [订阅地址](https://bukaivip.com/rss) |  
+| <div id="M001" style="text-align: center;"><img src="./_media/favicon/M001.png" width="30px" style="width:30px;height: auto;"/><br><span>M001</span></div> | VIP影院 |  666影院 - 全网VIP电影免费看！ | {{latest_content}}  |  [订阅地址](https://bukaivip.com/rss) |  
 | <h2 id="游戏">游戏</h2> |  |   |  |
-| G001 | 机核网 |  不止是游戏 | {{latest_content}}  |  [订阅地址](https://www.gcores.com/rss) |  
-| G002 | 游研社 |  无论你是游戏死忠，还是轻度的休闲玩家，在这里都能找到感兴趣的东西。 | {{latest_content}}  |  [订阅地址](https://www.yystv.cn/rss/feed) |  
+| <div id="G001" style="text-align: center;"><img src="./_media/favicon/G001.png" width="30px" style="width:30px;height: auto;"/><br><span>G001</span></div> | 机核网 |  不止是游戏 | {{latest_content}}  |  [订阅地址](https://www.gcores.com/rss) |  
+| <div id="G002" style="text-align: center;"><img src="./_media/favicon/G002.png" width="30px" style="width:30px;height: auto;"/><br><span>G002</span></div> | 游研社 |  无论你是游戏死忠，还是轻度的休闲玩家，在这里都能找到感兴趣的东西。 | {{latest_content}}  |  [订阅地址](https://www.yystv.cn/rss/feed) |  
 | <h2 id="资源类">资源类</h2> |  |   |  |
-| R001 | 书格 |  有品格的数字古籍图书馆 | {{latest_content}}  |  [订阅地址](https://www.shuge.org/feed/) |  
-
-
-## 赞助本项目
-
-![https://raw.githubusercontent.com/zhaoolee/ChromeAppHeroes/master/README/3qr.png](https://raw.githubusercontent.com/zhaoolee/ChromeAppHeroes/master/README/3qr.png)
+| <div id="R001" style="text-align: center;"><img src="./_media/favicon/R001.png" width="30px" style="width:30px;height: auto;"/><br><span>R001</span></div> | 书格 |  有品格的数字古籍图书馆 | {{latest_content}}  |  [订阅地址](https://www.shuge.org/feed/) |  
