@@ -93,11 +93,11 @@
 | <div id="B062" style="text-align: center;"><img src="./_media/favicon/B062.png" width="30px" style="width:30px;height: auto;"/><br><span>B062</span></div> | 木木木木木 | 林小沐的博客 | {{latest_content}}  |  [订阅地址](https://immmmm.com/atom.xml) | 
 | B063 | Skywind Inside | 写自己的代码，让别人猜去吧 | {{latest_content}}  |  [订阅地址](http://www.skywind.me/blog/feed) | 
 | B064 | 轉個彎日誌 | by 阿川先生 | {{latest_content}}  |  [订阅地址](https://blog.turn.tw/?feed=rss2) | 
-| B065 | 余果的博客 | 公众号：余果专栏 | {{latest_content}}  |  [订阅地址](https://yuguo.us/feed.xml) | 
-| B066 | 陈沙克日志 | 把我的过程记录下来，以免以后忘了 | {{latest_content}}  |  [订阅地址](http://www.chenshake.com/feed/) | 
+| <div id="B065" style="text-align: center;"><img src="./_media/favicon/B065.png" width="30px" style="width:30px;height: auto;"/><br><span>B065</span></div> | 余果的博客 | 公众号：余果专栏 | {{latest_content}}  |  [订阅地址](https://yuguo.us/feed.xml) | 
+| <div id="B066" style="text-align: center;"><img src="./_media/favicon/B066.png" width="30px" style="width:30px;height: auto;"/><br><span>B066</span></div> | 陈沙克日志 | 把我的过程记录下来，以免以后忘了 | {{latest_content}}  |  [订阅地址](http://www.chenshake.com/feed/) | 
 | B067 | 透明思考 Transparent Thoughts | 就，觉得自己还挺有洞察力的…… | {{latest_content}}  |  [订阅地址](http://gigix.thoughtworkers.org/atom.xml) | 
-| B068 | 依云's Blog | Happy coding, happy living! | {{latest_content}}  |  [订阅地址](https://blog.lilydjwg.me/feed) | 
-| B069 | 王子亭的博客 | 精子真名叫「王子亭」，生于 1995.11.25，英文ID是jysperm.  精子是一名独立博客作者 | {{latest_content}}  |  [订阅地址](https://jysperm.me/atom.xml) | 
+| <div id="B068" style="text-align: center;"><img src="./_media/favicon/B068.png" width="30px" style="width:30px;height: auto;"/><br><span>B068</span></div> | 依云's Blog | Happy coding, happy living! | {{latest_content}}  |  [订阅地址](https://blog.lilydjwg.me/feed) | 
+| <div id="B069" style="text-align: center;"><img src="./_media/favicon/B069.png" width="30px" style="width:30px;height: auto;"/><br><span>B069</span></div> | 王子亭的博客 | 精子真名叫「王子亭」，生于 1995.11.25，英文ID是jysperm.  精子是一名独立博客作者 | {{latest_content}}  |  [订阅地址](https://jysperm.me/atom.xml) | 
 | B070 | 谢益辉 | 中文日志 - Yihui Xie  | {{latest_content}}  |  [订阅地址](https://yihui.org/cn/index.xml) | 
 | B071 | 褪墨・时间管理，个人提升，生活健康与习惯 | 褪墨・时间管理是一个关注时间管理、GTD、个人提升、生活健康与习惯、学习方法和演讲技巧的网站。我们的目标是：把事情做到更好！| {{latest_content}}  |  [订阅地址](https://www.mifengtd.cn/feed.xml) | 
 | B072 | 数字移民 | 数字移民是一种生活方式 | {{latest_content}}  |  [订阅地址](https://blog.shuziyimin.org/feed) | 
