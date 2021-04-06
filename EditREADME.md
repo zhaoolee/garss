@@ -98,19 +98,19 @@
 | B067 | 透明思考 Transparent Thoughts | 就，觉得自己还挺有洞察力的…… | {{latest_content}}  |  [订阅地址](http://gigix.thoughtworkers.org/atom.xml) | 
 | <div id="B068" style="text-align: center;"><img src="./_media/favicon/B068.png" width="30px" style="width:30px;height: auto;"/><br><span>B068</span></div> | 依云's Blog | Happy coding, happy living! | {{latest_content}}  |  [订阅地址](https://blog.lilydjwg.me/feed) | 
 | <div id="B069" style="text-align: center;"><img src="./_media/favicon/B069.png" width="30px" style="width:30px;height: auto;"/><br><span>B069</span></div> | 王子亭的博客 | 精子真名叫「王子亭」，生于 1995.11.25，英文ID是jysperm.  精子是一名独立博客作者 | {{latest_content}}  |  [订阅地址](https://jysperm.me/atom.xml) | 
-| B070 | 谢益辉 | 中文日志 - Yihui Xie  | {{latest_content}}  |  [订阅地址](https://yihui.org/cn/index.xml) | 
-| B071 | 褪墨・时间管理，个人提升，生活健康与习惯 | 褪墨・时间管理是一个关注时间管理、GTD、个人提升、生活健康与习惯、学习方法和演讲技巧的网站。我们的目标是：把事情做到更好！| {{latest_content}}  |  [订阅地址](https://www.mifengtd.cn/feed.xml) | 
-| B072 | 数字移民 | 数字移民是一种生活方式 | {{latest_content}}  |  [订阅地址](https://blog.shuziyimin.org/feed) | 
-| B073 | Just lepture | Love its people, but never trust its government. | {{latest_content}}  |  [订阅地址](https://lepture.com/feed.xml) | 
+| <div id="B070" style="text-align: center;"><img src="./_media/favicon/B070.png" width="30px" style="width:30px;height: auto;"/><br><span>B070</span></div> | 谢益辉 | 中文日志 - Yihui Xie  | {{latest_content}}  |  [订阅地址](https://yihui.org/cn/index.xml) | 
+| <div id="B071" style="text-align: center;"><img src="./_media/favicon/B071.png" width="30px" style="width:30px;height: auto;"/><br><span>B071</span></div> | 褪墨・时间管理，个人提升，生活健康与习惯 | 褪墨・时间管理是一个关注时间管理、GTD、个人提升、生活健康与习惯、学习方法和演讲技巧的网站。我们的目标是：把事情做到更好！| {{latest_content}}  |  [订阅地址](https://www.mifengtd.cn/feed.xml) | 
+| <div id="B072" style="text-align: center;"><img src="./_media/favicon/B072.png" width="30px" style="width:30px;height: auto;"/><br><span>B072</span></div> | 数字移民 | 数字移民是一种生活方式 | {{latest_content}}  |  [订阅地址](https://blog.shuziyimin.org/feed) | 
+| <div id="B073" style="text-align: center;"><img src="./_media/favicon/B073.png" width="30px" style="width:30px;height: auto;"/><br><span>B073</span></div> | Just lepture | Love its people, but never trust its government. | {{latest_content}}  |  [订阅地址](https://lepture.com/feed.xml) | 
 | B074 | 1 Byte | Articles about life, technology, and startups. | {{latest_content}}  |  [订阅地址](https://1byte.io/rss.xml) | 
-| B075 | 庭说 | 保持蓬勃的好奇心 | {{latest_content}}  |  [订阅地址](https://tingtalk.me/atom.xml) | 
-| B076 | KAIX.IN | 杂文、随笔、感悟、记录 | {{latest_content}}  |  [订阅地址](https://kaix.in/feed/) | 
-| B077 | 硕鼠的博客站 | 范路的博客主站，时而会发些东西。 | {{latest_content}}  |  [订阅地址](http://lukefan.com/?feed=rss2) | 
-| B078 | 构建我的被动收入 | Lifelong Learner | {{latest_content}}  |  [订阅地址](https://www.bmpi.dev/index.xml) | 
-| B079 | Livid | Beautifully Advance | {{latest_content}}  |  [订阅地址](https://livid.v2ex.com/feed.xml) | 
-| B080 | 胡涂说 | hutusi.com | {{latest_content}}  |  [订阅地址](https://hutusi.com/feed.xml) | 
+| <div id="B075" style="text-align: center;"><img src="./_media/favicon/B075.png" width="30px" style="width:30px;height: auto;"/><br><span>B075</span></div> | 庭说 | 保持蓬勃的好奇心 | {{latest_content}}  |  [订阅地址](https://tingtalk.me/atom.xml) | 
+| <div id="B076" style="text-align: center;"><img src="./_media/favicon/B076.png" width="30px" style="width:30px;height: auto;"/><br><span>B076</span></div> | KAIX.IN | 杂文、随笔、感悟、记录 | {{latest_content}}  |  [订阅地址](https://kaix.in/feed/) | 
+| <div id="B077" style="text-align: center;"><img src="./_media/favicon/B077.png" width="30px" style="width:30px;height: auto;"/><br><span>B077</span></div> | 硕鼠的博客站 | 范路的博客主站，时而会发些东西。 | {{latest_content}}  |  [订阅地址](http://lukefan.com/?feed=rss2) | 
+| <div id="B078" style="text-align: center;"><img src="./_media/favicon/B078.png" width="30px" style="width:30px;height: auto;"/><br><span>B078</span></div> | 构建我的被动收入 | Lifelong Learner | {{latest_content}}  |  [订阅地址](https://www.bmpi.dev/index.xml) | 
+|  <div id="B079" style="text-align: center;"><img src="./_media/favicon/B079.png" width="30px" style="width:30px;height: auto;"/><br><span>B079</span></div> | Livid | Beautifully Advance | {{latest_content}}  |  [订阅地址](https://livid.v2ex.com/feed.xml) | 
+| <div id="B080" style="text-align: center;"><img src="./_media/favicon/B080.png" width="30px" style="width:30px;height: auto;"/><br><span>B080</span></div> | 胡涂说 | hutusi.com | {{latest_content}}  |  [订阅地址](https://hutusi.com/feed.xml) | 
 | B081 | 鸟窝 | 万物之始，大道至简，衍化至繁 | {{latest_content}}  |  [订阅地址](https://colobu.com/atom.xml) |
-| B082 | 卡瓦邦噶！ | 无法自制的人得不到自由。 | {{latest_content}} | [订阅地址](https://www.kawabangga.com/feed) |
+| <div id="B082" style="text-align: center;"><img src="./_media/favicon/B082.png" width="30px" style="width:30px;height: auto;"/><br><span>B082</span></div> | 卡瓦邦噶！ | 无法自制的人得不到自由。 | {{latest_content}} | [订阅地址](https://www.kawabangga.com/feed) |
 | <div id="B083" style="text-align: center;"><img src="./_media/favicon/B083.png" width="30px" style="width:30px;height: auto;"/><br><span>B083</span></div> | 方圆STU | 天是方的，地是圆的。 | {{latest_content}} | [订阅地址](https://fangyuanstu.com/feed/) |
 | <div id="B084" style="text-align: center;"><img src="./_media/favicon/B084.png" width="30px" style="width:30px;height: auto;"/><br><span>B084</span></div> | 折影轻梦 | 崇尚自由、热爱科学与艺术 | {{latest_content}} | [订阅地址](https://nexmoe.com/atom.xml) |
 | <h2 id="数码">数码</h2> |  |   |  |
