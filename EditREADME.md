@@ -138,7 +138,8 @@
 | <h2 id="金融类">金融类</h2> |  |   |  |
 | F001 | 雪球 | 聪明的投资者都在这里,雪球每日精华 | {{latest_content}}  |  [订阅地址](https://xueqiu.com/hots/topic/rss) |  
 | <h2 id="科技类">科技类</h2> |  |   |  |
-| T001 | 奇客Solidot–传递最新科技情报 | 奇客的资讯，重要的东西 | {{latest_content}}  |  [订阅地址](https://www.solidot.org/index.rss) |  
+| T001 | Hack News | 极其优质的极客新闻 | {{latest_content}}  |  [订阅地址](https://news.ycombinator.com/rss) |  
+| T002 | 奇客Solidot–传递最新科技情报 | 奇客的资讯，重要的东西 | {{latest_content}}  |  [订阅地址](https://www.solidot.org/index.rss) |  
 | <h2 id="学习类">学习类</h2> |  |   |  |
 | L001 | 扔物线 | 帮助 Android 工程师进阶成长 | {{latest_content}}  |  [订阅地址](https://rengwuxian.com/feed) |  
 | L002 | MOOC中国 | 慕课改变你，你改变世界  | {{latest_content}}  |  [订阅地址](https://www.mooc.cn/feed) |  
