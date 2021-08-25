@@ -79,6 +79,8 @@ def send_mail(email, title, contents):
 
 def replace_readme():
     new_edit_readme_md = [""]
+    current_date_news_index = [""]
+    
     # 读取EditREADME.md
     print("replace_readme")
     with open(os.path.join(os.getcwd(),"EditREADME.md"),'r') as load_f:
@@ -99,7 +101,15 @@ def replace_readme():
             parse_result = urlparse(link)
             scheme_netloc_url = str(parse_result.scheme)+"://"+str(parse_result.netloc)
             latest_content = "[暂无法通过爬虫获取信息, 点击进入源网站主页]("+ scheme_netloc_url +")"
-            
+
+            # 加入到索引
+            try:
+                for rss_info_atom in rss_info:
+                    if (rss_info_atom["date"] == datetime.today().strftime("%Y-%m-%d")):
+                        current_date_news_index[0] = current_date_news_index[0] + "<br/>[" + "‣ " + rss_info_atom["title"]  +"](" + rss_info_atom["link"] +")"  
+            except:
+                print("An exception occurred")
+                
             if(len(rss_info) > 0):
                 rss_info[0]["title"] = rss_info[0]["title"].replace("|", "\|")
                 rss_info[0]["title"] = rss_info[0]["title"].replace("[", "\[")
@@ -113,16 +123,21 @@ def replace_readme():
                 rss_info[1]["title"] = rss_info[1]["title"].replace("]", "\]")
                 print("===date===>>", rss_info[0]["date"])
                 latest_content = latest_content + "<br/>[" + "‣ " +  rss_info[1]["title"] + ( " 🌈 " + rss_info[0]["date"] if (rss_info[0]["date"] == datetime.today().strftime("%Y-%m-%d")) else " \| " + rss_info[0]["date"] ) +"](" + rss_info[1]["link"] +")"
+
             # 生成after_info
             after_info = before_info.replace("{{latest_content}}", latest_content)
             print("====latest_content==>", latest_content)
             # 替换edit_readme_md中的内容
             new_edit_readme_md[0] = new_edit_readme_md[0].replace(before_info, after_info)
+    
+    # 替换EditREADME中的索引
+    new_edit_readme_md[0] = new_edit_readme_md[0].replace("{{news}}", current_date_news_index[0])
+        
     # 将新内容
     with open(os.path.join(os.getcwd(),"README.md"),'w') as load_f:
         load_f.write(new_edit_readme_md[0])
     
-    return new_edit_readme_md[0]
+    return new_edit_readme_md
 
 # 将README.md复制到docs中
 
@@ -143,9 +158,10 @@ def get_email_list():
     return email_list
 
 
+
 def main():
     readme_md = replace_readme()
-    content = markdown.markdown(readme_md, extensions=['tables', 'fenced_code'])
+    content = markdown.markdown(readme_md[0], extensions=['tables', 'fenced_code'])
     cp_readme_md_to_docs()
     cp_media_to_docs()
     email_list = get_email_list()

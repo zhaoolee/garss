@@ -16,6 +16,15 @@
 1. 收集RSS, 打造无广告内容优质的 **头版头条** 超赞新闻页
 2. 利用Github Actions, 搜集全部RSS的头版头条新闻标题和超链接, 并自动更新到首页,当天最新发布的文章会出现🌈 标志
 
+## 今天新出炉的烧饼(文章)~
+
+<br>
+
+{{news}}
+
+
+## 已收集RSS列表
+
 <br>
 
 | 编号 | 名称 | 描述 | RSS  |  最新内容 |
@@ -114,7 +123,7 @@
 | <div id="B083" style="text-align: center;"><img src="./_media/favicon/B083.png" width="30px" style="width:30px;height: auto;"/><br><span>B083</span></div> | 方圆STU | 天是方的，地是圆的。 | {{latest_content}} | [订阅地址](https://fangyuanstu.com/feed/) |
 | <div id="B084" style="text-align: center;"><img src="./_media/favicon/B084.png" width="30px" style="width:30px;height: auto;"/><br><span>B084</span></div> | 折影轻梦 | 崇尚自由、热爱科学与艺术 | {{latest_content}} | [订阅地址](https://nexmoe.com/atom.xml) |
 | <div id="B085" style="text-align: center;"><img src="./_media/favicon/B085.png" width="30px" style="width:30px;height: auto;"/><br><span>B085</span></div> | 不羁阁 | 行走少年郎 不羁，谓才行高远，不可羁系也 | {{latest_content}} | [订阅地址](https://bujige.net/atom.xml) |
-| <div id="B085" style="text-align: center;"><img src="./_media/favicon/B086.png" width="30px" style="width:30px;height: auto;"/><br><span>B086</span></div> | Cal Paterson | Cal Paterson's articles | {{latest_content}} | [订阅地址](https://calpaterson.com/calpaterson.rss) |
+| <div id="B086" style="text-align: center;"><img src="./_media/favicon/B086.png" width="30px" style="width:30px;height: auto;"/><br><span>B086</span></div> | Cal Paterson | Cal Paterson's articles | {{latest_content}} | [订阅地址](https://calpaterson.com/calpaterson.rss) |
 | <h2 id="数码">数码</h2> |  |   |  |
 | D001 | 少数派 | 少数派致力于更好地运用数字产品或科学方法，帮助用户提升工作效率和生活品质 | {{latest_content}}  |  [订阅地址](https://sspai.com/feed) | 
 | D002 | 数字尾巴 | 分享美好数字生活 | {{latest_content}}  |  [订阅地址](https://www.dgtle.com/rss/dgtle.xml) | 
