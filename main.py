@@ -106,7 +106,7 @@ def replace_readme():
             try:
                 for rss_info_atom in rss_info:
                     if (rss_info_atom["date"] == datetime.today().strftime("%Y-%m-%d")):
-                        current_date_news_index[0] = current_date_news_index[0] + "<br/>[" + "‣ " + rss_info_atom["title"]  +"](" + rss_info_atom["link"] +")"  
+                        current_date_news_index[0] = current_date_news_index[0] + "<br/>"+ "🌈 " +"[" + "‣ " + rss_info_atom["title"]  +"](" + rss_info_atom["link"] +")"  
             except:
                 print("An exception occurred")
                 
