@@ -139,6 +139,8 @@ def replace_readme():
     new_edit_readme_md[0] = new_edit_readme_md[0].replace("{{news}}", current_date_news_index[0])
     # 替换EditREADME中的新文章数量索引
     new_edit_readme_md[0] = new_edit_readme_md[0].replace("{{new_num}}", str(new_num))
+    # 添加CDN
+    new_edit_readme_md[0] = new_edit_readme_md[0].replace("./_media/favicon/", "https://cdn.jsdelivr.net/gh/zhaoolee/garss/_media/favicon/")
         
     # 将新内容
     with open(os.path.join(os.getcwd(),"README.md"),'w') as load_f:
