@@ -1,7 +1,7 @@
 name: zhaoolee
 on:
   schedule:
-    - cron:  '0 22 * * *'    # 国际标准时间22点（北京时间早上6点发）
+    - cron:  '0 22 * * *'    # 国际标准时间22点（北京时间早上6点发） 
   push:
     branches:    
       - main

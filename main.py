@@ -83,6 +83,7 @@ def replace_readme():
     
     # 读取EditREADME.md
     print("replace_readme")
+    new_num = 0
     with open(os.path.join(os.getcwd(),"EditREADME.md"),'r') as load_f:
         edit_readme_md = load_f.read();
         new_edit_readme_md[0] = edit_readme_md
@@ -92,6 +93,9 @@ def replace_readme():
         # 填充统计时间
         ga_rss_datetime = datetime.fromtimestamp(int(time.time()),pytz.timezone('Asia/Shanghai')).strftime('%Y-%m-%d %H:%M:%S')
         new_edit_readme_md[0] = new_edit_readme_md[0].replace("{{ga_rss_datetime}}", str(ga_rss_datetime))
+        
+
+
         for before_info in before_info_list:
             # 获取link
             link = re.findall(r'\[订阅地址\]\((.*)\)', before_info)[0]
@@ -106,7 +110,8 @@ def replace_readme():
             try:
                 for rss_info_atom in rss_info:
                     if (rss_info_atom["date"] == datetime.today().strftime("%Y-%m-%d")):
-                        current_date_news_index[0] = current_date_news_index[0] + "<br/>"+ "🌈 " +"[" + "‣ " + rss_info_atom["title"]  +"](" + rss_info_atom["link"] +")"  
+                        new_num = new_num + 1
+                        current_date_news_index[0] = current_date_news_index[0] + "<br/>"+ "🌈 " +"[" + "‣ " + rss_info_atom["title"]  +"](" + rss_info_atom["link"] +")"  + "(第" + new_num + "篇)"
             except:
                 print("An exception occurred")
                 
@@ -132,6 +137,8 @@ def replace_readme():
     
     # 替换EditREADME中的索引
     new_edit_readme_md[0] = new_edit_readme_md[0].replace("{{news}}", current_date_news_index[0])
+    # 替换EditREADME中的新文章数量索引
+    new_edit_readme_md[0] = new_edit_readme_md[0].replace("{{new_num}}", str(new_num))
         
     # 将新内容
     with open(os.path.join(os.getcwd(),"README.md"),'w') as load_f:
