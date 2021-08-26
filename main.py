@@ -14,7 +14,7 @@ from urllib.parse import urlparse
 
 def get_rss_info(feed_url):
     result = {"result": []}
-    # 如何请求出错,则重新请求,最多五次
+    # 如果请求出错,则重新请求,最多五次
     for i in range(5):
         try:
             headers = {
