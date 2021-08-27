@@ -22,8 +22,6 @@
 
 ## 已收集RSS列表
 
-<br>
-
 | 编号 | 名称 | 描述 | RSS  |  最新内容 |
 | --- | --- | --- | --- |  --- |
 | <h2 id="软件工具">软件工具</h2> |  |   |  |
@@ -173,7 +171,7 @@
 | C009 | WordPress大学 | WordPress建站资源平台 | {{latest_content}}  |  [订阅地址](https://www.wpdaxue.com/feed) |  
 | C010 | Linux中国 | Linux中文开源社区 | {{latest_content}}  |  [订阅地址](https://linux.cn/rss.xml) |  
 | C011 | V2EX | 创意工作者的社区 | {{latest_content}}  |  [订阅地址](https://www.v2ex.com/index.xml) |  
-| C012 | 酷 壳 | 酷 壳RSS | {{latest_content}}  |  [订阅地址](https://coolshell.cn/feed) |  
+| C012 | 酷壳(左耳朵耗子) | 酷 壳RSS | {{latest_content}}  |  [订阅地址](https://coolshell.cn/feed) |  
 | C013 | 豆瓣 | 豆瓣最受欢迎的影评 | {{latest_content}}  |  [订阅地址](https://www.douban.com/feed/review/movie) |  
 | C014 | 豆瓣 | 豆瓣最受欢迎的书评 | {{latest_content}}  |  [订阅地址](https://www.douban.com/feed/review/book) |  
 | C015 | 豆瓣 | 豆瓣最受欢迎的乐评 | {{latest_content}}  |  [订阅地址](https://www.douban.com/feed/review/music) |  
@@ -223,4 +221,7 @@
 
 
 
+## 交流群
+
+![wx-rss-001](https://cdn.fangyuanxiaozhan.com/assets/16300286155536dfSKZ16.png)
 
