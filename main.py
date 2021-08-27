@@ -32,6 +32,9 @@ def get_rss_info(feed_url):
                 title = entrie["title"]
                 link = entrie["link"]
                 date = time.strftime("%Y-%m-%d", entrie["published_parsed"])
+
+                title = title.replace("\n", "")
+                title = title.replace("\r", "")
                 result["result"].append({
                     "title": title,
                     "link": link,
@@ -111,7 +114,7 @@ def replace_readme():
                 for rss_info_atom in rss_info:
                     if (rss_info_atom["date"] == datetime.today().strftime("%Y-%m-%d")):
                         new_num = new_num + 1
-                        current_date_news_index[0] = current_date_news_index[0] + "<br/>"+ "🌈 " +"[" + "‣ " + rss_info_atom["title"]  +"](" + rss_info_atom["link"] +")"  + "(第" + str(new_num) +"篇)"
+                        current_date_news_index[0] = current_date_news_index[0] + "<br/>"+ "🌈 " +"[" + "‣ " + rss_info_atom["title"] + " | 第" + str(new_num) +"篇"  +"](" + rss_info_atom["link"] +")"  
             except:
                 print("An exception occurred")
                 
@@ -140,7 +143,7 @@ def replace_readme():
     # 替换EditREADME中的新文章数量索引
     new_edit_readme_md[0] = new_edit_readme_md[0].replace("{{new_num}}", str(new_num))
     # 添加CDN
-    new_edit_readme_md[0] = new_edit_readme_md[0].replace("./_media/favicon/", "https://cdn.jsdelivr.net/gh/zhaoolee/garss/_media/favicon/")
+    new_edit_readme_md[0] = new_edit_readme_md[0].replace("./_media", "https://cdn.jsdelivr.net/gh/zhaoolee/garss/_media")
         
     # 将新内容
     with open(os.path.join(os.getcwd(),"README.md"),'w') as load_f:
