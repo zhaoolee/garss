@@ -218,6 +218,30 @@
 }
 ```
 
+设置完成后 在README.md文件的底部加个空格，并push，即可触发更新！
+
+## 无法收到邮件怎么办
+
+可以按照以下代码，自测一下自己的HOST, PASSWORD，USER 是否能顺利发邮件
+
+```
+!pip install yagmail
+
+import yagmail
+
+# 连接邮箱服务器
+yag = yagmail.SMTP(user="填USER参数", password="填PASSWORD参数", host='填HOST参数')
+
+# 邮箱正文
+contents = ['今天是周末,我要学习, 学习使我快乐;', '<a href="https://www.python.org/">python官网的超链接</a>']
+
+# 发送邮件
+yag.send('填收件人邮箱', '主题:学习使我快乐', contents)
+```
+
+在线自测地址 [Colab： https://colab.research.google.com/](https://colab.research.google.com/)
+
+![在线自测](https://cdn.fangyuanxiaozhan.com/assets/1630148185497Xcz1J2wc.png)
 
 
 

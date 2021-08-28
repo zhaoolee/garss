@@ -177,7 +177,11 @@ def main():
     cp_readme_md_to_docs()
     cp_media_to_docs()
     email_list = get_email_list()
-    send_mail(email_list, "嘎!RSS订阅", content)
+    try:
+        send_mail(email_list, "嘎!RSS订阅", content)
+    except Exception as e:
+        print("==邮件设信息置错误===》》", e)
+
 
 
 main()
