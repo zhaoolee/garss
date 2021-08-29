@@ -209,10 +209,7 @@
 {
     "tasks": [
         {
-            "email": "zhaoolee@gmail.com"
-        },
-        {
-            "email": "zhaoolee@foxmail.com"
+            "email": "18324663213@163.com"
         }
     ]
 }
