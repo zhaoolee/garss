@@ -183,14 +183,14 @@
 | C018 | 博客园 | 博客园首页 | {{latest_content}}  |  [订阅地址](http://feed.cnblogs.com/blog/sitehome/rss) |  
 | C019 | PTT(台湾论坛) | PTT电影专题 | {{latest_content}}  |  [订阅地址](https://www.ptt.cc/atom/movie.xml) |  
 | C020 | PTT(台湾论坛) | PTT正妹专题 | {{latest_content}}  |  [订阅地址](https://www.ptt.cc/atom/beauty.xml) |  
-| C021 | Pixiv(艺术家社区) | 男性向作品排行 - 前20 | {{latest_content}}  |  [订阅地址](https://rakuen.thec.me/PixivRss/male-20) |
-| C022 | Pixiv(艺术家社区) | 女性向作品排行 - 前20 | {{latest_content}}  |  [订阅地址](https://rakuen.thec.me/PixivRss/female-20) |
-| C023 | Pixiv(艺术家社区) | Pixiv每日排行 - 前20 | {{latest_content}}  |  [订阅地址](http://rakuen.thec.me/PixivRss/daily-20) |  
-| C024 | Pixiv(艺术家社区) | Pixiv每月排行 - 前20 | {{latest_content}}  |  [订阅地址](http://rakuen.thec.me/PixivRss/monthly-20) |  
-| C025 | cnBeta | 中文业界资讯 | {{latest_content}}  |  [订阅地址](https://feedx.net/rss/cnbetatop.xml) |  
 | <div id="C021" style="text-align: center;"><img src="./_media/favicon/C021.png" width="30px" style="width:30px;height: auto;"/><br><span>C021</span></div> | 吾爱破解 | 吾爱破解 - LCG - LSG 安卓破解 病毒分析 - 最新精华 | {{latest_content}}  |  [订阅地址](https://www.52pojie.cn/forum.php?mod=guide&view=digest&rss=1) |  
 | <div id="C022" style="text-align: center;"><img src="./_media/favicon/C022.png" width="30px" style="width:30px;height: auto;"/><br><span>C022</span></div> | cnBeta.COM 精彩优秀评论 | 从cnBeta每天数千评论中精选出来的优秀评论 | {{latest_content}}  |  [订阅地址](https://www.cnbeta.com/commentrss.php) |  
 | <div id="C023" style="text-align: center;"><img src="./_media/favicon/C023.png" width="30px" style="width:30px;height: auto;"/><br><span>C023</span></div> | 比特客栈的文艺复兴 | We do not choose who we are, but we do choose who we become. | {{latest_content}}  |  [订阅地址](https://bitinn.net/feed/) |  
+| C024 | Pixiv(艺术家社区) | 男性向作品排行 - 前20 | {{latest_content}}  |  [订阅地址](https://rakuen.thec.me/PixivRss/male-20) |
+| C025 | Pixiv(艺术家社区) | 女性向作品排行 - 前20 | {{latest_content}}  |  [订阅地址](https://rakuen.thec.me/PixivRss/female-20) |
+| C026 | Pixiv(艺术家社区) | Pixiv每日排行 - 前20 | {{latest_content}}  |  [订阅地址](http://rakuen.thec.me/PixivRss/daily-20) |  
+| C027 | Pixiv(艺术家社区) | Pixiv每月排行 - 前20 | {{latest_content}}  |  [订阅地址](http://rakuen.thec.me/PixivRss/monthly-20) |  
+| C028 | cnBeta | 中文业界资讯 | {{latest_content}}  |  [订阅地址](https://feedx.net/rss/cnbetatop.xml) |  
 | <h2 id="影视资源">影视资源</h2> |  |   |  |
 | <div id="M001" style="text-align: center;"><img src="./_media/favicon/M001.png" width="30px" style="width:30px;height: auto;"/><br><span>M001</span></div> | VIP影院 |  666影院 - 全网VIP电影免费看！ | {{latest_content}}  |  [订阅地址](https://bukaivip.com/rss) |  
 | <h2 id="游戏">游戏</h2> |  |   |  |
@@ -198,7 +198,8 @@
 | <div id="G002" style="text-align: center;"><img src="./_media/favicon/G002.png" width="30px" style="width:30px;height: auto;"/><br><span>G002</span></div> | 游研社 |  无论你是游戏死忠，还是轻度的休闲玩家，在这里都能找到感兴趣的东西。 | {{latest_content}}  |  [订阅地址](https://www.yystv.cn/rss/feed) |  
 | <h2 id="资源类">资源类</h2> |  |   |  |
 | <div id="R001" style="text-align: center;"><img src="./_media/favicon/R001.png" width="30px" style="width:30px;height: auto;"/><br><span>R001</span></div> | 书格 |  有品格的数字古籍图书馆 | {{latest_content}}  |  [订阅地址](https://www.shuge.org/feed/) |  
-| <div id="R002" style="text-align: center;"><img src="./_media/favicon/R001.png" width="30px" style="width:30px;height: auto;"/><br><span>R001</span></div> | 书伴 |  为静心阅读而生 | {{latest_content}}  |  [订阅地址](https://feeds.feedburner.com/bookfere) |  
+| R002 | 书伴 |  为静心阅读而生 | {{latest_content}}  |  [订阅地址](https://feeds.feedburner.com/bookfere) |  
+| R003 | kindle吧 |  海量书单阅读分享者 | {{latest_content}}  |  [订阅地址](https://www.kindle8.cc/feed) |  
 
 
 
