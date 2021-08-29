@@ -10,42 +10,63 @@ import markdown
 import json
 import shutil
 from urllib.parse import urlparse
+from multiprocessing import Pool,  Manager
 
 
-def get_rss_info(feed_url):
+def get_rss_info(feed_url, index, rss_info_list):
     result = {"result": []}
+    request_success = False
     # 如果请求出错,则重新请求,最多五次
-    for i in range(5):
-        try:
-            headers = {
-                # 设置用户代理头(为狼披上羊皮)
-                "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36",
-                "Content-Encoding": "gzip"
-            }
-            # 设置15秒钟超时
-            feed_url_content = requests.get(feed_url,  timeout= 15 ,headers = headers).content
-            feed = feedparser.parse(feed_url_content)
-            feed_entries = feed["entries"]
-            feed_entries_length = len(feed_entries)
-            print("==feed_url=>>", feed_url, "==len=>>", feed_entries_length)
-            for entrie in feed_entries[0: feed_entries_length-1]:
-                title = entrie["title"]
-                link = entrie["link"]
-                date = time.strftime("%Y-%m-%d", entrie["published_parsed"])
+    for i in range(3):
+        if(request_success == False):
+            try:
+                headers = {
+                    # 设置用户代理头(为狼披上羊皮)
+                    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36",
+                    "Content-Encoding": "gzip"
+                }
+                # 三次分别设置5, 10, 15秒钟超时
+                feed_url_content = requests.get(feed_url,  timeout= (i+1)*5 ,headers = headers).content
+                feed = feedparser.parse(feed_url_content)
+                feed_entries = feed["entries"]
+                feed_entries_length = len(feed_entries)
+                print("==feed_url=>>", feed_url, "==len=>>", feed_entries_length)
+                for entrie in feed_entries[0: feed_entries_length-1]:
+                    title = entrie["title"]
+                    link = entrie["link"]
+                    date = time.strftime("%Y-%m-%d", entrie["published_parsed"])
 
-                title = title.replace("\n", "")
-                title = title.replace("\r", "")
-                result["result"].append({
-                    "title": title,
-                    "link": link,
-                    "date": date
-                })
-            break
-        except Exception as e:
-            print(feed_url+"第+"+str(i)+"+次请求出错==>>",e)
+                    title = title.replace("\n", "")
+                    title = title.replace("\r", "")
+
+                    title = title.replace("|", "\|")
+                    title = title.replace("[", "\[")
+                    title = title.replace("]", "\]")
+
+
+
+                    result["result"].append({
+                        "title": title,
+                        "link": link,
+                        "date": date
+                    })
+                request_success = True
+            except Exception as e:
+                print(feed_url+"第+"+str(i)+"+次请求出错==>>",e)
+                pass
+        else:
             pass
 
+    rss_info_list[index] = result["result"]
+    print("本次爬取==》》", feed_url, "<<<===", index, result["result"])
+    # 剩余数量
+    remaining_amount = 0
 
+    for tmp_rss_info_atom in rss_info_list:
+        if(isinstance(tmp_rss_info_atom, int)):
+            remaining_amount = remaining_amount + 1
+            
+    print("当前进度 | 剩余数量", remaining_amount, "已完成==>>", len(rss_info_list)-remaining_amount)
     return result["result"]
     
 
@@ -96,14 +117,41 @@ def replace_readme():
         # 填充统计时间
         ga_rss_datetime = datetime.fromtimestamp(int(time.time()),pytz.timezone('Asia/Shanghai')).strftime('%Y-%m-%d %H:%M:%S')
         new_edit_readme_md[0] = new_edit_readme_md[0].replace("{{ga_rss_datetime}}", str(ga_rss_datetime))
+
+        # 使用进程池进行数据获取，获得rss_info_list
+
         
 
+        
+        before_info_list_len = len(before_info_list)
+        rss_info_list = Manager().list(range(before_info_list_len))
+        
+        print('初始化完毕==》', rss_info_list)
 
-        for before_info in before_info_list:
+        
+
+        # 创建一个最多开启3进程的进程池
+        po = Pool(6)
+
+        for index, before_info in enumerate(before_info_list):
+            # 获取link
+            link = re.findall(r'\[订阅地址\]\((.*)\)', before_info)[0]
+            po.apply_async(get_rss_info,(link, index, rss_info_list))
+
+
+        # 关闭进程池,不再接收新的任务,开始执行任务
+        po.close()
+
+        # 主进程等待所有子进程结束
+        po.join()
+        print("----结束----", rss_info_list)
+
+
+        for index, before_info in enumerate(before_info_list):
             # 获取link
             link = re.findall(r'\[订阅地址\]\((.*)\)', before_info)[0]
             # 生成超链接
-            rss_info = get_rss_info(link)
+            rss_info = rss_info_list[index]
             latest_content = ""
             parse_result = urlparse(link)
             scheme_netloc_url = str(parse_result.scheme)+"://"+str(parse_result.netloc)
@@ -119,17 +167,11 @@ def replace_readme():
                 print("An exception occurred")
                 
             if(len(rss_info) > 0):
-                rss_info[0]["title"] = rss_info[0]["title"].replace("|", "\|")
-                rss_info[0]["title"] = rss_info[0]["title"].replace("[", "\[")
-                rss_info[0]["title"] = rss_info[0]["title"].replace("]", "\]")
-                print("===date===>>", rss_info[0]["date"])
+
                 latest_content = "[" + "‣ " + rss_info[0]["title"] + ( " 🌈 " + rss_info[0]["date"] if (rss_info[0]["date"] == datetime.today().strftime("%Y-%m-%d")) else " \| " + rss_info[0]["date"] ) +"](" + rss_info[0]["link"] +")"  
 
             if(len(rss_info) > 1):
-                rss_info[1]["title"] = rss_info[1]["title"].replace("|", "\|")
-                rss_info[1]["title"] = rss_info[1]["title"].replace("[", "\[")
-                rss_info[1]["title"] = rss_info[1]["title"].replace("]", "\]")
-                print("===date===>>", rss_info[0]["date"])
+
                 latest_content = latest_content + "<br/>[" + "‣ " +  rss_info[1]["title"] + ( " 🌈 " + rss_info[0]["date"] if (rss_info[0]["date"] == datetime.today().strftime("%Y-%m-%d")) else " \| " + rss_info[0]["date"] ) +"](" + rss_info[1]["link"] +")"
 
             # 生成after_info
@@ -183,5 +225,5 @@ def main():
         print("==邮件设信息置错误===》》", e)
 
 
-
-main()
+if __name__ == "__main__":
+    main()
