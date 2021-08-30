@@ -3,7 +3,6 @@
 {{news}}
 
 ## 已收集RSS列表
-
 | 编号 | 名称 | 描述 | RSS  |  最新内容 |
 | --- | --- | --- | --- |  --- |
 | <h2 id="软件工具">软件工具</h2> |  |   |  |
@@ -182,68 +181,3 @@
 | <div id="R001" style="text-align: center;"><img src="./_media/favicon/R001.png" width="30px" style="width:30px;height: auto;"/><br><span>R001</span></div> | 书格 |  有品格的数字古籍图书馆 | {{latest_content}}  |  [订阅地址](https://www.shuge.org/feed/) |  
 | R002 | 书伴 |  为静心阅读而生 | {{latest_content}}  |  [订阅地址](https://feeds.feedburner.com/bookfere) |  
 | R003 | kindle吧 |  海量书单阅读分享者 | {{latest_content}}  |  [订阅地址](https://www.kindle8.cc/feed) |  
-
-
-
-## 如何定制自己的私人简报?
-
-从 github.com/zhaoolee/garss.git 仓库, fork一份程序到自己的仓库
-
-允许运行actions
-
-![允许运行actions](https://cdn.fangyuanxiaozhan.com/assets/1630216112533FANcC1QY.jpeg)
-
-在EditREADME.md中, 展示了zhaoolee已收集的RSS列表, 你可以参考每行的格式, 按行增删自己订阅的RSS
-
-然后按照下图设置发件邮箱相关内容即可!
-
-![](https://cdn.fangyuanxiaozhan.com/assets/1629970189283arACkBKe.png)
-
-在根目录, tasks.json中配置收件人, 收件人是一个对象数组, 数组中的邮箱, 都会收到邮件, 后续会扩展更多功能~
-
-```
-{
-    "tasks": [
-        {
-            "email": "zhaoolee@gmail.com"
-        },
-        {
-            "email": "zhaoolee@foxmail.com"
-        }
-    ]
-}
-```
-
-设置完成后 在README.md文件的底部加个空格，并push，即可触发更新！
-
-## 无法收到邮件怎么办
-
-可以按照以下代码，自测一下自己的HOST, PASSWORD，USER 是否能顺利发邮件
-
-```
-!pip install yagmail
-
-import yagmail
-
-# 连接邮箱服务器
-yag = yagmail.SMTP(user="填USER参数", password="填PASSWORD参数", host='填HOST参数')
-
-# 邮箱正文
-contents = ['今天是周末,我要学习, 学习使我快乐;', '<a href="https://www.python.org/">python官网的超链接</a>']
-
-# 发送邮件
-yag.send('填收件人邮箱', '主题:学习使我快乐', contents)
-```
-
-在线自测地址 [Colab： https://colab.research.google.com/](https://colab.research.google.com/)
-
-![在线自测](https://cdn.fangyuanxiaozhan.com/assets/1630148185497Xcz1J2wc.png)
-
-
-
-## 交流群
-
-![wx-rss-002](https://cdn.fangyuanxiaozhan.com/assets/16300510778427kGzf4AN.png)
-
-![wx-rss-001](https://cdn.fangyuanxiaozhan.com/assets/16300286155536dfSKZ16.png)
-
