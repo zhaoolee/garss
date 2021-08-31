@@ -229,10 +229,10 @@ def main():
     mail_re = r'邮件内容区开始>([.\S\s]*)<邮件内容区结束'
     reResult = re.findall(mail_re, readme_md[0])
 
-    mail_content = markdown.markdown(reResult)
+    # mail_content = markdown.markdown(reResult)
 
     try:
-        send_mail(email_list, "嘎!RSS订阅", mail_content)
+        send_mail(email_list, "嘎!RSS订阅", reResult)
     except Exception as e:
         print("==邮件设信息置错误===》》", e)
 
