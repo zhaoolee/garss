@@ -39,12 +39,6 @@ def get_rss_info(feed_url, index, rss_info_list):
                     title = title.replace("\n", "")
                     title = title.replace("\r", "")
 
-                    # title = title.replace("|", "\|")
-                    # title = title.replace("[", "\[")
-                    # title = title.replace("]", "\]")
-
-
-
                     result["result"].append({
                         "title": title,
                         "link": link,
@@ -102,7 +96,7 @@ def send_mail(email, title, contents):
     yag.send(email, title, contents)
 
 def replace_readme():
-    new_edit_readme_md = [""]
+    new_edit_readme_md = ["", ""]
     current_date_news_index = [""]
     
     # 读取EditREADME.md
@@ -119,13 +113,8 @@ def replace_readme():
         new_edit_readme_md[0] = new_edit_readme_md[0].replace("{{ga_rss_datetime}}", str(ga_rss_datetime))
 
         # 使用进程池进行数据获取，获得rss_info_list
-
-        
-
-        
         before_info_list_len = len(before_info_list)
         rss_info_list = Manager().list(range(before_info_list_len))
-        
         print('初始化完毕==》', rss_info_list)
 
         
@@ -203,6 +192,11 @@ def replace_readme():
     with open(os.path.join(os.getcwd(),"README.md"),'w') as load_f:
         load_f.write(new_edit_readme_md[0])
     
+
+    mail_re = r'邮件内容区开始>([.\S\s]*)邮件内容区结束'
+    reResult = re.findall(mail_re, new_edit_readme_md[0])
+    new_edit_readme_md[1] = reResult
+    
     return new_edit_readme_md
 
 # 将README.md复制到docs中
@@ -227,7 +221,8 @@ def get_email_list():
 
 def main():
     readme_md = replace_readme()
-    content = markdown.markdown(readme_md[0], extensions=['tables', 'fenced_code'])
+    print('111111111111111111111111111====>>', readme_md[1])
+    content = markdown.markdown(readme_md[1], extensions=['tables', 'fenced_code'])
     cp_readme_md_to_docs()
     cp_media_to_docs()
     email_list = get_email_list()
