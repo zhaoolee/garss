@@ -39,9 +39,9 @@ def get_rss_info(feed_url, index, rss_info_list):
                     title = title.replace("\n", "")
                     title = title.replace("\r", "")
 
-                    # title = title.replace("|", "\|")
-                    # title = title.replace("[", "\[")
-                    # title = title.replace("]", "\]")
+                    title = title.replace("|", "\|")
+                    title = title.replace("[", "\[")
+                    title = title.replace("]", "\]")
 
 
 
@@ -170,9 +170,9 @@ def replace_readme():
             except:
                 print("An exception occurred")
             
-            rss_info[0]["title"] = rss_info[0]["title"].replace("|", "\|")
-            rss_info[0]["title"] = rss_info[0]["title"].replace("[", "\[")
-            rss_info[0]["title"] = rss_info[0]["title"].replace("]", "\]")
+            rss_info[0]["title"] = rss_info[0]["title"].replace("\|", "|")
+            rss_info[0]["title"] = rss_info[0]["title"].replace("\[", "[")
+            rss_info[0]["title"] = rss_info[0]["title"].replace("\]", "]")
                 
             if(len(rss_info) > 0):
 
