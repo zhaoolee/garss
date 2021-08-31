@@ -221,13 +221,18 @@ def get_email_list():
 
 def main():
     readme_md = replace_readme()
-    print('111111111111111111111111111====>>', readme_md[1])
     content = markdown.markdown(readme_md[0], extensions=['tables', 'fenced_code'])
     cp_readme_md_to_docs()
     cp_media_to_docs()
     email_list = get_email_list()
+
+    mail_re = r'邮件内容区开始>([.\S\s]*)<邮件内容区结束'
+    reResult = re.findall(mail_re, readme_md[0])
+
+    mail_content = markdown.markdown(reResult)
+
     try:
-        send_mail(email_list, "嘎!RSS订阅", content)
+        send_mail(email_list, "嘎!RSS订阅", mail_content)
     except Exception as e:
         print("==邮件设信息置错误===》》", e)
 
