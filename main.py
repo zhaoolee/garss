@@ -170,15 +170,19 @@ def replace_readme():
             except:
                 print("An exception occurred")
             
-            rss_info[0]["title"] = rss_info[0]["title"].replace("\|", "|")
-            rss_info[0]["title"] = rss_info[0]["title"].replace("\[", "[")
-            rss_info[0]["title"] = rss_info[0]["title"].replace("\]", "]")
+
                 
             if(len(rss_info) > 0):
+                rss_info[0]["title"] = rss_info[0]["title"].replace("\|", "|")
+                rss_info[0]["title"] = rss_info[0]["title"].replace("\[", "[")
+                rss_info[0]["title"] = rss_info[0]["title"].replace("\]", "]")
 
                 latest_content = "[" + "‣ " + rss_info[0]["title"] + ( " 🌈 " + rss_info[0]["date"] if (rss_info[0]["date"] == datetime.today().strftime("%Y-%m-%d")) else " \| " + rss_info[0]["date"] ) +"](" + rss_info[0]["link"] +")"  
 
             if(len(rss_info) > 1):
+                rss_info[1]["title"] = rss_info[1]["title"].replace("\|", "|")
+                rss_info[1]["title"] = rss_info[1]["title"].replace("\[", "[")
+                rss_info[1]["title"] = rss_info[1]["title"].replace("\]", "]")
 
                 latest_content = latest_content + "<br/>[" + "‣ " +  rss_info[1]["title"] + ( " 🌈 " + rss_info[0]["date"] if (rss_info[0]["date"] == datetime.today().strftime("%Y-%m-%d")) else " \| " + rss_info[0]["date"] ) +"](" + rss_info[1]["link"] +")"
 
