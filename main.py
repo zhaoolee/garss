@@ -227,10 +227,7 @@ def get_email_list():
 
 def main():
     readme_md = replace_readme()
-
-    tmp_content = re.findall(r'---邮件内容区开始---(.*?)---邮件内容区结束---' , readme_md[0])
-
-    content = markdown.markdown(' '.join(tmp_content), extensions=['tables', 'fenced_code'])
+    content = markdown.markdown(readme_md[0], extensions=['tables', 'fenced_code'])
     cp_readme_md_to_docs()
     cp_media_to_docs()
     email_list = get_email_list()
