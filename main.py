@@ -193,7 +193,7 @@ def replace_readme():
         load_f.write(new_edit_readme_md[0])
     
 
-    mail_re = r'邮件内容区开始>([.\S\s]*)邮件内容区结束'
+    mail_re = r'邮件内容区开始>([.\S\s]*)<邮件内容区结束'
     reResult = re.findall(mail_re, new_edit_readme_md[0])
     new_edit_readme_md[1] = reResult
     
