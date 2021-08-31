@@ -162,7 +162,11 @@ def replace_readme():
                 for rss_info_atom in rss_info:
                     if (rss_info_atom["date"] == datetime.today().strftime("%Y-%m-%d")):
                         new_num = new_num + 1
-                        current_date_news_index[0] = current_date_news_index[0] + "<div style='line-height:2;'><a href='" + rss_info_atom["link"] + "' " + 'style="line-height:2;text-decoration:none;display:block;">' + "🌈 ‣ " + rss_info_atom["title"] + " | 第" + str(new_num) +"篇" + "</a></div>"
+                        if (new_num % 2) == 0:
+                            current_date_news_index[0] = current_date_news_index[0] + "<div style='line-height:3;'><a href='" + rss_info_atom["link"] + "' " + 'style="line-height:2;text-decoration:none;display:block;">' + "🌈 ‣ " + rss_info_atom["title"] + " | 第" + str(new_num) +"篇" + "</a></div>"
+                        else:
+                            current_date_news_index[0] = current_date_news_index[0] + "<div style='line-height:3;background-color:#FAF6EA;'><a href='" + rss_info_atom["link"] + "' " + 'style="line-height:2;text-decoration:none;display:block;">' + "🌈 ‣ " + rss_info_atom["title"] + " | 第" + str(new_num) +"篇" + "</a></div>"
+
             except:
                 print("An exception occurred")
                 
