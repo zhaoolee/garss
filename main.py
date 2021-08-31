@@ -39,9 +39,9 @@ def get_rss_info(feed_url, index, rss_info_list):
                     title = title.replace("\n", "")
                     title = title.replace("\r", "")
 
-                    title = title.replace("|", "\|")
-                    title = title.replace("[", "\[")
-                    title = title.replace("]", "\]")
+                    # title = title.replace("|", "\|")
+                    # title = title.replace("[", "\[")
+                    # title = title.replace("]", "\]")
 
 
 
@@ -173,16 +173,16 @@ def replace_readme():
 
                 
             if(len(rss_info) > 0):
-                rss_info[0]["title"] = rss_info[0]["title"].replace("\|", "|")
-                rss_info[0]["title"] = rss_info[0]["title"].replace("\[", "[")
-                rss_info[0]["title"] = rss_info[0]["title"].replace("\]", "]")
+                rss_info[0]["title"] = rss_info[0]["title"].replace("|", "\|")
+                rss_info[0]["title"] = rss_info[0]["title"].replace("[", "\[")
+                rss_info[0]["title"] = rss_info[0]["title"].replace("]", "\]")
 
                 latest_content = "[" + "‣ " + rss_info[0]["title"] + ( " 🌈 " + rss_info[0]["date"] if (rss_info[0]["date"] == datetime.today().strftime("%Y-%m-%d")) else " \| " + rss_info[0]["date"] ) +"](" + rss_info[0]["link"] +")"  
 
             if(len(rss_info) > 1):
-                rss_info[1]["title"] = rss_info[1]["title"].replace("\|", "|")
-                rss_info[1]["title"] = rss_info[1]["title"].replace("\[", "[")
-                rss_info[1]["title"] = rss_info[1]["title"].replace("\]", "]")
+                rss_info[1]["title"] = rss_info[1]["title"].replace("|", "\|")
+                rss_info[1]["title"] = rss_info[1]["title"].replace("[", "\[")
+                rss_info[1]["title"] = rss_info[1]["title"].replace("]", "\]")
 
                 latest_content = latest_content + "<br/>[" + "‣ " +  rss_info[1]["title"] + ( " 🌈 " + rss_info[0]["date"] if (rss_info[0]["date"] == datetime.today().strftime("%Y-%m-%d")) else " \| " + rss_info[0]["date"] ) +"](" + rss_info[1]["link"] +")"
 
@@ -227,7 +227,10 @@ def get_email_list():
 
 def main():
     readme_md = replace_readme()
-    content = markdown.markdown(readme_md[0], extensions=['tables', 'fenced_code'])
+
+    tmp_content = re.findall(r'---邮件内容区开始---(.*?)---邮件内容区结束---' , readme_md[0])
+
+    content = markdown.markdown(' '.join(tmp_content), extensions=['tables', 'fenced_code'])
     cp_readme_md_to_docs()
     cp_media_to_docs()
     email_list = get_email_list()
