@@ -169,6 +169,10 @@ def replace_readme():
 
             except:
                 print("An exception occurred")
+            
+            rss_info[0]["title"] = rss_info[0]["title"].replace("|", "\|")
+            rss_info[0]["title"] = rss_info[0]["title"].replace("[", "\[")
+            rss_info[0]["title"] = rss_info[0]["title"].replace("]", "\]")
                 
             if(len(rss_info) > 0):
 
