@@ -222,7 +222,7 @@ def get_email_list():
 def main():
     readme_md = replace_readme()
     print('111111111111111111111111111====>>', readme_md[1])
-    content = markdown.markdown(readme_md[1], extensions=['tables', 'fenced_code'])
+    content = markdown.markdown(readme_md[0], extensions=['tables', 'fenced_code'])
     cp_readme_md_to_docs()
     cp_media_to_docs()
     email_list = get_email_list()
