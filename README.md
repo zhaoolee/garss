@@ -257,6 +257,7 @@ contents = ['今天是周末,我要学习, 学习使我快乐;', '<a href="https
 yag.send('填收件人邮箱', '主题:学习使我快乐', contents)
 ```
 
+
 在线自测地址 [Colab： https://colab.research.google.com/](https://colab.research.google.com/)
 
 ![在线自测](https://cdn.fangyuanxiaozhan.com/assets/1630148185497Xcz1J2wc.png)
@@ -269,7 +270,9 @@ yag.send('填收件人邮箱', '主题:学习使我快乐', contents)
 
 ## 交流群
 
+
 ![wx-rss-002](https://cdn.fangyuanxiaozhan.com/assets/16300510778427kGzf4AN.png)
 
 ![wx-rss-001](https://cdn.fangyuanxiaozhan.com/assets/16300286155536dfSKZ16.png)
+
 
