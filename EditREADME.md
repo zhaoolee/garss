@@ -259,7 +259,7 @@ yag.send('填收件人邮箱', '主题:学习使我快乐', contents)
 
 在线自测地址 [Colab： https://colab.research.google.com/](https://colab.research.google.com/)
 
-![在线自测](https://cdn.fangyuanxiaozhan.com/assets/1630148185497Xcz1J2wc.png)
+![在线自测](https://i.v2ex.co/zQWM0V6b.png)
 
 ## 发送邮件的效果
 
