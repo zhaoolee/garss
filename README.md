@@ -261,7 +261,11 @@ yag.send('填收件人邮箱', '主题:学习使我快乐', contents)
 
 ![在线自测](https://cdn.fangyuanxiaozhan.com/assets/1630148185497Xcz1J2wc.png)
 
+## 邮件发送后的效果
 
+![PC查看邮件效果](https://cdn.fangyuanxiaozhan.com/assets/1630399693988c2tk8n7k.png)
+
+![手机查看邮件效果](https://cdn.fangyuanxiaozhan.com/assets/163039979740967wCT8RQ.jpeg)
 
 ## 交流群
 
