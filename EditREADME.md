@@ -201,6 +201,7 @@
 | C027 | Pixiv(艺术家社区) | Pixiv每月排行 - 前20 | {{latest_content}}  |  [订阅地址](http://rakuen.thec.me/PixivRss/monthly-20) |  
 | C028 | cnBeta | 中文业界资讯 | {{latest_content}}  |  [订阅地址](https://feedx.net/rss/cnbetatop.xml) |  
 | C029 | China Daily News | 中国每日新闻 | {{latest_content}}  |  [订阅地址](http://www.chinadaily.com.cn/rss/cndy_rss.xml) |  
+| C030 | MM范 | 妹子热门图 | {{latest_content}}  |  [订阅地址](https://rsshub.app/95mm/tab/%E7%83%AD%E9%97%A8) |  
 | <h2 id="影视资源">影视资源</h2> |  |   |  |
 | <div id="M001" style="text-align: center;"><img src="./_media/favicon/M001.png" width="30px" style="width:30px;height: auto;"/><br><span>M001</span></div> | VIP影院 |  666影院 - 全网VIP电影免费看！ | {{latest_content}}  |  [订阅地址](https://bukaivip.com/rss) |  
 | <h2 id="游戏">游戏</h2> |  |   |  |
