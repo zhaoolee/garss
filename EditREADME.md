@@ -113,6 +113,7 @@
 | <div id="B082" style="text-align: center;"><img src="./_media/favicon/B082.png" width="30px" style="width:30px;height: auto;"/><br><span>B082</span></div> | 卡瓦邦噶！ | 无法自制的人得不到自由。 | {{latest_content}} | [订阅地址](https://www.kawabangga.com/feed) |
 | <div id="B083" style="text-align: center;"><img src="./_media/favicon/B083.png" width="30px" style="width:30px;height: auto;"/><br><span>B083</span></div> | 方圆STU | 天是方的，地是圆的。 | {{latest_content}} | [订阅地址](https://fangyuanstu.com/feed/) |
 | <div id="B084" style="text-align: center;"><img src="./_media/favicon/B084.png" width="30px" style="width:30px;height: auto;"/><br><span>B084</span></div> | 折影轻梦 | 崇尚自由、热爱科学与艺术 | {{latest_content}} | [订阅地址](https://nexmoe.com/atom.xml) |
+| <div id="B085" style="text-align: center;"><span>B084</span></div> | ZMonster's Blog | 巧者劳而智者忧，无能者无所求，饱食而遨游，泛若不系之舟 | {{latest_content}} | [订阅地址](https://www.zmonster.me/atom.xml) |
 | <h2 id="数码">数码</h2> |  |   |  |
 | D001 | 少数派 | 少数派致力于更好地运用数字产品或科学方法，帮助用户提升工作效率和生活品质 | {{latest_content}}  |  [订阅地址](https://sspai.com/feed) | 
 | D002 | 数字尾巴 | 分享美好数字生活 | {{latest_content}}  |  [订阅地址](https://www.dgtle.com/rss/dgtle.xml) | 
@@ -138,6 +139,9 @@
 | F001 | 雪球 | 聪明的投资者都在这里,雪球每日精华 | {{latest_content}}  |  [订阅地址](https://xueqiu.com/hots/topic/rss) |  
 | <h2 id="科技类">科技类</h2> |  |   |  |
 | T001 | 奇客Solidot–传递最新科技情报 | 奇客的资讯，重要的东西 | {{latest_content}}  |  [订阅地址](https://www.solidot.org/index.rss) |  
+| T002 | 产品运营 | 产品运营 - 人人都是产品经理 | {{latest_content}}  |  [订阅地址](http://www.woshipm.com/category/operate/feed) |  
+| T003 | 产品经理  | 产品经理 – 人人都是产品经理 | {{latest_content}}  |  [订阅地址](http://www.woshipm.com/category/pmd/feed) |  
+| T004 | 产品100  | 产品人学习成长社区 | {{latest_content}}  |  [订阅地址](http://www.chanpin100.com/feed) |  
 | <h2 id="学习类">学习类</h2> |  |   |  |
 | L001 | 扔物线 | 帮助 Android 工程师进阶成长 | {{latest_content}}  |  [订阅地址](https://rengwuxian.com/feed) |  
 | L002 | MOOC中国 | 慕课改变你，你改变世界  | {{latest_content}}  |  [订阅地址](https://www.mooc.cn/feed) |  
@@ -176,6 +180,7 @@
 | <div id="C021" style="text-align: center;"><img src="./_media/favicon/C021.png" width="30px" style="width:30px;height: auto;"/><br><span>C021</span></div> | 吾爱破解 | 吾爱破解 - LCG - LSG 安卓破解 病毒分析 - 最新精华 | {{latest_content}}  |  [订阅地址](https://www.52pojie.cn/forum.php?mod=guide&view=digest&rss=1) |  
 | <div id="C022" style="text-align: center;"><img src="./_media/favicon/C022.png" width="30px" style="width:30px;height: auto;"/><br><span>C022</span></div> | cnBeta.COM 精彩优秀评论 | 从cnBeta每天数千评论中精选出来的优秀评论 | {{latest_content}}  |  [订阅地址](https://www.cnbeta.com/commentrss.php) |  
 | <div id="C023" style="text-align: center;"><img src="./_media/favicon/C023.png" width="30px" style="width:30px;height: auto;"/><br><span>C023</span></div> | 比特客栈的文艺复兴 | We do not choose who we are, but we do choose who we become. | {{latest_content}}  |  [订阅地址](https://bitinn.net/feed/) |  
+| <div id="C024" style="text-align: center;">C024</div> | China Daily News | 中国每日新闻 | {{latest_content}}  |  [订阅地址](http://www.chinadaily.com.cn/rss/cndy_rss.xml) |  
 | <h2 id="影视资源">影视资源</h2> |  |   |  |
 | <div id="M001" style="text-align: center;"><img src="./_media/favicon/M001.png" width="30px" style="width:30px;height: auto;"/><br><span>M001</span></div> | VIP影院 |  666影院 - 全网VIP电影免费看！ | {{latest_content}}  |  [订阅地址](https://bukaivip.com/rss) |  
 | <h2 id="游戏">游戏</h2> |  |   |  |
