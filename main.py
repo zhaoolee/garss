@@ -25,8 +25,8 @@ def get_rss_info(feed_url, index, rss_info_list):
                     "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36",
                     "Content-Encoding": "gzip"
                 }
-                # 三次分别设置5, 10, 15秒钟超时
-                feed_url_content = requests.get(feed_url,  timeout= (i+1)*5 ,headers = headers).content
+                # 三次分别设置8, 16, 24秒钟超时
+                feed_url_content = requests.get(feed_url,  timeout= (i+1)*8 ,headers = headers).content
                 feed = feedparser.parse(feed_url_content)
                 feed_entries = feed["entries"]
                 feed_entries_length = len(feed_entries)
@@ -119,8 +119,8 @@ def replace_readme():
 
         
 
-        # 创建一个最多开启3进程的进程池
-        po = Pool(6)
+        # 创建一个最多开启8进程的进程池
+        po = Pool(8)
 
         for index, before_info in enumerate(before_info_list):
             # 获取link
