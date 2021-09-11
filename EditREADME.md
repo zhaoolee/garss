@@ -123,7 +123,19 @@
 | <div id="B085" style="text-align: center;"><img src="./_media/favicon/B085.png" width="30px" style="width:30px;height: auto;"/><br><span>B085</span></div> | 不羁阁 | 行走少年郎 不羁，谓才行高远，不可羁系也 | {{latest_content}} | [订阅地址](https://bujige.net/atom.xml) |
 | <div id="B086" style="text-align: center;"><img src="./_media/favicon/B086.png" width="30px" style="width:30px;height: auto;"/><br><span>B086</span></div> | Cal Paterson | Cal Paterson's articles | {{latest_content}} | [订阅地址](https://calpaterson.com/calpaterson.rss) |
 | B087 | 3号实验室 | 树莓派; 开发板; 编程; 折腾 | {{latest_content}} | [订阅地址](https://www.labno3.com/feed/) |
-| <div id="B087" style="text-align: center;"><span>B087</span></div> | ZMonster's Blog | 巧者劳而智者忧，无能者无所求，饱食而遨游，泛若不系之舟 | {{latest_content}} | [订阅地址](https://www.zmonster.me/atom.xml) |
+| <div id="B088" style="text-align: center;"><span>B088</span></div> | ZMonster's Blog | 巧者劳而智者忧，无能者无所求，饱食而遨游，泛若不系之舟 | {{latest_content}} | [订阅地址](https://www.zmonster.me/atom.xml) |
+| <div id="B089" style="text-align: center;"><span>B089</span></div> | 十年老程网 | 推荐各种VPS主机 | {{latest_content}} | [订阅地址](http://snlcw.com/feed) |
+| <div id="B090" style="text-align: center;"><span>B090</span></div> | 小明明 domicile | 前豆瓣工程师，现在家带娃，远程工作机会联系我哟 | {{latest_content}} | [订阅地址](http://snlcw.com/feed) |
+| <div id="B091" style="text-align: center;"><span>B091</span></div> | LFhacks.com | 读万卷书，行万里路 | {{latest_content}} | [订阅地址](https://www.lfhacks.com/rss/) |
+| <div id="B092" style="text-align: center;"><span>B092</span></div> | 三省吾身 | 兴趣遍地都是，专注和持之以恒才是真正稀缺的 | {{latest_content}} | [订阅地址](https://blog.guowenfh.com/atom.xml) |
+| <div id="B093" style="text-align: center;"><span>B093</span></div> | 夏海比比 | 关于设计与摄影，一个95后的个人博客 | {{latest_content}} | [订阅地址](https://huiweishijie.com/feed.xml) |
+| <div id="B094" style="text-align: center;"><span>B094</span></div> | TRHX'S BLOG | 一入 IT 深似海 从此学习无绝期 | {{latest_content}} | [订阅地址](https://www.itrhx.com/atom.xml) |
+| <div id="B095" style="text-align: center;"><span>B095</span></div> | CallMeSoul | callmesoul前端开发者 | {{latest_content}} | [订阅地址](https://callmesoul.cn/rss.xml) |
+| <div id="B096" style="text-align: center;"><span>B096</span></div> | 龚成博客 |  不高大但是威猛，不英俊但是潇洒 | {{latest_content}} | [订阅地址](https://laogongshuo.com/feed) |
+| <div id="B097" style="text-align: center;"><span>B097</span></div> | Seven's blog |  你不会找到路，除非你敢于迷路 | {{latest_content}} | [订阅地址](https://blog.diqigan.cn/atom.xml) |
+| <div id="B098" style="text-align: center;"><span>B098</span></div> | 治部少辅 |  你晚来天雨雪，能饮一杯无？ | {{latest_content}} | [订阅地址](https://www.codewoody.com/atom.xml) |
+| <div id="B099" style="text-align: center;"><span>B099</span></div> | CRIMX BLOG |  CRIMX 的博客，主要记录 Web 前端相关的一些内容，偶尔涉及其它方面。 | {{latest_content}} | [订阅地址](https://blog.crimx.com/rss.xml) |
+| <div id="B100" style="text-align: center;"><span>B100</span></div> | 小非的物理小站 |  信仰共产主义，后现代主义者，结构主义者，奇妙发现世界～～ | {{latest_content}} | [订阅地址](https://xiaophy.com/feed.xml) |
 | <h2 id="数码">数码</h2> |  |   |  |
 | D001 | 少数派 | 少数派致力于更好地运用数字产品或科学方法，帮助用户提升工作效率和生活品质 | {{latest_content}}  |  [订阅地址](https://sspai.com/feed) | 
 | D002 | 数字尾巴 | 分享美好数字生活 | {{latest_content}}  |  [订阅地址](https://www.dgtle.com/rss/dgtle.xml) | 
