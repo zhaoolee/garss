@@ -4,17 +4,6 @@
 
 ## 《嘎!RSS》🐣为打破信息茧房而生
 
-![](https://cdn.jsdelivr.net/gh/zhaoolee/garss/_media/ga-rss.png)
-
-这个名为**嘎!RSS**的项目会利用免费的Github Actions服务, 提供一个内容全面的信息流, 让现代人的知识体系更广泛, 减弱信息茧房对现代人的影响, 让**非茧房信息流**造福人类~
-[《嘎!RSS》永久开源页面: https://github.com/zhaoolee/garss](https://github.com/zhaoolee/garss)
-
-## 推荐使用什么软件订阅RSS？
-我推荐一款免费的浏览器扩展程序Feedbro ，使用教程[Chrome插件英雄榜第96期《Feedbro》在Chrome中订阅RSS信息流](https://www.v2fy.com/p/096-feedbro-2021-02-27/)
-
-## 主要功能
-1. 收集RSS, 打造无广告内容优质的 **头版头条** 超赞新闻页
-2. 利用Github Actions, 搜集全部RSS的头版头条新闻标题和超链接, 并自动更新到首页,当天最新发布的文章会出现🌈 标志
 
 ## 新蒸熟373个小蛋糕🍰(文章) 生产时间 2021-10-01 06:14:48 保质期24小时
 
@@ -191,37 +180,4 @@
 | <h2 id="资源类">资源类</h2> |  |   |  |
 | <div id="R001" style="text-align: center;"><img src="https://cdn.jsdelivr.net/gh/zhaoolee/garss/_media/favicon/R001.png" width="30px" style="width:30px;height: auto;"/><br><span>R001</span></div> | 书格 |  有品格的数字古籍图书馆 | [‣ 历代名公画谱 \| 2019-11-09](https://new.shuge.org/view/li_dai_ming_gong_hua_pu/#new_tab)<br/>[‣ 家具陈设画册 \| 2019-11-09](https://new.shuge.org/view/jia_ju_chen_she_hua_ce/#new_tab)  |  [订阅地址](https://www.shuge.org/feed/) |  
 
-
-
-## 如何定制自己的私人简报?
-
-从 github.com/zhaoolee/garss.git 仓库, fork一份程序到自己的仓库
-
-在EditREADME.md中, 展示了zhaoolee已收集的RSS列表, 你可以参考每行的格式, 按行增删自己订阅的RSS
-
-然后按照下图设置发件邮箱相关内容即可!
-
-![](https://cdn.fangyuanxiaozhan.com/assets/1629970189283arACkBKe.png)
-
-在根目录, tasks.json中配置收件人, 收件人是一个对象数组, 数组中的邮箱, 都会收到邮件, 后续会扩展更多功能~
-
-```
-{
-    "tasks": [
-        {
-            "email": "zhaoolee@gmail.com"
-        },
-        {
-            "email": "zhaoolee@foxmail.com"
-        }
-    ]
-}
-```
-
-
-
-
-## 交流群
-
-![wx-rss-001](https://cdn.fangyuanxiaozhan.com/assets/16300286155536dfSKZ16.png)
 
