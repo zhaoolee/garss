@@ -248,7 +248,14 @@
 | <div id="R001" style="text-align: center;"><img src="./_media/favicon/R001.png" width="30px" style="width:30px;height: auto;"/><br><span>R001</span></div> | 书格 |  有品格的数字古籍图书馆 | {{latest_content}}  |  [订阅地址](https://www.shuge.org/feed/) |  
 | R002 | 书伴 |  为静心阅读而生 | {{latest_content}}  |  [订阅地址](https://feeds.feedburner.com/bookfere) |  
 | R003 | kindle吧 |  海量书单阅读分享者 | {{latest_content}}  |  [订阅地址](https://www.kindle8.cc/feed) |  
-
+| <h2 id="Telegram优质频道">Telegram优质频道RSS</h2> |  |   |  |
+| TG001 | 4K影视屋 |  蓝光无损电影 | {{latest_content}}  |  [订阅地址](https://rsshub.v2fy.com/telegram/channel/dianying4K) |  
+| TG002 | 编程笑话 |  程序员编程笑话 | {{latest_content}}  |  [订阅地址](https://rsshub.v2fy.com/telegram/channel/programmerjokes) |  
+| TG003 | 薅羊毛 |  各种购物平台的优惠信息 | {{latest_content}}  |  [订阅地址](https://rsshub.v2fy.com/telegram/channel/yangmaoshare) |  
+| TG004 | 竹新社 |  7×24不定时编译国内外媒体的即时新闻报道。 | {{latest_content}}  |  [订阅地址](https://rsshub.v2fy.com/telegram/channel/tnews365) |  
+| TG005 | 书和读书 |  好书推荐。 | {{latest_content}}  |  [订阅地址](https://rsshub.v2fy.com/telegram/channel/GoReading) |  
+| TG006 | 阿里云盘资源分享 |  分享资源完成阿里云盘任务，收获精品资源保存到不限速网盘 | {{latest_content}}  |  [订阅地址](https://rsshub.v2fy.com/telegram/channel/YunPanPan) |
+| TG007 | Google Drive 资源共享 |  软件 | 电影 | 纪录片 | 科学上网 | {{latest_content}}  |  [订阅地址](https://rsshub.v2fy.com/telegram/channel/YunPanPan) |
 
 
 ## 如何定制自己的私人简报?
