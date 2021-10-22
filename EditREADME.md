@@ -248,7 +248,7 @@
 | <div id="R001" style="text-align: center;"><img src="./_media/favicon/R001.png" width="30px" style="width:30px;height: auto;"/><br><span>R001</span></div> | 书格 |  有品格的数字古籍图书馆 | {{latest_content}}  |  [订阅地址](https://www.shuge.org/feed/) |  
 | R002 | 书伴 |  为静心阅读而生 | {{latest_content}}  |  [订阅地址](https://feeds.feedburner.com/bookfere) |  
 | R003 | kindle吧 |  海量书单阅读分享者 | {{latest_content}}  |  [订阅地址](https://www.kindle8.cc/feed) |  
-| <h2 id="Telegram优质频道">Telegram优质频道RSS</h2> |  |   |  |
+| <h2 id="Telegram优质频道RSS订阅">Telegram优质频道RSS订阅</h2> |  |   |  |
 | TG001 | 4K影视屋 |  蓝光无损电影 | {{latest_content}}  |  [订阅地址](https://rsshub.v2fy.com/telegram/channel/dianying4K) |  
 | TG002 | 编程笑话 |  程序员编程笑话 | {{latest_content}}  |  [订阅地址](https://rsshub.v2fy.com/telegram/channel/programmerjokes) |  
 | TG003 | 薅羊毛 |  各种购物平台的优惠信息 | {{latest_content}}  |  [订阅地址](https://rsshub.v2fy.com/telegram/channel/yangmaoshare) |  
@@ -318,11 +318,10 @@ yag.send('填收件人邮箱', '主题:学习使我快乐', contents)
 
 ![PC端优化后的邮件效果](https://cdn.fangyuanxiaozhan.com/assets/1630399693988c2tk8n7k.png)
 
-## 交流群
+## 微信交流群
 
-![wx-rss-002](https://cdn.fangyuanxiaozhan.com/assets/1631157359184n13WJyyd.png)
+[https://frp.v2fy.com/dynamic-picture/%E5%BE%AE%E4%BF%A1%E4%BA%A4%E6%B5%81%E7%BE%A4/qr.png](https://frp.v2fy.com/dynamic-picture/%E5%BE%AE%E4%BF%A1%E4%BA%A4%E6%B5%81%E7%BE%A4/qr.png)
 
-![wx-rss-001](https://cdn.fangyuanxiaozhan.com/assets/1631157359186yYa61HDi.png)
 
 ## 广告位招租
 
