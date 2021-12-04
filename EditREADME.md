@@ -85,7 +85,7 @@
 | <div id="B046" style="text-align: center;"><img src="./_media/favicon/B046.png" width="30px" style="width:30px;height: auto;"/><br><span>B046</span></div> | 人人都是产品经理——iamsujie | 成长中的产品经理，期待和同学们一起，用好产品改变世界~ | {{latest_content}}  |  [订阅地址](http://iamsujie.com/feed/) | 
 | <div id="B047" style="text-align: center;"><img src="./_media/favicon/B047.png" width="30px" style="width:30px;height: auto;"/><br><span>B047</span></div> | 土木坛子 | 和光同尘，与时舒卷 | {{latest_content}}  |  [订阅地址](https://tumutanzi.com/feed) | 
 | <div id="B048" style="text-align: center;"><img src="./_media/favicon/B048.png" width="30px" style="width:30px;height: auto;"/><br><span>B048</span></div> | 火丁笔记 | 多研究些问题，少谈些主义。 | {{latest_content}}  |  [订阅地址](https://blog.huoding.com/feed) | 
-| B049 | 產品經理 x 成長駭客 \| Mr. PM下午先生 | PM可以是產品經理、下午、Pig Man，但絕對不是Poor Man | {{latest_content}}  |  [订阅地址](http://mrpm.cc/?feed=rss2) | 
+| B049 | 產品經理 x 成長駭客 - Mr. PM下午先生 | PM可以是產品經理、下午、Pig Man，但絕對不是Poor Man | {{latest_content}}  |  [订阅地址](http://mrpm.cc/?feed=rss2) | 
 | B050 | Matrix67 | Matrix67: The Aha Moments  | {{latest_content}}  |  [订阅地址](http://www.matrix67.com/blog/feed) | 
 | <div id="B051" style="text-align: center;"><img src="./_media/favicon/B051.png" width="30px" style="width:30px;height: auto;"/><br><span>B051</span></div> | 我爱自然语言处理 | I Love Natural Language Processing  | {{latest_content}}  |  [订阅地址](https://www.52nlp.cn/feed) | 
 | <div id="B052" style="text-align: center;"><img src="./_media/favicon/B052.png" width="30px" style="width:30px;height: auto;"/><br><span>B052</span></div> | sunnyxx | sunnyxx的技术博客  | {{latest_content}}  |  [订阅地址](http://blog.sunnyxx.com/atom.xml) | 
@@ -226,7 +226,7 @@
 | C018 | 博客园 | 博客园首页 | {{latest_content}}  |  [订阅地址](http://feed.cnblogs.com/blog/sitehome/rss) |  
 | C019 | PTT(台湾论坛) | PTT电影专题 | {{latest_content}}  |  [订阅地址](https://www.ptt.cc/atom/movie.xml) |  
 | C020 | PTT(台湾论坛) | PTT正妹专题 | {{latest_content}}  |  [订阅地址](https://www.ptt.cc/atom/beauty.xml) |  
-| <div id="C021" style="text-align: center;"><img src="./_media/favicon/C021.png" width="30px" style="width:30px;height: auto;"/><br><span>C021</span></div> | 吾爱破解 | 吾爱破解 - LCG - LSG 安卓破解 病毒分析 - 最新精华 | {{latest_content}}  |  [订阅地址](https://www.52pojie.cn/forum.php?mod=guide&view=digest&rss=1) |  
+| <div id="C021" style="text-align: center;"><img src="./_media/favicon/C021.png" width="30px" style="width:30px;height: auto;"/><br><span>C021</span></div> | 吾爱破解 | 吾爱破解精品软件区 | {{latest_content}}  |  [订阅地址](https://rsshub.v2fy.com/discuz/x/https%3a%2f%2fwww.52pojie.cn%2fforum-16-1.html) |  
 | <div id="C022" style="text-align: center;"><img src="./_media/favicon/C022.png" width="30px" style="width:30px;height: auto;"/><br><span>C022</span></div> | cnBeta.COM 精彩优秀评论 | 从cnBeta每天数千评论中精选出来的优秀评论 | {{latest_content}}  |  [订阅地址](https://www.cnbeta.com/commentrss.php) |  
 | <div id="C023" style="text-align: center;"><img src="./_media/favicon/C023.png" width="30px" style="width:30px;height: auto;"/><br><span>C023</span></div> | 比特客栈的文艺复兴 | We do not choose who we are, but we do choose who we become. | {{latest_content}}  |  [订阅地址](https://bitinn.net/feed/) |  
 | C024 | Pixiv(艺术家社区) | 男性向作品排行 - 前20 | {{latest_content}}  |  [订阅地址](https://rakuen.thec.me/PixivRss/male-20) |
@@ -261,7 +261,16 @@
 | TG004 | 竹新社 |  7×24不定时编译国内外媒体的即时新闻报道。 | {{latest_content}}  |  [订阅地址](https://rsshub.v2fy.com/telegram/channel/tnews365) |  
 | TG005 | 书和读书 |  好书推荐。 | {{latest_content}}  |  [订阅地址](https://rsshub.v2fy.com/telegram/channel/GoReading) |  
 | TG006 | 阿里云盘资源分享 |  分享资源完成阿里云盘任务，收获精品资源保存到不限速网盘 | {{latest_content}}  |  [订阅地址](https://rsshub.v2fy.com/telegram/channel/YunPanPan) |
-| TG007 | Google Drive 资源共享 |  软件 | 电影 | 纪录片 | 科学上网 | {{latest_content}}  |  [订阅地址](https://rsshub.v2fy.com/telegram/channel/YunPanPan) |
+| TG007 | Google Drive | 资源共享-软件-电影-纪录片-科学上网 | {{latest_content}}  |  [订阅地址](https://rsshub.v2fy.com/telegram/channel/YunPanPan) |
+
+
+
+## 批量导入所有RSS订阅
+
+OPML V2.0:  [https://raw.githubusercontent.com/zhaoolee/garss/main/zhaoolee_github_garss_subscription_list_v2.opml](https://raw.githubusercontent.com/zhaoolee/garss/main/zhaoolee_github_garss_subscription_list_v2.opml)
+
+
+> 如果RSS软件版本较老无法识别以上订阅,请使用[V1.0版本的OPML订阅信息](https://raw.githubusercontent.com/zhaoolee/garss/main/zhaoolee_github_garss_subscription_list_v1.opml)
 
 
 ## 如何定制自己的私人简报?

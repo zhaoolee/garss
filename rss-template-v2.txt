@@ -1,0 +1,18 @@
+<opml version="2.0">
+<head>
+<title>嘎!RSS</title>
+<dateCreated>Sat, 04 Dec 2021 04:18:35 GMT</dateCreated>
+<dateModified>{date_modified}</dateModified>
+<ownerName>zhaoolee</ownerName>
+<ownerEmail>zhaoolee@gmail.com</ownerEmail>
+<expansionState/>
+<vertScrollState>1</vertScrollState>
+<windowTop>61</windowTop>
+<windowLeft>304</windowLeft>
+<windowBottom>562</windowBottom>
+<windowRight>842</windowRight>
+</head>
+<body>
+{result}
+</body>
+</opml>
