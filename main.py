@@ -250,8 +250,8 @@ def create_opml():
 
             # print("总信息", opml_info_text_format_data[0].strip())
             # print("编号==>>", opml_info_text_format_data[1].strip())
-            print("text==>>", opml_info_text_format_data[2].strip())
-            print("description==>>", opml_info_text_format_data[3].strip())
+            # print("text==>>", opml_info_text_format_data[2].strip())
+            # print("description==>>", opml_info_text_format_data[3].strip())
             # print("data004==>>", opml_info_text_format_data[4].strip())
             print("xmlUrl==>>", opml_info_text_format_data[5].strip())
 
@@ -262,7 +262,7 @@ def create_opml():
             opml_info["title"] = opml_info_text_format_data[2].strip()
             opml_info["xmlUrl"] = opml_info_text_format_data[5].strip()
 
-            print('opml_info==>>', opml_info);
+            # print('opml_info==>>', opml_info);
             
 
 
@@ -295,7 +295,7 @@ def create_opml():
         date_created = datetime.utcnow().strftime(GMT_FORMAT);
         date_modified = datetime.utcnow().strftime(GMT_FORMAT);
         zhaoolee_github_garss_subscription_list = zhaoolee_github_garss_subscription_list_template.format(result=result, date_created=date_created, date_modified=date_modified);
-        print(zhaoolee_github_garss_subscription_list);
+        # print(zhaoolee_github_garss_subscription_list);
 
     # 将内容写入
     with open(os.path.join(os.getcwd(),"zhaoolee_github_garss_subscription_list_v2.opml"),'w') as load_f:
@@ -305,7 +305,7 @@ def create_opml():
     with open(os.path.join(os.getcwd(),"rss-template-v1.txt"),'r') as load_f:
         zhaoolee_github_garss_subscription_list_template = load_f.read();
         zhaoolee_github_garss_subscription_list_v1 = zhaoolee_github_garss_subscription_list_template.format(result=result_v1);
-        print(zhaoolee_github_garss_subscription_list_v1);
+        # print(zhaoolee_github_garss_subscription_list_v1);
 
     # 将内容写入
     with open(os.path.join(os.getcwd(),"zhaoolee_github_garss_subscription_list_v1.opml"),'w') as load_f:
