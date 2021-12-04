@@ -273,6 +273,8 @@
 | TG007 | Google Drive | 资源共享-软件-电影-纪录片-科学上网 | {{latest_content}}  |  [订阅地址](https://rsshub.v2fy.com/telegram/channel/YunPanPan) |
 | TG008 | 扫地僧笔记 | 扫地僧树洞 | {{latest_content}}  |  [订阅地址](https://rsshub.v2fy.com/telegram/channel/lover_links) |
 | TG009 | 树莓派家用云服务器 | 树莓派家用云服务器交流  | {{latest_content}}  |  [订阅地址](https://rsshub.v2fy.com/telegram/channel/zhaoolee_pi) |
+| TG010 | 快乐星球 | 美女图片  | {{latest_content}}  |  [订阅地址](https://rsshub.v2fy.com/telegram/channel/botmzt) |
+| TG011 | Newlearnerの自留地 | 不定期推送 IT 相关资讯 | {{latest_content}}  |  [订阅地址](https://rsshub.v2fy.com/telegram/channel/NewlearnerChannel) |
 
 
 
@@ -281,6 +283,7 @@
 OPML V2.0:  [https://raw.githubusercontent.com/zhaoolee/garss/main/zhaoolee_github_garss_subscription_list_v2.opml](https://raw.githubusercontent.com/zhaoolee/garss/main/zhaoolee_github_garss_subscription_list_v2.opml) 
 
 OPML V2.0 备用CDN地址: [https://cdn.jsdelivr.net/gh/zhaoolee/garss/zhaoolee_github_garss_subscription_list_v2.opml](https://cdn.jsdelivr.net/gh/zhaoolee/garss/zhaoolee_github_garss_subscription_list_v2.opml)
+
 
 
 > 如果RSS软件版本较老无法识别以上订阅,请使用[V1.0版本的OPML订阅信息](https://raw.githubusercontent.com/zhaoolee/garss/main/zhaoolee_github_garss_subscription_list_v1.opml) [V1.0版本的OPML订阅信息备用CDN地址](https://cdn.jsdelivr.net/gh/zhaoolee/garss/zhaoolee_github_garss_subscription_list_v1.opml)
