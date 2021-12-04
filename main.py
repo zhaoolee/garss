@@ -253,7 +253,10 @@ def create_opml():
             # print("text==>>", opml_info_text_format_data[2].strip())
             # print("description==>>", opml_info_text_format_data[3].strip())
             # print("data004==>>", opml_info_text_format_data[4].strip())
-            print("xmlUrl==>>", opml_info_text_format_data[5].strip())
+            print('##',opml_info_text_format_data[2].strip())
+            print(opml_info_text_format_data[3].strip())
+            print(opml_info_text_format_data[5].strip())
+            
 
             opml_info = {}
             opml_info["text"] = opml_info_text_format_data[2].strip()
