@@ -260,6 +260,20 @@
             xmlUrl="https://knightyun.github.io/feed.xml" htmlUrl="https://knightyun.github.io/feed.xml"/>
       <outline text="阳志平的网志" title="阳志平的网志" type="rss"  
             xmlUrl="https://www.yangzhiping.com/feed.xml" htmlUrl="https://www.yangzhiping.com/feed.xml"/>
+      <outline text="落园" title="落园" type="rss"  
+            xmlUrl="https://www.loyhome.com/feed/" htmlUrl="https://www.loyhome.com/feed/"/>
+      <outline text="Her Blue" title="Her Blue" type="rss"  
+            xmlUrl="https://her.blue/rss/" htmlUrl="https://her.blue/rss/"/>
+      <outline text="伪医生律师的博客" title="伪医生律师的博客" type="rss"  
+            xmlUrl="https://chidd.net/feed" htmlUrl="https://chidd.net/feed"/>
+      <outline text="ZWWoOoOo" title="ZWWoOoOo" type="rss"  
+            xmlUrl="https://zww.me/feed" htmlUrl="https://zww.me/feed"/>
+      <outline text="水八口的冥想盆" title="水八口的冥想盆" type="rss"  
+            xmlUrl="https://blog.shuiba.co/feed" htmlUrl="https://blog.shuiba.co/feed"/>
+      <outline text="失眠海峡" title="失眠海峡" type="rss"  
+            xmlUrl="https://blog.imalan.cn/feed/index.xml" htmlUrl="https://blog.imalan.cn/feed/index.xml"/>
+      <outline text="千古壹号的博客" title="千古壹号的博客" type="rss"  
+            xmlUrl="https://qianguyihao.com/atom.xml" htmlUrl="https://qianguyihao.com/atom.xml"/>
       <outline text="少数派" title="少数派" type="rss"  
             xmlUrl="https://sspai.com/feed" htmlUrl="https://sspai.com/feed"/>
       <outline text="数字尾巴" title="数字尾巴" type="rss"  
@@ -310,6 +324,10 @@
             xmlUrl="http://www.woshipm.com/category/pmd/feed" htmlUrl="http://www.woshipm.com/category/pmd/feed"/>
       <outline text="产品100" title="产品100" type="rss"  
             xmlUrl="http://www.chanpin100.com/feed" htmlUrl="http://www.chanpin100.com/feed"/>
+      <outline text="蓝卡" title="蓝卡" type="rss"  
+            xmlUrl="https://www.lanka.cn/feed" htmlUrl="https://www.lanka.cn/feed"/>
+      <outline text="APPDO数字生活指南" title="APPDO数字生活指南" type="rss"  
+            xmlUrl="https://simonword.com/feed" htmlUrl="https://simonword.com/feed"/>
       <outline text="扔物线" title="扔物线" type="rss"  
             xmlUrl="https://rengwuxian.com/feed" htmlUrl="https://rengwuxian.com/feed"/>
       <outline text="MOOC中国" title="MOOC中国" type="rss"  
@@ -440,6 +458,14 @@
             xmlUrl="https://rsshub.v2fy.com/telegram/channel/YunPanPan" htmlUrl="https://rsshub.v2fy.com/telegram/channel/YunPanPan"/>
       <outline text="Google Drive" title="Google Drive" type="rss"  
             xmlUrl="https://rsshub.v2fy.com/telegram/channel/YunPanPan" htmlUrl="https://rsshub.v2fy.com/telegram/channel/YunPanPan"/>
+      <outline text="扫地僧笔记" title="扫地僧笔记" type="rss"  
+            xmlUrl="https://rsshub.v2fy.com/telegram/channel/lover_links" htmlUrl="https://rsshub.v2fy.com/telegram/channel/lover_links"/>
+      <outline text="树莓派家用云服务器" title="树莓派家用云服务器" type="rss"  
+            xmlUrl="https://rsshub.v2fy.com/telegram/channel/zhaoolee_pi" htmlUrl="https://rsshub.v2fy.com/telegram/channel/zhaoolee_pi"/>
+      <outline text="快乐星球" title="快乐星球" type="rss"  
+            xmlUrl="https://rsshub.v2fy.com/telegram/channel/botmzt" htmlUrl="https://rsshub.v2fy.com/telegram/channel/botmzt"/>
+      <outline text="Newlearnerの自留地" title="Newlearnerの自留地" type="rss"  
+            xmlUrl="https://rsshub.v2fy.com/telegram/channel/NewlearnerChannel" htmlUrl="https://rsshub.v2fy.com/telegram/channel/NewlearnerChannel"/>
 
 </body>
 </opml>

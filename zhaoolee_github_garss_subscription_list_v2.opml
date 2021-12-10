@@ -2,7 +2,7 @@
 <head>
 <title>嘎!RSS</title>
 <dateCreated>Sat, 04 Dec 2021 04:18:35 GMT</dateCreated>
-<dateModified>Sat, 04 Dec 2021 05:13:42 GMT</dateModified>
+<dateModified>Sat, 04 Dec 2021 14:23:14 GMT</dateModified>
 <ownerName>zhaoolee</ownerName>
 <ownerEmail>zhaoolee@gmail.com</ownerEmail>
 <expansionState/>
@@ -141,6 +141,13 @@
 <outline  text="格物致知" description="专注于分享后端相关的技术以及设计架构思想，偶尔写一些生活和前端相关的东西" htmlUrl="https://liqiang.io/atom.xml" language="unknown" title="格物致知" type="rss" version="RSS2" xmlUrl="https://liqiang.io/atom.xml"/>
 <outline  text="黄琦雲的博客" description="心中本没有路，用双手敲写康庄大道。知之甚少，学之甚多，生命不休，求索不止。" htmlUrl="https://knightyun.github.io/feed.xml" language="unknown" title="黄琦雲的博客" type="rss" version="RSS2" xmlUrl="https://knightyun.github.io/feed.xml"/>
 <outline  text="阳志平的网志" description="致力于认知科学的产品开发、课程设计与科学传播。" htmlUrl="https://www.yangzhiping.com/feed.xml" language="unknown" title="阳志平的网志" type="rss" version="RSS2" xmlUrl="https://www.yangzhiping.com/feed.xml"/>
+<outline  text="落园" description="专注经济视角下的互联网" htmlUrl="https://www.loyhome.com/feed/" language="unknown" title="落园" type="rss" version="RSS2" xmlUrl="https://www.loyhome.com/feed/"/>
+<outline  text="Her Blue" description="一个摄影博主，设立了自己的摄影品牌「她的蓝」有没有那么一首诗篇，找不到句点" htmlUrl="https://her.blue/rss/" language="unknown" title="Her Blue" type="rss" version="RSS2" xmlUrl="https://her.blue/rss/"/>
+<outline  text="伪医生律师的博客" description="记录、生活、思考" htmlUrl="https://chidd.net/feed" language="unknown" title="伪医生律师的博客" type="rss" version="RSS2" xmlUrl="https://chidd.net/feed"/>
+<outline  text="ZWWoOoOo" description="一个折腾WordPress多年的开发者, 博客里有众多 WordPress技术教程分享" htmlUrl="https://zww.me/feed" language="unknown" title="ZWWoOoOo" type="rss" version="RSS2" xmlUrl="https://zww.me/feed"/>
+<outline  text="水八口的冥想盆" description="一位居住在日本的女开发者" htmlUrl="https://blog.shuiba.co/feed" language="unknown" title="水八口的冥想盆" type="rss" version="RSS2" xmlUrl="https://blog.shuiba.co/feed"/>
+<outline  text="失眠海峡" description="我要与你坦诚相见" htmlUrl="https://blog.imalan.cn/feed/index.xml" language="unknown" title="失眠海峡" type="rss" version="RSS2" xmlUrl="https://blog.imalan.cn/feed/index.xml"/>
+<outline  text="千古壹号的博客" description="一个京东前端工程师" htmlUrl="https://qianguyihao.com/atom.xml" language="unknown" title="千古壹号的博客" type="rss" version="RSS2" xmlUrl="https://qianguyihao.com/atom.xml"/>
 <outline  text="少数派" description="少数派致力于更好地运用数字产品或科学方法，帮助用户提升工作效率和生活品质" htmlUrl="https://sspai.com/feed" language="unknown" title="少数派" type="rss" version="RSS2" xmlUrl="https://sspai.com/feed"/>
 <outline  text="数字尾巴" description="分享美好数字生活" htmlUrl="https://www.dgtle.com/rss/dgtle.xml" language="unknown" title="数字尾巴" type="rss" version="RSS2" xmlUrl="https://www.dgtle.com/rss/dgtle.xml"/>
 <outline  text="Chiphell" description="分享与交流用户体验" htmlUrl="https://www.chiphell.com/portal.php?mod=rss" language="unknown" title="Chiphell" type="rss" version="RSS2" xmlUrl="https://www.chiphell.com/portal.php?mod=rss"/>
@@ -166,6 +173,8 @@
 <outline  text="产品运营" description="产品运营 - 人人都是产品经理" htmlUrl="http://www.woshipm.com/category/operate/feed" language="unknown" title="产品运营" type="rss" version="RSS2" xmlUrl="http://www.woshipm.com/category/operate/feed"/>
 <outline  text="产品经理" description="产品经理 – 人人都是产品经理" htmlUrl="http://www.woshipm.com/category/pmd/feed" language="unknown" title="产品经理" type="rss" version="RSS2" xmlUrl="http://www.woshipm.com/category/pmd/feed"/>
 <outline  text="产品100" description="产品人学习成长社区" htmlUrl="http://www.chanpin100.com/feed" language="unknown" title="产品100" type="rss" version="RSS2" xmlUrl="http://www.chanpin100.com/feed"/>
+<outline  text="蓝卡" description="美好科技生活方式" htmlUrl="https://www.lanka.cn/feed" language="unknown" title="蓝卡" type="rss" version="RSS2" xmlUrl="https://www.lanka.cn/feed"/>
+<outline  text="APPDO数字生活指南" description="Simon的自留地_数码_App_羊毛_相机_数字指南" htmlUrl="https://simonword.com/feed" language="unknown" title="APPDO数字生活指南" type="rss" version="RSS2" xmlUrl="https://simonword.com/feed"/>
 <outline  text="扔物线" description="帮助 Android 工程师进阶成长" htmlUrl="https://rengwuxian.com/feed" language="unknown" title="扔物线" type="rss" version="RSS2" xmlUrl="https://rengwuxian.com/feed"/>
 <outline  text="MOOC中国" description="慕课改变你，你改变世界" htmlUrl="https://www.mooc.cn/feed" language="unknown" title="MOOC中国" type="rss" version="RSS2" xmlUrl="https://www.mooc.cn/feed"/>
 <outline  text="青柠学术" description="每个科研小白都有成为大神的潜力" htmlUrl="https://iseex.github.io/feed" language="unknown" title="青柠学术" type="rss" version="RSS2" xmlUrl="https://iseex.github.io/feed"/>
@@ -231,6 +240,10 @@
 <outline  text="书和读书" description="好书推荐。" htmlUrl="https://rsshub.v2fy.com/telegram/channel/GoReading" language="unknown" title="书和读书" type="rss" version="RSS2" xmlUrl="https://rsshub.v2fy.com/telegram/channel/GoReading"/>
 <outline  text="阿里云盘资源分享" description="分享资源完成阿里云盘任务，收获精品资源保存到不限速网盘" htmlUrl="https://rsshub.v2fy.com/telegram/channel/YunPanPan" language="unknown" title="阿里云盘资源分享" type="rss" version="RSS2" xmlUrl="https://rsshub.v2fy.com/telegram/channel/YunPanPan"/>
 <outline  text="Google Drive" description="资源共享-软件-电影-纪录片-科学上网" htmlUrl="https://rsshub.v2fy.com/telegram/channel/YunPanPan" language="unknown" title="Google Drive" type="rss" version="RSS2" xmlUrl="https://rsshub.v2fy.com/telegram/channel/YunPanPan"/>
+<outline  text="扫地僧笔记" description="扫地僧树洞" htmlUrl="https://rsshub.v2fy.com/telegram/channel/lover_links" language="unknown" title="扫地僧笔记" type="rss" version="RSS2" xmlUrl="https://rsshub.v2fy.com/telegram/channel/lover_links"/>
+<outline  text="树莓派家用云服务器" description="树莓派家用云服务器交流" htmlUrl="https://rsshub.v2fy.com/telegram/channel/zhaoolee_pi" language="unknown" title="树莓派家用云服务器" type="rss" version="RSS2" xmlUrl="https://rsshub.v2fy.com/telegram/channel/zhaoolee_pi"/>
+<outline  text="快乐星球" description="美女图片" htmlUrl="https://rsshub.v2fy.com/telegram/channel/botmzt" language="unknown" title="快乐星球" type="rss" version="RSS2" xmlUrl="https://rsshub.v2fy.com/telegram/channel/botmzt"/>
+<outline  text="Newlearnerの自留地" description="不定期推送 IT 相关资讯" htmlUrl="https://rsshub.v2fy.com/telegram/channel/NewlearnerChannel" language="unknown" title="Newlearnerの自留地" type="rss" version="RSS2" xmlUrl="https://rsshub.v2fy.com/telegram/channel/NewlearnerChannel"/>
 
 </body>
 </opml>
