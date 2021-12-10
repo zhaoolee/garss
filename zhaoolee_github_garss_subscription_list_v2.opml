@@ -2,7 +2,7 @@
 <head>
 <title>嘎!RSS</title>
 <dateCreated>Sat, 04 Dec 2021 04:18:35 GMT</dateCreated>
-<dateModified>Sat, 04 Dec 2021 14:23:14 GMT</dateModified>
+<dateModified>Fri, 10 Dec 2021 11:56:03 GMT</dateModified>
 <ownerName>zhaoolee</ownerName>
 <ownerEmail>zhaoolee@gmail.com</ownerEmail>
 <expansionState/>
@@ -169,7 +169,7 @@
 <outline  text="Hack News" description="极其优质的极客新闻" htmlUrl="https://news.ycombinator.com/rss" language="unknown" title="Hack News" type="rss" version="RSS2" xmlUrl="https://news.ycombinator.com/rss"/>
 <outline  text="奇客Solidot–传递最新科技情报" description="奇客的资讯，重要的东西" htmlUrl="https://www.solidot.org/index.rss" language="unknown" title="奇客Solidot–传递最新科技情报" type="rss" version="RSS2" xmlUrl="https://www.solidot.org/index.rss"/>
 <outline  text="环球科学" description="科学美国人中文版，一些科普文章" htmlUrl="https://feedx.net/rss/huanqiukexue.xml" language="unknown" title="环球科学" type="rss" version="RSS2" xmlUrl="https://feedx.net/rss/huanqiukexue.xml"/>
-<outline  text="奇客Solidot–传递最新科技情报" description="奇客的资讯，重要的东西" htmlUrl="https://www.solidot.org/index.rss" language="unknown" title="奇客Solidot–传递最新科技情报" type="rss" version="RSS2" xmlUrl="https://www.solidot.org/index.rss"/>
+<outline  text="MIT 科技评论" description="MIT 科技评论 本周热榜" htmlUrl="https://rsshub.v2fy.com/mittrchina/hot" language="unknown" title="MIT 科技评论" type="rss" version="RSS2" xmlUrl="https://rsshub.v2fy.com/mittrchina/hot"/>
 <outline  text="产品运营" description="产品运营 - 人人都是产品经理" htmlUrl="http://www.woshipm.com/category/operate/feed" language="unknown" title="产品运营" type="rss" version="RSS2" xmlUrl="http://www.woshipm.com/category/operate/feed"/>
 <outline  text="产品经理" description="产品经理 – 人人都是产品经理" htmlUrl="http://www.woshipm.com/category/pmd/feed" language="unknown" title="产品经理" type="rss" version="RSS2" xmlUrl="http://www.woshipm.com/category/pmd/feed"/>
 <outline  text="产品100" description="产品人学习成长社区" htmlUrl="http://www.chanpin100.com/feed" language="unknown" title="产品100" type="rss" version="RSS2" xmlUrl="http://www.chanpin100.com/feed"/>

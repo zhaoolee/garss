@@ -323,19 +323,19 @@ def create_opml():
 
 def main():
     create_opml()
-    # readme_md = replace_readme()
-    # content = markdown.markdown(readme_md[0], extensions=['tables', 'fenced_code'])
-    # cp_readme_md_to_docs()
-    # cp_media_to_docs()
-    # email_list = get_email_list()
+    readme_md = replace_readme()
+    content = markdown.markdown(readme_md[0], extensions=['tables', 'fenced_code'])
+    cp_readme_md_to_docs()
+    cp_media_to_docs()
+    email_list = get_email_list()
 
-    # mail_re = r'邮件内容区开始>([.\S\s]*)<邮件内容区结束'
-    # reResult = re.findall(mail_re, readme_md[0])
+    mail_re = r'邮件内容区开始>([.\S\s]*)<邮件内容区结束'
+    reResult = re.findall(mail_re, readme_md[0])
 
-    # try:
-    #     send_mail(email_list, "嘎!RSS订阅", reResult)
-    # except Exception as e:
-    #     print("==邮件设信息置错误===》》", e)
+    try:
+        send_mail(email_list, "嘎!RSS订阅", reResult)
+    except Exception as e:
+        print("==邮件设信息置错误===》》", e)
 
 
 if __name__ == "__main__":

@@ -316,8 +316,8 @@
             xmlUrl="https://www.solidot.org/index.rss" htmlUrl="https://www.solidot.org/index.rss"/>
       <outline text="环球科学" title="环球科学" type="rss"  
             xmlUrl="https://feedx.net/rss/huanqiukexue.xml" htmlUrl="https://feedx.net/rss/huanqiukexue.xml"/>
-      <outline text="奇客Solidot–传递最新科技情报" title="奇客Solidot–传递最新科技情报" type="rss"  
-            xmlUrl="https://www.solidot.org/index.rss" htmlUrl="https://www.solidot.org/index.rss"/>
+      <outline text="MIT 科技评论" title="MIT 科技评论" type="rss"  
+            xmlUrl="https://rsshub.v2fy.com/mittrchina/hot" htmlUrl="https://rsshub.v2fy.com/mittrchina/hot"/>
       <outline text="产品运营" title="产品运营" type="rss"  
             xmlUrl="http://www.woshipm.com/category/operate/feed" htmlUrl="http://www.woshipm.com/category/operate/feed"/>
       <outline text="产品经理" title="产品经理" type="rss"  
