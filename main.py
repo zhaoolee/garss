@@ -320,8 +320,24 @@ def create_opml():
         
     # print(result)
 
+def create_json():
+    result = {"garssInfo": []}
+    with open(os.path.join(os.getcwd(),"EditREADME.md"),'r') as load_f:
+        edit_readme_md = load_f.read();
+        ## 将信息填充到opml_info_list
+        opml_info_text_list =  re.findall(r'.*\{\{latest_content\}\}.*\[订阅地址\]\(.*\).*' ,edit_readme_md);
+        for opml_info_text in opml_info_text_list:
+            opml_info_text_format_data = re.match(r'\|(.*)\|(.*)\|(.*)\|(.*)\|.*\[订阅地址\]\((.*)\).*\|',opml_info_text)
+            opml_info = {}
+            opml_info["description"] = opml_info_text_format_data[3].strip()
+            opml_info["title"] = opml_info_text_format_data[2].strip()
+            opml_info["xmlUrl"] = opml_info_text_format_data[5].strip()
+            result["garssInfo"].append(opml_info)
+    with open("./garssInfo.json","w", encoding="utf-8") as f:
+        json.dump(result, f, ensure_ascii=False, indent=4)
 
 def main():
+    create_json()
     create_opml()
     readme_md = replace_readme()
     content = markdown.markdown(readme_md[0], extensions=['tables', 'fenced_code'])
