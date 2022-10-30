@@ -7,25 +7,29 @@ on:
       - main
 jobs:
   push:
-      runs-on: ubuntu:20.04.5
+      runs-on: ${{ matrix.operating-system }}
       strategy:
         matrix:
           # in this example, there is a newer version already installed, 3.7.7, so the older version will be downloaded
-          python-version: ['3.10.6']
+          operating-system: ['ubuntu-20.04']
       steps:
-      - uses: actions/checkout@v2 # Checking out the repo
-      - name: Install dependecies
-        uses: VaultVulp/action-pipenv@v2.0.1
+      - uses: actions/checkout@v3 # Checking out the repo
+      - name: Run with setup-python 3.9
+        uses: actions/setup-python@v4
         with:
-          command: install -d # Install all dependencies, including development ones
+          python-version: '3.9'
+          update-environment: false
+          cache: 'pipenv'
+      - name: Install pipenv
+        run: pip3 install --user pipenv
+      - name: Install dependecies
+        run:  pipenv --python python3 && pipenv install
       - name: Build
         env:
             USER: ${{ secrets.USER }}
             PASSWORD: ${{ secrets.PASSWORD }}
             HOST: ${{ secrets.HOST }}
-        uses: VaultVulp/action-pipenv@v2.0.1
-        with:
-          command: run build
+        run: pipenv run build
       - name: Commit and push if changed   # 更新README.md
         run: |
           git diff
