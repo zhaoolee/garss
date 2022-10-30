@@ -7,7 +7,7 @@ on:
       - main
 jobs:
   push:
-      runs-on: ubuntu:20.04
+      runs-on: ubuntu:20.04.5
       strategy:
         matrix:
           # in this example, there is a newer version already installed, 3.7.7, so the older version will be downloaded
