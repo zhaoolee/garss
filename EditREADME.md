@@ -248,6 +248,7 @@
 | C031 | CNU视觉联盟 | 每日精选 | {{latest_content}}  |  [订阅地址](https://rsshub.v2fy.com/cnu/selected) | 
 | C032 | 香水时代 | 最新香水评论-发现香水圈的新鲜事 | {{latest_content}}  |  [订阅地址](https://rsshub.v2fy.com/nosetime/home) |  
 | C033 | 恩山无线论坛  | 无线路由器爱好者的乐园 | {{latest_content}}  |  [订阅地址](https://rsshub.v2fy.com/right/forum/31) |  
+| C034 | xLog | An open-source creative community written on the blockchain. | {{latest_content}}  |  [订阅地址](https://xlog.app/feed/hottest?interval=1) |  
 | <h2 id="影视资源">影视资源</h2> |  |   |  |
 | <div id="M001" style="text-align: center;"><img src="./_media/favicon/M001.png" width="30px" style="width:30px;height: auto;"/><br><span>M001</span></div> | VIP影院 |  666影院 - 全网VIP电影免费看！ | {{latest_content}}  |  [订阅地址](https://bukaivip.com/rss) |  
 | M002 | LimeTorrents |  Latest Torrents RSS | {{latest_content}}  |  [订阅地址](https://www.limetorrents.pro/rss/) |
