@@ -1,6 +1,6 @@
 # Github Actions Rss (garss, 嘎RSS! 已收集{{rss_num}}个RSS源, 生成时间: {{ga_rss_datetime}})
 
-信息茧房是指人们关注的信息领域会习惯性地被自己的兴趣所引导，从而将自己的生活桎梏于像蚕茧一般的“茧房”中的现象。
+信息茧房是指人们关注的信息领域会习惯性地被自己的兴趣所引导，从而将自己的生活桎梏于像蚕茧一般的「茧房」中的现象。
 
 ## 《嘎!RSS》🐣为打破信息茧房而生
 
@@ -214,6 +214,8 @@
 | D005 | 腾讯CDC | 腾讯用户研究与体验设计部 | {{latest_content}}  |  [订阅地址](https://cdc.tencent.com/feed/) | 
 | D006 | ID公社 | 发现有意味的设计 | {{latest_content}}  |  [订阅地址](http://feeds.feedburner.com/ID) | 
 | D007 | 摄影世界 | 你的随身摄影杂志 | {{latest_content}}  |  [订阅地址](https://feedx.net/rss/photoworld.xml) | 
+| D008 | Design Milk | Design Milk 是一个分享现代设计与生活方式灵感的网站 | {{latest_content}}  |  [订阅地址](https://design-milk.com/feed/) |
+| D009 | Smashing Magazine | Magazine on CSS, JavaScript, front-end, accessibility, UX and design. For developers, designers and front-end engineers.s | {{latest_content}}  |  [订阅地址](https://www.smashingmagazine.com/feed/) |
 | <h2 id="内容平台">内容平台</h2> |  |   |  |
 | C001 | 知乎 | 知乎每日精选 | {{latest_content}}  |  [订阅地址](https://www.zhihu.com/rss) |  
 | C002 | 湾区日报 | 关注创业与技术，每天推送3到5篇优质英文文章 | {{latest_content}}  |  [订阅地址](https://wanqu.co/feed/) |  
