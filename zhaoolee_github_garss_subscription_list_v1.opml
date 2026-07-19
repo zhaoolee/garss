@@ -36,6 +36,8 @@
             xmlUrl="https://www.laozuo.org/feed" htmlUrl="https://www.laozuo.org/feed"/>
       <outline text="FLiNG Trainer" title="FLiNG Trainer" type="rss"  
             xmlUrl="https://flingtrainer.com/feed/" htmlUrl="https://flingtrainer.com/feed/"/>
+      <outline text="Cheat Evolution Trainer" title="Cheat Evolution Trainer" type="rss"  
+            xmlUrl="https://cheatevolution.com/feed/" htmlUrl="https://cheatevolution.com/feed/"/>
       <outline text="奔跑中的奶酪" title="奔跑中的奶酪" type="rss"  
             xmlUrl="https://www.runningcheese.com/feed" htmlUrl="https://www.runningcheese.com/feed"/>
       <outline text="唐巧的博客" title="唐巧的博客" type="rss"  
