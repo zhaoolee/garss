@@ -4,6 +4,7 @@ import re
 import json
 import shutil
 import email.utils
+import calendar
 import urllib.error
 import urllib.request
 import xml.etree.ElementTree as ET
@@ -34,6 +35,8 @@ except ImportError:
 
 
 GARSS_STUDIO_ACCESS_TOKEN = ""
+SHANGHAI_TZ = ZoneInfo("Asia/Shanghai")
+RECENT_WINDOW_SECONDS = 24 * 60 * 60
 
 
 def get_garss_studio_base_url():
@@ -112,13 +115,57 @@ def get_feed_url_content(feed_url, timeout, headers):
     )
 
 
-def parse_entry_date(value):
-    parsed_date = email.utils.parsedate_to_datetime(value or "")
+def parse_entry_datetime(value="", parsed_time=None):
+    """Return an aware datetime without inventing a date when a feed omits one."""
+    parsed_date = None
 
-    if parsed_date:
-        return parsed_date.strftime("%Y-%m-%d")
+    if value:
+        try:
+            parsed_date = email.utils.parsedate_to_datetime(value)
+        except (TypeError, ValueError):
+            try:
+                parsed_date = datetime.fromisoformat(value.replace("Z", "+00:00"))
+            except (TypeError, ValueError):
+                pass
 
-    return datetime.today().strftime("%Y-%m-%d")
+    if parsed_date is None and parsed_time:
+        try:
+            parsed_date = datetime.fromtimestamp(calendar.timegm(parsed_time), ZoneInfo("UTC"))
+        except (TypeError, ValueError, OverflowError):
+            pass
+
+    if parsed_date is None:
+        return None
+    if parsed_date.tzinfo is None:
+        parsed_date = parsed_date.replace(tzinfo=ZoneInfo("UTC"))
+    return parsed_date.astimezone(SHANGHAI_TZ)
+
+
+def make_feed_entry(title, link, published="", parsed_time=None):
+    published_at = parse_entry_datetime(published, parsed_time)
+    return {
+        "title": title or "",
+        "link": link or "",
+        "date": published_at.strftime("%Y-%m-%d") if published_at else "",
+        "published_at": published_at.isoformat() if published_at else "",
+    }
+
+
+def is_recent_entry(entry, now=None):
+    now = now or datetime.now(SHANGHAI_TZ)
+    published_at = parse_entry_datetime(entry.get("published_at", ""))
+    if published_at is None:
+        return False
+    age_seconds = (now - published_at).total_seconds()
+    return -300 <= age_seconds <= RECENT_WINDOW_SECONDS
+
+
+def get_entry_dedup_key(entry):
+    link = (entry.get("link") or "").strip().rstrip("/")
+    if link:
+        return "link:" + link
+    title = re.sub(r"\s+", " ", (entry.get("title") or "").strip().lower())
+    return "title:" + title if title else ""
 
 
 def parse_feed_entries_with_stdlib(feed_url_content):
@@ -130,7 +177,7 @@ def parse_feed_entries_with_stdlib(feed_url_content):
             title = item.findtext("title", default="")
             link = item.findtext("link", default="")
             published = item.findtext("pubDate", default="") or item.findtext("date", default="")
-            entries.append({"title": title, "link": link, "date": parse_entry_date(published)})
+            entries.append(make_feed_entry(title, link, published))
         return entries
 
     namespaces = {"atom": "http://www.w3.org/2005/Atom"}
@@ -143,7 +190,7 @@ def parse_feed_entries_with_stdlib(feed_url_content):
             default="",
             namespaces=namespaces,
         )
-        entries.append({"title": title, "link": link, "date": parse_entry_date(published)})
+        entries.append(make_feed_entry(title, link, published))
 
     return entries
 
@@ -156,12 +203,10 @@ def parse_feed_entries(feed_url_content):
     feed_entries = feed["entries"]
     result = []
 
-    for entrie in feed_entries:
-        result.append({
-            "title": entrie["title"],
-            "link": entrie["link"],
-            "date": time.strftime("%Y-%m-%d", entrie["published_parsed"])
-        })
+    for entry in feed_entries:
+        published = entry.get("published") or entry.get("updated") or ""
+        parsed_time = entry.get("published_parsed") or entry.get("updated_parsed")
+        result.append(make_feed_entry(entry.get("title", ""), entry.get("link", ""), published, parsed_time))
 
     return result
 
@@ -169,7 +214,7 @@ def parse_feed_entries(feed_url_content):
 def get_rss_info(feed_url, index, rss_info_list):
     result = {"result": []}
     request_success = False
-    # 如果请求出错,则重新请求,最多五次
+    # 如果请求出错，则重新请求，最多三次
     for i in range(3):
         if(request_success == False):
             try:
@@ -183,10 +228,11 @@ def get_rss_info(feed_url, index, rss_info_list):
                 feed_entries = parse_feed_entries(feed_url_content)
                 feed_entries_length = len(feed_entries)
                 print("==feed_url=>>", feed_url, "==len=>>", feed_entries_length)
-                for entrie in feed_entries[0: feed_entries_length-1]:
+                for entrie in feed_entries:
                     title = entrie["title"]
                     link = entrie["link"]
                     date = entrie["date"]
+                    published_at = entrie["published_at"]
 
                     title = title.replace("\n", "")
                     title = title.replace("\r", "")
@@ -194,7 +240,8 @@ def get_rss_info(feed_url, index, rss_info_list):
                     result["result"].append({
                         "title": title,
                         "link": link,
-                        "date": date
+                        "date": date,
+                        "published_at": published_at,
                     })
                 request_success = True
             except Exception as e:
@@ -264,6 +311,8 @@ def replace_readme():
     # 读取EditREADME.md
     print("replace_readme")
     new_num = 0
+    recent_article_keys = set()
+    generated_at = datetime.now(SHANGHAI_TZ)
     with open(os.path.join(os.getcwd(),"EditREADME.md"),'r') as load_f:
         edit_readme_md = load_f.read();
 
@@ -274,7 +323,7 @@ def replace_readme():
         # 填充统计RSS数量
         new_edit_readme_md[0] = new_edit_readme_md[0].replace("{{rss_num}}", str(len(before_info_list)))
         # 填充统计时间
-        ga_rss_datetime = datetime.fromtimestamp(int(time.time()), ZoneInfo('Asia/Shanghai')).strftime('%Y-%m-%d %H:%M:%S')
+        ga_rss_datetime = generated_at.strftime('%Y-%m-%d %H:%M:%S')
         new_edit_readme_md[0] = new_edit_readme_md[0].replace("{{ga_rss_datetime}}", str(ga_rss_datetime))
 
         # 使用进程池进行数据获取，获得rss_info_list
@@ -314,7 +363,9 @@ def replace_readme():
             # 加入到索引
             try:
                 for rss_info_atom in rss_info:
-                    if (rss_info_atom["date"] == datetime.today().strftime("%Y-%m-%d")):
+                    dedup_key = get_entry_dedup_key(rss_info_atom)
+                    if is_recent_entry(rss_info_atom, generated_at) and dedup_key and dedup_key not in recent_article_keys:
+                        recent_article_keys.add(dedup_key)
                         new_num = new_num + 1
                         if (new_num % 2) == 0:
                             current_date_news_index[0] = current_date_news_index[0] + "<div style='line-height:3;' ><a href='" + rss_info_atom["link"] + "' " + 'style="line-height:2;text-decoration:none;display:block;color:#584D49;">' + "🌈 ‣ " + rss_info_atom["title"] + " | 第" + str(new_num) +"篇" + "</a></div>"
@@ -331,14 +382,16 @@ def replace_readme():
                 rss_info[0]["title"] = rss_info[0]["title"].replace("[", "\[")
                 rss_info[0]["title"] = rss_info[0]["title"].replace("]", "\]")
 
-                latest_content = "[" + "‣ " + rss_info[0]["title"] + ( " 🌈 " + rss_info[0]["date"] if (rss_info[0]["date"] == datetime.today().strftime("%Y-%m-%d")) else " \| " + rss_info[0]["date"] ) +"](" + rss_info[0]["link"] +")"  
+                latest_date = rss_info[0]["date"] or "日期未知"
+                latest_content = "[" + "‣ " + rss_info[0]["title"] + ( " 🌈 " + latest_date if is_recent_entry(rss_info[0], generated_at) else " \| " + latest_date ) +"](" + rss_info[0]["link"] + ")"
 
             if(len(rss_info) > 1):
                 rss_info[1]["title"] = rss_info[1]["title"].replace("|", "\|")
                 rss_info[1]["title"] = rss_info[1]["title"].replace("[", "\[")
                 rss_info[1]["title"] = rss_info[1]["title"].replace("]", "\]")
 
-                latest_content = latest_content + "<br/>[" + "‣ " +  rss_info[1]["title"] + ( " 🌈 " + rss_info[0]["date"] if (rss_info[0]["date"] == datetime.today().strftime("%Y-%m-%d")) else " \| " + rss_info[0]["date"] ) +"](" + rss_info[1]["link"] +")"
+                second_date = rss_info[1]["date"] or "日期未知"
+                latest_content = latest_content + "<br/>[" + "‣ " +  rss_info[1]["title"] + ( " 🌈 " + second_date if is_recent_entry(rss_info[1], generated_at) else " \| " + second_date ) +"](" + rss_info[1]["link"] + ")"
 
             # 生成after_info
             after_info = before_info.replace("{{latest_content}}", latest_content)

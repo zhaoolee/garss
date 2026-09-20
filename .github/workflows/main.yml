@@ -25,6 +25,8 @@ jobs:
         run: pip3 install --user pipenv
       - name: Install dependecies
         run:  pipenv --python python3 && pipenv install
+      - name: Test RSS digest logic
+        run: pipenv run python -m unittest -v test_main.py
       - name: Start GARSS Studio RSSHub proxy
         env:
           ACCESS_CODE: banana
